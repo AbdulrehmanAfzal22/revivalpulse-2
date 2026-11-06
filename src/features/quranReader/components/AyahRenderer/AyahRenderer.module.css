@@ -1,0 +1,194 @@
+.ayah {
+  opacity: 0;
+  transform: translateY(0.75rem);
+  padding-block: var(--reader-paragraph-spacing, 1rem);
+  border-block-end: 1px solid var(--color-border);
+  transition: opacity 420ms ease, transform 420ms ease, background-color 0.15s ease;
+  scroll-margin-top: 14rem;
+}
+
+.ayahVisible {
+  opacity: 1;
+  transform: none;
+}
+
+.ayah:hover {
+  background-color: color-mix(in srgb, var(--reader-highlight, transparent) 25%, transparent);
+}
+
+.ayahActive {
+  background-color: color-mix(in srgb, var(--reader-highlight, var(--color-primary)) 18%, transparent);
+  border-inline-start: 2px solid var(--color-primary);
+  animation: active-ayah-glow 2.2s ease-in-out infinite;
+}
+
+@keyframes active-ayah-glow {
+  50% { box-shadow: inset 0 0 1.5rem color-mix(in srgb, var(--color-primary) 12%, transparent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ayahActive { animation: none; }
+  .ayah { transition: background-color 0.15s ease; }
+}
+
+.ayah:last-child {
+  border-block-end: none;
+}
+
+.lastReadMarker {
+  margin-block: -0.5rem 0.75rem;
+  padding-inline-start: 0.75rem;
+  border-inline-start: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  animation: last-read-pulse 1.8s ease-out both;
+}
+
+@keyframes last-read-pulse {
+  0% { opacity: 0; box-shadow: -0.5rem 0 1rem color-mix(in srgb, var(--color-primary) 35%, transparent); }
+  45% { opacity: 1; box-shadow: -0.25rem 0 0.75rem color-mix(in srgb, var(--color-primary) 22%, transparent); }
+  100% { opacity: 1; box-shadow: none; }
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-block-end: 0.75rem;
+}
+
+.spin {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.sajdah {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.tafsirLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-inline-start: auto;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.tafsirLink:hover {
+  color: var(--color-primary);
+  background-color: var(--color-surface);
+}
+
+.arabic {
+  margin: 0 0 0.75rem;
+  font-family: var(--reader-arabic-font, inherit);
+  font-size: var(--reader-arabic-size, 1.75rem);
+  line-height: var(--reader-line-height, 2.2);
+  word-spacing: var(--reader-word-spacing, normal);
+  /* `dir="rtl"` on this paragraph makes `start` its right edge — the mushaf
+     position. (`end` here read as left-aligned Arabic.) */
+  text-align: start;
+  color: var(--color-text);
+}
+
+.contentGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.arabicBlock {
+  order: 1;
+}
+
+.translationBlock {
+  order: 2;
+  min-width: 0;
+}
+
+.translation {
+  margin: 0;
+  /* The paragraph carries its own `dir` (from the translation's language), so
+     `start` means flush-left English and flush-right Urdu without a rule per
+     language. */
+  text-align: start;
+  font-size: var(--reader-translation-size, 0.9375rem);
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 769px) {
+  .contentGrid {
+    /* Columns are pinned to the page's left/right edges, not to the interface
+       language: the reader's own layout (which side Arabic sits on) is the
+       setting's job, and it must look the same in an Arabic UI as in English. */
+    direction: ltr;
+    grid-template-columns: minmax(0, 28rem) minmax(0, 32rem);
+    column-gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Default reading layout: Arabic on the right, translation on the left. */
+  .arabicBlock {
+    grid-column: 2;
+    text-align: end;
+  }
+
+  .translationBlock {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: start;
+  }
+
+  /* Setting "Left-to-right": the two columns swap, and the Arabic lines up
+     with its new edge. The translation keeps aligning to its own language. */
+  .arabicLeft .arabicBlock {
+    grid-column: 1;
+    text-align: start;
+  }
+
+  .arabicLeft .arabicBlock .arabic {
+    /* Mirrored column: the Arabic line now finishes against the left edge,
+       which under its own `dir="rtl"` is `end`. */
+    text-align: end;
+  }
+
+  .arabicLeft .translationBlock {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

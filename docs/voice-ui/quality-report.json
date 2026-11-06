@@ -1,0 +1,111 @@
+{
+  "scope": "Chromium rendering in same-origin frames with real CSS viewports; representative route fixtures, not an assertion of every browser/device or authenticated workflow.",
+  "routes": [
+    "/",
+    "/quran",
+    "/quran/1",
+    "/hadith",
+    "/hadith/bukhari",
+    "/hadith/bukhari/1",
+    "/tafsir",
+    "/tafsir/1/1",
+    "/prayer-times",
+    "/tasbeeh",
+    "/duas",
+    "/names-of-allah",
+    "/names-of-allah/immersive",
+    "/islamic-calendar",
+    "/bookmarks",
+    "/downloads",
+    "/recitation-coach",
+    "/settings",
+    "/assistant",
+    "/kids",
+    "/kids/alphabet",
+    "/kids/stories",
+    "/kids/stories/adam",
+    "/kids/stories/adam/chapters",
+    "/kids/stories/adam/chapters/creation",
+    "/kids/stories/musa/chapters/the-night-of-the-sea",
+    "/kids/sahabi",
+    "/kids/sahabi/bilal/chapters",
+    "/kids/sahabi/bilal/chapters/bought-and-freed",
+    "/kids/lessons",
+    "/kids/manners",
+    "/kids/parent",
+    "/kids/quiz",
+    "/kids/games",
+    "/kids/games/easy",
+    "/kids/games/easy/matching",
+    "/kids/stars",
+    "/dev",
+    "/page-not-found"
+  ],
+  "lightThemeWidths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "darkThemeWidths": [
+    390
+  ],
+  "viewportHeight": 844,
+  "completedViewportChecks": 234,
+  "horizontalOverflowOrBlankPageFailures": 0,
+  "storyHeaderControlOverlapFailures": 0,
+  "unitTests": {
+    "suites": 4,
+    "passed": 62
+  },
+  "manualChecks": {
+    "mobileDrawer320px": {
+      "accountRightBefore": 307.28,
+      "drawerRight": 272,
+      "accountRightAfter": 255,
+      "result": "account action and popover fit inside the drawer"
+    },
+    "shortDialog320x400": {
+      "top": 57.5,
+      "bottom": 342.5,
+      "maxHeight": 376,
+      "contentOverflowY": "auto",
+      "result": "close control visible; content can scroll"
+    },
+    "mixedStoryEnglishUrdu390px": {
+      "EnglishParagraph": "ltr",
+      "EnglishTitle": "ltr",
+      "UrduNote": "rtl",
+      "result": "per-field directions match the displayed language"
+    },
+    "languageMenu320x400": {
+      "top": 119,
+      "bottom": 327,
+      "height": 208,
+      "scrollHeight": 568,
+      "clientHeight": 206,
+      "overflowY": "auto",
+      "result": "language list stays inside the viewport and scrolls internally"
+    }
+  },
+  "naturalNarrationSamples": [
+    {
+      "file": "urdu-uzma.mp3",
+      "durationSeconds": 7.992,
+      "bytes": 47952
+    },
+    {
+      "file": "english-jenny.mp3",
+      "durationSeconds": 6.168,
+      "bytes": 37008
+    }
+  ],
+  "fullStoryCloudRecordings": "Pending explicit approval for transferring project story text to Microsoft speech service.",
+  "limits": [
+    "Live Quran/Hadith/AI-service data and authenticated account/payment workflows were not comprehensively validated.",
+    "Browser-installed voice availability varies by device; this cloud browser exposed no installed speech voices.",
+    "Natural full-library MP3 narration is not included until the external text transfer is approved."
+  ],
+  "productionBuild": "Passed with no application compile or lint warnings (GENERATE_SOURCEMAP=false npm run build)."
+}

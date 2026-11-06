@@ -1,0 +1,234 @@
+[
+  {
+    "id": "alif",
+    "order": 1,
+    "arabic": "ا",
+    "transliteration": "Alif",
+    "audioUrl": "/audio/kids-alphabet/alif.mp3",
+    "word": { "arabic": "أَسَد", "transliteration": "asad", "english": "lion", "emoji": "🦁" }
+  },
+  {
+    "id": "ba",
+    "order": 2,
+    "arabic": "ب",
+    "transliteration": "Ba",
+    "audioUrl": "/audio/kids-alphabet/ba.mp3",
+    "word": { "arabic": "بَطَّة", "transliteration": "battah", "english": "duck", "emoji": "🦆" }
+  },
+  {
+    "id": "ta",
+    "order": 3,
+    "arabic": "ت",
+    "transliteration": "Ta",
+    "audioUrl": "/audio/kids-alphabet/ta.mp3",
+    "word": { "arabic": "تُفَّاح", "transliteration": "tuffah", "english": "apple", "emoji": "🍎" }
+  },
+  {
+    "id": "tha",
+    "order": 4,
+    "arabic": "ث",
+    "transliteration": "Tha",
+    "audioUrl": "/audio/kids-alphabet/tha.mp3",
+    "word": { "arabic": "ثَعْلَب", "transliteration": "tha'lab", "english": "fox", "emoji": "🦊" }
+  },
+  {
+    "id": "jim",
+    "order": 5,
+    "arabic": "ج",
+    "transliteration": "Jim",
+    "audioUrl": "/audio/kids-alphabet/jim.mp3",
+    "word": { "arabic": "جَمَل", "transliteration": "jamal", "english": "camel", "emoji": "🐪" }
+  },
+  {
+    "id": "ha",
+    "order": 6,
+    "arabic": "ح",
+    "transliteration": "Ha",
+    "audioUrl": "/audio/kids-alphabet/ha.mp3",
+    "word": { "arabic": "حِصَان", "transliteration": "hisan", "english": "horse", "emoji": "🐎" }
+  },
+  {
+    "id": "kha",
+    "order": 7,
+    "arabic": "خ",
+    "transliteration": "Kha",
+    "audioUrl": "/audio/kids-alphabet/kha.mp3",
+    "word": { "arabic": "خُبْز", "transliteration": "khubz", "english": "bread", "emoji": "🍞" }
+  },
+  {
+    "id": "dal",
+    "order": 8,
+    "arabic": "د",
+    "transliteration": "Dal",
+    "audioUrl": "/audio/kids-alphabet/dal.mp3",
+    "word": { "arabic": "دِيك", "transliteration": "dik", "english": "rooster", "emoji": "🐓" }
+  },
+  {
+    "id": "dhal",
+    "order": 9,
+    "arabic": "ذ",
+    "transliteration": "Dhal",
+    "audioUrl": "/audio/kids-alphabet/dhal.mp3",
+    "word": { "arabic": "ذُرَة", "transliteration": "dhurah", "english": "corn", "emoji": "🌽" }
+  },
+  {
+    "id": "ra",
+    "order": 10,
+    "arabic": "ر",
+    "transliteration": "Ra",
+    "audioUrl": "/audio/kids-alphabet/ra.mp3",
+    "word": { "arabic": "رِيشَة", "transliteration": "rishah", "english": "feather", "emoji": "🪶" }
+  },
+  {
+    "id": "zay",
+    "order": 11,
+    "arabic": "ز",
+    "transliteration": "Zay",
+    "audioUrl": "/audio/kids-alphabet/zay.mp3",
+    "word": { "arabic": "زَيْتُون", "transliteration": "zaytun", "english": "olive", "emoji": "🫒" }
+  },
+  {
+    "id": "sin",
+    "order": 12,
+    "arabic": "س",
+    "transliteration": "Seen",
+    "audioUrl": "/audio/kids-alphabet/sin.mp3",
+    "word": { "arabic": "سَمَك", "transliteration": "samak", "english": "fish", "emoji": "🐟" }
+  },
+  {
+    "id": "shin",
+    "order": 13,
+    "arabic": "ش",
+    "transliteration": "Sheen",
+    "audioUrl": "/audio/kids-alphabet/shin.mp3",
+    "word": { "arabic": "شَمْس", "transliteration": "shams", "english": "sun", "emoji": "☀️" }
+  },
+  {
+    "id": "sad",
+    "order": 14,
+    "arabic": "ص",
+    "transliteration": "Sad",
+    "audioUrl": "/audio/kids-alphabet/sad.mp3",
+    "word": { "arabic": "صَقْر", "transliteration": "saqr", "english": "falcon", "emoji": "🦅" }
+  },
+  {
+    "id": "dad",
+    "order": 15,
+    "arabic": "ض",
+    "transliteration": "Dad",
+    "audioUrl": "/audio/kids-alphabet/dad.mp3",
+    "word": { "arabic": "ضِفْدَع", "transliteration": "difda'", "english": "frog", "emoji": "🐸" }
+  },
+  {
+    "id": "ta2",
+    "order": 16,
+    "arabic": "ط",
+    "transliteration": "Taa",
+    "audioUrl": "/audio/kids-alphabet/ta2.mp3",
+    "word": { "arabic": "طَائِر", "transliteration": "ta'ir", "english": "bird", "emoji": "🐦" }
+  },
+  {
+    "id": "za",
+    "order": 17,
+    "arabic": "ظ",
+    "transliteration": "Zaa",
+    "audioUrl": "/audio/kids-alphabet/za.mp3",
+    "word": { "arabic": "ظَبْي", "transliteration": "zaby", "english": "gazelle", "emoji": "🦌" }
+  },
+  {
+    "id": "ain",
+    "order": 18,
+    "arabic": "ع",
+    "transliteration": "'Ayn",
+    "audioUrl": "/audio/kids-alphabet/ain.mp3",
+    "word": { "arabic": "عِنَب", "transliteration": "inab", "english": "grapes", "emoji": "🍇" }
+  },
+  {
+    "id": "ghayn",
+    "order": 19,
+    "arabic": "غ",
+    "transliteration": "Ghayn",
+    "audioUrl": "/audio/kids-alphabet/ghayn.mp3",
+    "word": { "arabic": "غَيْم", "transliteration": "ghaym", "english": "clouds", "emoji": "☁️" }
+  },
+  {
+    "id": "fa",
+    "order": 20,
+    "arabic": "ف",
+    "transliteration": "Fa",
+    "audioUrl": "/audio/kids-alphabet/fa.mp3",
+    "word": { "arabic": "فِيل", "transliteration": "fil", "english": "elephant", "emoji": "🐘" }
+  },
+  {
+    "id": "qaf",
+    "order": 21,
+    "arabic": "ق",
+    "transliteration": "Qaf",
+    "audioUrl": "/audio/kids-alphabet/qaf.mp3",
+    "word": { "arabic": "قَمَر", "transliteration": "qamar", "english": "moon", "emoji": "🌙" }
+  },
+  {
+    "id": "kaf",
+    "order": 22,
+    "arabic": "ك",
+    "transliteration": "Kaf",
+    "audioUrl": "/audio/kids-alphabet/kaf.mp3",
+    "word": { "arabic": "كَعْك", "transliteration": "ka'k", "english": "biscuit", "emoji": "🍪" }
+  },
+  {
+    "id": "lam",
+    "order": 23,
+    "arabic": "ل",
+    "transliteration": "Lam",
+    "audioUrl": "/audio/kids-alphabet/lam.mp3",
+    "word": { "arabic": "لَيْل", "transliteration": "layl", "english": "night", "emoji": "🌌" }
+  },
+  {
+    "id": "mim",
+    "order": 24,
+    "arabic": "م",
+    "transliteration": "Meem",
+    "audioUrl": "/audio/kids-alphabet/mim.mp3",
+    "word": { "arabic": "مَسْجِد", "transliteration": "masjid", "english": "mosque", "emoji": "🕌" }
+  },
+  {
+    "id": "nun",
+    "order": 25,
+    "arabic": "ن",
+    "transliteration": "Noon",
+    "audioUrl": "/audio/kids-alphabet/nun.mp3",
+    "word": { "arabic": "نَجْمَة", "transliteration": "najmah", "english": "star", "emoji": "⭐" }
+  },
+  {
+    "id": "ha2",
+    "order": 26,
+    "arabic": "ه",
+    "transliteration": "Ha (soft)",
+    "audioUrl": "/audio/kids-alphabet/ha2.mp3",
+    "word": { "arabic": "هَدِيَّة", "transliteration": "hadiyyah", "english": "gift", "emoji": "🎁" }
+  },
+  {
+    "id": "waw",
+    "order": 27,
+    "arabic": "و",
+    "transliteration": "Waw",
+    "audioUrl": "/audio/kids-alphabet/waw.mp3",
+    "word": { "arabic": "وَرْدَة", "transliteration": "wardah", "english": "rose", "emoji": "🌹" }
+  },
+  {
+    "id": "ya",
+    "order": 28,
+    "arabic": "ي",
+    "transliteration": "Ya",
+    "audioUrl": "/audio/kids-alphabet/ya.mp3",
+    "word": { "arabic": "يَد", "transliteration": "yad", "english": "hand", "emoji": "🤲" }
+  },
+  {
+    "id": "hamza",
+    "order": 29,
+    "arabic": "ء",
+    "transliteration": "Hamza",
+    "audioUrl": "/audio/kids-alphabet/hamza.mp3",
+    "word": { "arabic": "إِبْرَة", "transliteration": "ibrah", "english": "needle", "emoji": "🪡" }
+  }
+]

@@ -1,0 +1,236 @@
+.page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 5rem;
+  animation: page-in 420ms ease-out both;
+}
+
+.readerHeader {
+  position: sticky;
+  top: var(--navbar-height);
+  z-index: calc(var(--z-navbar) - 1);
+  margin-block-end: var(--space-4);
+  background-color: var(--color-bg);
+  border-block-end: 1px solid var(--color-border);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-block: 0;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-raised);
+  box-shadow: var(--shadow-xs);
+}
+
+.topBar > :last-child { margin-inline-start: auto; }
+
+.verseContent,
+.content { animation: content-in 360ms ease-out both; }
+
+.verseCaption {
+  display: block;
+  margin-block: 0;
+  padding: 0 var(--space-3) var(--space-3);
+  font-weight: 600;
+}
+
+.lastReadMarker {
+  margin-block: 0 0.75rem;
+  padding-inline-start: 0.75rem;
+  border-inline-start: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  animation: last-read-pulse 1.8s ease-out both;
+}
+
+@keyframes last-read-pulse {
+  0% { opacity: 0; box-shadow: -0.5rem 0 1rem color-mix(in srgb, var(--color-primary) 35%, transparent); }
+  45% { opacity: 1; box-shadow: -0.25rem 0 0.75rem color-mix(in srgb, var(--color-primary) 22%, transparent); }
+  100% { opacity: 1; box-shadow: none; }
+}
+
+.verseCard {
+  margin-block: var(--space-3) var(--space-6);
+  padding: var(--space-4) var(--space-6);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.arabic {
+  margin: 0;
+  font-family: var(--reader-arabic-font, 'Reader Uthmani', serif);
+  font-size: var(--reader-arabic-size, 1.5rem);
+  line-height: var(--reader-line-height, 2);
+  text-align: start;
+  color: var(--color-text);
+}
+
+.content {
+  min-height: 8rem;
+  margin-block-start: var(--space-5);
+}
+
+.sourceRow {
+  display: flex;
+  align-items: center;
+  margin-block-start: var(--space-5);
+}
+
+.tafsirSelector {
+  border-color: color-mix(in srgb, var(--color-gold) 45%, var(--color-border));
+  box-shadow: var(--shadow-xs);
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.tafsirSelector:hover,
+.tafsirSelector:focus-visible {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 18%, transparent);
+  transform: translateY(-1px);
+}
+
+.videoNote {
+  display: block;
+  margin-block-end: 0.75rem;
+}
+
+/*
+ * Readable measure is controlled in character units (ch), independent of
+ * .page's own max-width — the two happen to agree at this font size, but
+ * `ch` keeps the line length correct if either is changed later.
+ */
+.tafsirText {
+  width: 100%;
+  max-width: 44rem;
+  margin-inline: auto;
+  font-size: var(--reader-translation-size, 1.125rem);
+  line-height: var(--reader-line-height, 1.65);
+  color: var(--color-text);
+}
+
+/* Tafsir sources are either full Arabic prose (Ibn Kathir, Jalalayn, Sa'di,
+ * Tabari) or English commentary (Maududi) — see constants/tafsirs.ts
+ * `languageCode`. Arabic prose reads better larger, more open, and RTL;
+ * this class is applied by TafsirPage based on the active source. */
+.tafsirTextArabic {
+  max-width: 100%;
+  font-size: var(--reader-arabic-size, 1.25rem);
+  line-height: var(--reader-line-height, 2);
+  text-align: right;
+}
+
+.tafsirText :global(p) {
+  display: block;
+  margin: 0 0 var(--space-4);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-xs);
+}
+
+.tafsirTextArabic :global(p),
+.tafsirTextArabic :global(div) {
+  text-align: right;
+}
+
+.tafsirText :global(span) {
+  unicode-bidi: plaintext;
+}
+
+.tafsirText :global(p:last-child) {
+  margin-bottom: 0;
+}
+
+.tafsirText :global(strong),
+.tafsirText :global(b) {
+  font-weight: 600;
+}
+
+.tafsirText :global(em),
+.tafsirText :global(i) {
+  font-style: italic;
+}
+
+.tafsirText :global(blockquote) {
+  margin: 0 0 1.1em;
+  padding-inline-start: 1rem;
+  border-inline-start: 3px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.tafsirText :global(ul),
+.tafsirText :global(ol) {
+  margin: 0 0 1.1em;
+  padding-inline-start: 1.5rem;
+}
+
+.tafsirText :global(li) {
+  margin-bottom: 0.4em;
+}
+
+.tafsirText :global(a) {
+  color: var(--color-primary);
+}
+
+/* Quranic quotations embedded within tafsir prose — always Arabic
+ * regardless of the surrounding commentary's language. */
+.tafsirText :global(span.arabic) {
+  font-size: 1.15em;
+  line-height: 1.9;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transition: color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.backLink:hover {
+  color: var(--color-primary);
+  background-color: var(--color-surface);
+  transform: translateX(-0.15rem);
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-block-start: var(--space-8);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-raised);
+  box-shadow: var(--shadow-xs);
+}
+
+.pagerLink {
+  text-decoration: none;
+}
+
+.verseCard { scroll-margin-top: 12rem; }
+
+@keyframes page-in { from { opacity: 0; transform: translateY(0.5rem); } to { opacity: 1; transform: none; } }
+@keyframes content-in { from { opacity: 0; transform: translateY(0.4rem); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .page, .verseContent, .content { animation: none; }
+  .tafsirSelector:hover, .tafsirSelector:focus-visible, .backLink:hover { transform: none; }
+}

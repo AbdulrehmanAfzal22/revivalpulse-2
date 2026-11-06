@@ -1,0 +1,70 @@
+{
+  "name": "islamic-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@supabase/supabase-js": "^2.110.8",
+    "@tanstack/react-query": "^5.101.4",
+    "@tanstack/react-query-persist-client": "^5.101.4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^18.19.130",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "concurrently": "^10.0.5",
+    "cors": "^2.8.6",
+    "dompurify": "^3.4.12",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "framer-motion": "^12.42.2",
+    "http-proxy-middleware": "^4.2.0",
+    "idb": "^8.0.3",
+    "idb-keyval": "^6.3.0",
+    "lucide-react": "^1.26.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-markdown": "^9.0.0",
+    "react-router-dom": "^6.30.4",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zustand": "^5.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/index.js",
+    "dev:all": "concurrently \"npm start\" \"npm run server\"",
+    "build": "react-scripts build && node scripts/injectServiceWorkerVersion.mjs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "videos:fetch": "node scripts/fetchVideoBatch.mjs",
+    "timestamps:placeholder": "node scripts/generatePlaceholderTimestamps.mjs"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "concurrently": "^10.0.5",
+    "fake-indexeddb": "^6.2.5"
+  }
+}

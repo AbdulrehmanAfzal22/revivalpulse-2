@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-11-05T18:28:06.546Z",
+  "narration": {},
+  "paintings": {
+    "yusuf": {
+      "into-the-well/p0": "image.jpg",
+      "into-the-well/p1": "image.jpg",
+      "into-the-well/p2": "image.jpg",
+      "into-the-well/p3": "image.jpg",
+      "into-the-well/p4": "image.jpg",
+      "the-dream/p0": "image.jpg",
+      "the-dream/p1": "image.jpg",
+      "the-dream/p2": "image.jpg",
+      "the-dream/p3": "image.jpg"
+    },
+    "adam": {
+      "creation/p0": "image.png"
+    },
+    "nuh": {
+      "the-ark-command/p1": "image.png"
+    },
+    "musa": {
+      "the-night-of-the-sea/p3": "image.png"
+    },
+    "sulayman": {
+      "valley-of-ants/p1": "image.png"
+    },
+    "bilal": {
+      "bought-and-freed/p0": "image.png"
+    },
+    "salman": {
+      "the-trench-of-salman/p2": "image.png"
+    },
+    "shuayb": {
+      "the-people-of-midian/p0": "scene-v3.webp",
+      "the-call-and-deniers/p0": "scene-v3.webp"
+    },
+    "ishaq": {
+      "glad-news/p0": "scene-v3.webp"
+    }
+  },
+  "artRevision": "whole-story-compositions-v3"
+}

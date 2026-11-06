@@ -1,0 +1,295 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.85rem, 2vw, 1.25rem);
+}
+
+/* ---- station rail ---- */
+.rail {
+  display: flex;
+  gap: 0.65rem;
+  overflow-x: auto;
+  padding: 0.25rem 0.15rem 0.6rem;
+  scroll-snap-type: x proximity;
+}
+
+.station {
+  position: relative;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 10.5rem;
+  padding: 0.7rem 0.9rem 0.85rem;
+  text-align: left;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.station:hover:not(:disabled) {
+  transform: translateY(-0.15rem);
+  box-shadow: var(--shadow-gold-sm);
+}
+
+.stationActive {
+  border-color: var(--kids-sunshine, var(--color-gold-soft));
+  background: var(--color-surface-raised);
+  box-shadow: var(--shadow-gold-md);
+}
+
+.stationCleared {
+  border-color: color-mix(in srgb, var(--kids-emerald, var(--color-success)) 65%, var(--color-border));
+}
+
+.stationLocked { opacity: 0.5; }
+
+.stationKicker {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.stationName {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.stationGlyphs {
+  font-size: 1rem;
+  color: var(--kids-sunshine, var(--color-gold-soft));
+  font-family: var(--reader-arabic-font, 'Reader Uthmani', serif);
+}
+
+.stationBar {
+  height: 0.3rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-text) 12%, transparent);
+  overflow: hidden;
+}
+
+.stationBarFill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--kids-emerald, var(--color-success)), var(--kids-sunshine, var(--color-gold-soft)));
+  transition: width 400ms ease;
+}
+
+.stationTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  align-self: flex-start;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--kids-emerald, var(--color-success));
+}
+
+.stationLock {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  color: var(--color-text-muted);
+}
+
+/* ---- station panel ---- */
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.85rem, 2vw, 1.25rem);
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border-radius: clamp(1.1rem, 3vw, 1.75rem);
+  border: 2px solid var(--color-border-subtle);
+  background:
+    radial-gradient(38rem 12rem at 12% -10%, var(--kids-hero-glow, var(--color-gold-glow)), transparent 70%),
+    var(--color-surface);
+}
+
+.panelHead {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.panelHead p:last-child { margin: 0; }
+
+.lockedNote {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--color-text-muted);
+  font-weight: 700;
+}
+
+/* ---- trail ---- */
+.trail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0.35rem;
+}
+
+.nodeGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.connector {
+  color: color-mix(in srgb, var(--kids-sunshine, var(--color-gold-soft)) 55%, transparent);
+  font-size: 1.2rem;
+}
+
+.node {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  width: 7.5rem;
+  min-height: 8.5rem;
+  padding: 0.75rem 0.5rem;
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  cursor: pointer;
+  animation: node-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.node:hover:not(:disabled) {
+  transform: translateY(-0.3rem) scale(1.03);
+  box-shadow: var(--shadow-teal-md);
+}
+
+.node:disabled {
+  cursor: not-allowed;
+}
+
+.nodeGlyph {
+  font-size: 2.75rem;
+  line-height: 1.1;
+  font-family: var(--reader-arabic-font, 'Reader Uthmani', serif);
+  color: var(--kids-emerald, var(--color-primary));
+}
+
+.nodeName {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+}
+
+.nodeStars { min-height: 1rem; }
+
+.nodeNext {
+  border-color: var(--kids-sunshine, var(--color-gold-soft));
+  box-shadow: 0 0 0 0.3rem color-mix(in srgb, var(--kids-sunshine, var(--color-gold)) 22%, transparent);
+  animation: node-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both, next-pulse 2200ms ease-in-out 400ms infinite;
+}
+
+.nodeMastered {
+  border-color: color-mix(in srgb, var(--kids-emerald, var(--color-success)) 70%, transparent);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--kids-emerald, var(--color-success)) 16%, transparent), var(--color-surface-raised));
+}
+
+.nodeStarted {
+  border-color: color-mix(in srgb, var(--kids-sky, var(--color-teal-muted)) 70%, transparent);
+}
+
+.nodeLocked {
+  opacity: 0.42;
+}
+
+.nodeLocked .nodeGlyph {
+  filter: blur(0.5px);
+}
+
+.nodeLock {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  color: var(--color-text-muted);
+}
+
+.nodeSparkle {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  color: var(--kids-sunshine, var(--color-gold-soft));
+  animation: sparkle 1400ms ease-in-out infinite alternate;
+}
+
+/* ---- boss strip ---- */
+.boss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: clamp(0.75rem, 2vw, 1.1rem);
+  border: 2px solid color-mix(in srgb, var(--kids-sunshine, var(--color-gold-soft)) 45%, transparent);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(100deg,
+    color-mix(in srgb, var(--kids-coral, var(--color-accent)) 14%, transparent),
+    color-mix(in srgb, var(--kids-sunshine, var(--color-gold)) 12%, transparent));
+}
+
+.bossCleared {
+  border-color: color-mix(in srgb, var(--kids-emerald, var(--color-success)) 55%, transparent);
+  background: color-mix(in srgb, var(--kids-emerald, var(--color-success)) 12%, transparent);
+}
+
+.bossWaiting {
+  border-color: var(--color-border);
+  background: var(--color-bg-subtle);
+}
+
+.bossCopy {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: 12rem;
+  flex: 1;
+}
+
+.bossIcon {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  color: var(--kids-sunshine, var(--color-gold-soft));
+  background: color-mix(in srgb, var(--kids-purple, var(--color-pine)) 22%, transparent);
+}
+
+@keyframes node-in {
+  from { opacity: 0; transform: translateY(0.9rem) scale(0.92); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes next-pulse {
+  0%, 100% { box-shadow: 0 0 0 0.3rem color-mix(in srgb, var(--kids-sunshine, var(--color-gold)) 22%, transparent); }
+  50% { box-shadow: 0 0 0 0.55rem color-mix(in srgb, var(--kids-sunshine, var(--color-gold)) 10%, transparent); }
+}
+
+@keyframes sparkle {
+  from { transform: rotate(-12deg) scale(0.9); }
+  to { transform: rotate(12deg) scale(1.12); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node, .nodeNext, .nodeSparkle { animation: none; }
+  .node:hover:not(:disabled), .station:hover:not(:disabled) { transform: none; }
+  .stationBarFill { transition: none; }
+}

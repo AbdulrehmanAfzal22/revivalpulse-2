@@ -1,0 +1,517 @@
+.page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: clamp(1rem, 3vw, 2rem) clamp(1rem, 4vw, 3rem) 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 1.75rem);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.topBar :global(.KidsBackButton_backButton__zPxEP) {
+  order: -1;
+}
+
+/* ---- scene panel: the picture for this part, with the title sitting on it ---- */
+
+.scenePanel {
+  position: relative;
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+  border-radius: clamp(1.25rem, 3vw, 2rem);
+  overflow: hidden;
+  box-shadow: 0 0.9rem 2rem rgb(0 0 0 / 18%);
+}
+
+.scenePanel .sceneMedia {
+  aspect-ratio: 16 / 9;
+  border-radius: 0;
+}
+
+.sceneScrim {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  height: 62%;
+  background: linear-gradient(
+    to top,
+    rgb(9 17 13 / 88%) 0%,
+    rgb(9 17 13 / 58%) 45%,
+    rgb(9 17 13 / 0%) 100%
+  );
+  pointer-events: none;
+}
+
+.sceneCaption {
+  position: absolute;
+  inset-inline: clamp(0.9rem, 3vw, 1.75rem);
+  inset-block-end: clamp(0.8rem, 2.5vw, 1.4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.partPill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 0.25rem 0.6rem rgb(0 0 0 / 25%);
+}
+
+.sceneCaption .sceneTitle {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.4rem, 4.4vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-shadow: 0 0.15rem 0.55rem rgb(0 0 0 / 45%);
+}
+
+.sceneStoryName {
+  color: rgb(255 255 255 / 85%);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.narrateButton {
+  position: absolute;
+  inset-inline-end: clamp(0.7rem, 2vw, 1.1rem);
+  inset-block-start: clamp(0.7rem, 2vw, 1.1rem);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgb(255 255 255 / 45%);
+  border-radius: 999px;
+  background: rgb(9 17 13 / 45%);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.narrateButton:hover {
+  transform: translateY(-1px);
+  background: rgb(9 17 13 / 62%);
+}
+
+.narrateButtonActive {
+  background: var(--kids-coral, var(--color-accent));
+  border-color: transparent;
+}
+
+.chapterRail {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 62rem;
+  margin-inline: auto;
+  overflow-x: auto;
+  padding-block: 0.25rem;
+}
+
+.chapterDot,
+.chapterDotActive {
+  flex: 1 0 2.5rem;
+  min-height: 0.75rem;
+  border-radius: 999px;
+  background: var(--color-border);
+  transition: background-color 180ms ease, transform 180ms ease;
+}
+
+.chapterDotActive {
+  background: var(--kids-emerald, var(--color-primary));
+  transform: scaleY(1.35);
+}
+
+/* ---- the part itself: one comic panel per paragraph ---- */
+
+.panels {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2.4vw, 1.6rem);
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+}
+
+/* Mirrors the tint softening in kidsTheme.css: a strong wash would turn olive
+   under dark ink and cost the highlighted sentence its contrast. */
+[data-theme='dark'] .sentenceActive {
+  background: color-mix(in srgb, var(--kids-sunshine, #ffc94d) 22%, transparent);
+}
+
+.urduNotice {
+  background: color-mix(in srgb, var(--color-warning, #f0a63a) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-warning, #f0a63a) 40%, transparent);
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 62rem;
+  margin-inline: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ---- the ayah ribbon: the verse this part rests on ---- */
+
+.ayahRibbon {
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;
+  max-width: 62rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.ayahRibbonMark {
+  flex: 0 0 0.4rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--kids-sunshine, #ffc94d), var(--kids-coral, var(--color-accent)));
+}
+
+.ayahRibbonBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.9rem 1.1rem;
+  box-sizing: border-box;
+  background: color-mix(in srgb, var(--kids-sunshine, #ffc94d) 12%, var(--color-surface));
+  border: 1px solid color-mix(in srgb, var(--kids-sunshine, #ffc94d) 38%, transparent);
+  border-radius: 1rem;
+}
+
+.ayahRibbonBody p {
+  margin: 0;
+  line-height: 1.75;
+}
+
+.ayahNoteTitle {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: color-mix(in srgb, var(--kids-sunshine, #ffc94d) 70%, var(--color-text));
+}
+
+/* ---- the lesson: the thing to take away ---- */
+
+.lessonCard {
+  max-width: 62rem;
+  width: 100%;
+  margin-inline: auto;
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--kids-sunshine, #ffc94d) 18%, var(--color-surface));
+  border: 3px solid var(--kids-sunshine, #ffc94d);
+  border-radius: clamp(1rem, 2vw, 1.5rem);
+  box-sizing: border-box;
+}
+
+.lessonTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.35rem;
+  color: var(--kids-emerald, var(--color-primary));
+  font-weight: 800;
+}
+
+/* ---- sources: kept, but folded away so they don't break the story ---- */
+
+.sourcesDetails {
+  max-width: 62rem;
+  width: 100%;
+  margin-inline: auto;
+  padding: 0.1rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: var(--color-surface);
+  box-sizing: border-box;
+}
+
+.sourcesSummary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  list-style: none;
+}
+
+.sourcesSummary::-webkit-details-marker {
+  display: none;
+}
+
+.sourcesSummary::after {
+  content: '›';
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.sourcesDetails[open] .sourcesSummary {
+  color: var(--color-primary);
+}
+
+.sourcesDetails[open] .sourcesSummary::after {
+  transform: rotate(90deg);
+}
+
+.sourcesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.2rem 0 0.9rem;
+}
+
+.sourceCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.7rem 0.9rem;
+}
+
+.sourceLabel {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.sourceExplanation {
+  margin-top: 0.15rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--color-border);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.sourceMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.sourceType {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-primary) 15%, transparent);
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.sourceReference {
+  font-weight: 600;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.8rem;
+  color: var(--color-text-muted, #00000099);
+}
+
+.sourceWarning {
+  font-size: 0.75rem;
+  color: var(--color-warning, #b45309);
+}
+
+.sourceReviewed {
+  font-size: 0.75rem;
+  color: var(--color-success, #18794e);
+}
+
+/* ---- part to part ---- */
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  max-width: 62rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.pagerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+  padding: 0.6rem 0.9rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.pagerLink:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.pagerStack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.pagerLabel {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.pagerTitle {
+  /* The chapter title can be English or Urdu; its own `dir` decides the edge,
+     so it must not inherit the pager column's alignment. */
+  text-align: start;
+  max-width: 15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.pagerNext {
+  margin-inline-start: auto;
+}
+
+.pagerNext .pagerStack {
+  align-items: flex-end;
+  text-align: end;
+}
+
+.storyCheck {
+  width: min(100%, 48rem);
+  margin-inline: auto;
+  text-align: center;
+  border: 3px solid var(--kids-sky, var(--color-primary));
+  border-radius: clamp(1rem, 2vw, 1.5rem);
+}
+
+.checkOptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.checkOption,
+.tryAgain {
+  min-height: 4rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.checkOption:hover:not(:disabled) {
+  transform: scale(1.03);
+}
+
+.checkCorrect {
+  border-color: var(--color-success);
+  background: var(--color-success-soft);
+  color: var(--color-success);
+}
+
+.checkWrong {
+  border-color: var(--color-danger);
+  animation: story-shake 350ms ease;
+}
+
+.tryAgain {
+  min-height: 3rem;
+  margin-top: 0.75rem;
+}
+
+.checkFeedback,
+.completedNote {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+}
+
+.completedNote {
+  color: var(--color-success);
+  text-align: center;
+}
+
+@keyframes story-shake {
+  25% { transform: translateX(-0.25rem); }
+  75% { transform: translateX(0.25rem); }
+}
+
+@media (max-width: 700px) {
+  .scenePanel .sceneMedia {
+    aspect-ratio: 4 / 3;
+  }
+
+  .sceneTitle {
+    font-size: clamp(1.15rem, 6vw, 1.6rem);
+  }
+
+  .narrateButton {
+    inset-inline-end: 0.6rem;
+    inset-block-start: 0.6rem;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.72rem;
+  }
+
+  .pager {
+    flex-direction: column;
+  }
+
+  .pagerNext {
+    margin-inline-start: 0;
+  }
+
+  .pagerNext .pagerStack {
+    align-items: flex-start;
+    text-align: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .checkWrong { animation: none; }
+  .checkOption:hover:not(:disabled) { transform: none; }
+  .narrateButton:hover { transform: none; }
+  .sentenceActive { transition: none; }
+  .sourcesDetails[open] .sourcesSummary::after { transition: none; }
+}

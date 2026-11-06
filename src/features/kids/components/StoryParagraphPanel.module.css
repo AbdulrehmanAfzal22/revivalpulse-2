@@ -1,0 +1,207 @@
+/* One page of the comic: an inked picture on one side, its paragraph in a
+   speech bubble on the other, and the bubble's tail pointing back at the
+   picture it belongs to. */
+.panel {
+  --panel-line: color-mix(in srgb, var(--panel-accent, var(--kids-emerald)) 58%, var(--color-text));
+  --bubble-bg: var(--color-surface-raised);
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: clamp(1.4rem, 3.4vw, 2.6rem);
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: clamp(0.95rem, 2.2vw, 1.5rem);
+  box-sizing: border-box;
+  border: 4px solid var(--panel-line);
+  border-radius: clamp(1.25rem, 3vw, 2rem);
+  background: var(--color-bg-elevated);
+  box-shadow: 0.4rem 0.45rem 0 color-mix(in srgb, var(--panel-accent, var(--kids-emerald)) 22%, transparent);
+}
+
+/* Even panels open on the picture, odd ones mirror it, so the page reads as a
+   strip rather than a column of identical blocks. */
+.pictureStart {
+  flex-direction: row;
+}
+
+.pictureEnd {
+  flex-direction: row-reverse;
+}
+
+.picture {
+  position: relative;
+  flex: 0 0 clamp(44%, 32vw, 50%);
+  min-width: 0;
+}
+
+/* Two classes so this beats StoryScene's own 16/9 backdrop. */
+.picture .scene {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 3px solid var(--panel-line);
+  border-radius: clamp(0.7rem, 1.4vw, 1rem);
+  box-sizing: border-box;
+}
+
+.listenButton {
+  position: absolute;
+  inset-inline-end: clamp(0.55rem, 1.5vw, 0.9rem);
+  inset-block-end: clamp(0.55rem, 1.5vw, 0.9rem);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  border: 2px solid rgb(255 255 255 / 70%);
+  border-radius: 999px;
+  background: rgb(9 17 13 / 48%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.listenButton:hover {
+  transform: scale(1.06);
+  background: rgb(9 17 13 / 68%);
+}
+
+.listenButtonActive {
+  background: var(--kids-coral, var(--color-accent));
+  border-color: transparent;
+}
+
+/* The speech bubble. */
+.body {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: clamp(1.5rem, 2.6vw, 1.85rem) clamp(1.05rem, 2.2vw, 1.5rem) clamp(1rem, 2vw, 1.3rem);
+  box-sizing: border-box;
+  border: 3px solid var(--panel-line);
+  border-radius: clamp(1.1rem, 2.4vw, 1.7rem);
+  background: var(--bubble-bg);
+}
+
+/* The tail: an outer triangle in the ink colour and a smaller one in the
+   bubble's own colour on top of it, so the outline carries round the point.
+   Logical sides, so Urdu mirrors the whole panel without another rule. */
+.body::before,
+.body::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.pictureStart .body::before {
+  inset-inline-start: -1.5rem;
+  inset-block-start: clamp(1.6rem, 4vw, 2.4rem);
+  border-block: 1rem solid transparent;
+  border-inline-end: 1.5rem solid var(--panel-line);
+}
+
+.pictureStart .body::after {
+  inset-inline-start: -1.05rem;
+  inset-block-start: calc(clamp(1.6rem, 4vw, 2.4rem) + 0.18rem);
+  border-block: 0.82rem solid transparent;
+  border-inline-end: 1.05rem solid var(--bubble-bg);
+}
+
+.pictureEnd .body::before {
+  inset-inline-end: -1.5rem;
+  inset-block-start: clamp(1.6rem, 4vw, 2.4rem);
+  border-block: 1rem solid transparent;
+  border-inline-start: 1.5rem solid var(--panel-line);
+}
+
+.pictureEnd .body::after {
+  inset-inline-end: -1.05rem;
+  inset-block-start: calc(clamp(1.6rem, 4vw, 2.4rem) + 0.18rem);
+  border-block: 0.82rem solid transparent;
+  border-inline-start: 1.05rem solid var(--bubble-bg);
+}
+
+/* The caption box a comic puts in its own corner. */
+.panelNumber {
+  position: absolute;
+  inset-inline-start: clamp(-0.35rem, -0.6vw, -0.25rem);
+  inset-block-start: -1.05rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  padding-inline: 0.5rem;
+  height: 1.75rem;
+  border: 2px solid var(--panel-line);
+  border-radius: 0.4rem;
+  transform: rotate(-3deg);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  box-shadow: 0.16rem 0.18rem 0 color-mix(in srgb, var(--panel-accent, var(--kids-emerald)) 30%, transparent);
+}
+
+.text {
+  margin: 0;
+  font-size: clamp(1.02rem, 1.7vw, 1.16rem);
+  line-height: 1.85;
+  color: var(--color-text);
+  text-align: start;
+}
+
+.sentenceActive {
+  padding-inline: 0.12em;
+  border-radius: 0.35rem;
+  background: color-mix(in srgb, var(--kids-sunshine, #ffc94d) 45%, transparent);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  transition: background-color 140ms ease;
+}
+
+@media (max-width: 640px) {
+  .panel,
+  .pictureStart,
+  .pictureEnd {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .picture {
+    flex: 0 0 auto;
+  }
+
+  /* Stacked, the picture is above the bubble, so the tail points up. */
+  .pictureStart .body::before,
+  .pictureEnd .body::before {
+    inset-inline-start: 2.2rem;
+    inset-inline-end: auto;
+    inset-block-start: -1.5rem;
+    border-block: none;
+    border-inline: 1rem solid transparent;
+    border-block-end: 1.5rem solid var(--panel-line);
+  }
+
+  .pictureStart .body::after,
+  .pictureEnd .body::after {
+    inset-inline-start: 2.55rem;
+    inset-inline-end: auto;
+    inset-block-start: -1.08rem;
+    border-block: none;
+    border-inline: 0.82rem solid transparent;
+    border-block-end: 1.08rem solid var(--bubble-bg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .listenButton:hover {
+    transform: none;
+  }
+}

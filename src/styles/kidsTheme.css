@@ -1,0 +1,82 @@
+/**
+ * Kids Mode palette — applied via a wrapper class (layouts/KidsLayout.tsx),
+ * never through ThemeContext/:root[data-theme].
+ *
+ * Kids Mode is not a parallel design system. It inherits the app's Islamic
+ * Vision tokens (ivory paper, deep pine, terracotta, muted gold) so the
+ * light/dark toggle and high-contrast setting work inside it for free; every
+ * components/ui/* primitive already reads those same custom properties. What
+ * it deliberately changes is the accent aliases below, a slightly rounder
+ * corner scale, and the larger type scale further down this file.
+ *
+ * KIDS ACCENT ALIASES — still main-site colors, but chosen so the five hues
+ * stay distinguishable in BOTH themes (several core tokens converge to gold in
+ * dark mode, which is what made the kids grid read as one muddy colour). Each
+ * alias is also mixed far enough toward its neighbour to keep ≥3:1 against the
+ * ivory glyph it sits behind as a filled icon disc.
+ *   --kids-emerald  success green / mint   — primary action, success
+ *   --kids-sky      deep sage / warm tan   — secondary highlight, progress
+ *   --kids-sunshine burnt amber / apricot  — celebration, accent text, discs
+ *   --kids-coral    terracotta / peach     — energetic accent, "wrong answer"
+ *   --kids-purple   deep pine / light gold — category tints, badges
+ *
+ * The three pattern vars below are the kid-friendly "intensity" knobs: dark
+ * mode needs a fainter star lattice, less colour tint in the tile bodies and a
+ * softer hero glow, or all of it turns into a green-gold smear.
+ */
+.kidsTheme {
+  --kids-emerald: var(--color-success);
+  --kids-sky: color-mix(in srgb, var(--color-teal-muted) 70%, var(--color-pine));
+  --kids-sunshine: color-mix(in srgb, var(--color-gold-soft) 70%, var(--color-danger));
+  --kids-coral: var(--color-accent);
+  --kids-purple: var(--color-pine);
+
+  --kids-pattern-opacity: 0.08;
+  --kids-tint-soft: 11%;
+  --kids-tint-strong: 26%;
+  --kids-hero-glow: var(--color-gold-glow-strong);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 26px;
+}
+
+[data-theme='dark'] .kidsTheme {
+  --kids-pattern-opacity: 0.045;
+  --kids-tint-soft: 6%;
+  --kids-tint-strong: 14%;
+  --kids-hero-glow: color-mix(in srgb, var(--color-gold) 16%, transparent);
+}
+
+/*
+ * KIDS TYPE SCALE: KidsLayout adds `kids-active` to <html> while a kids route
+ * is mounted. Root font-size (theme.css) is `16px * --app-font-scale`; kids
+ * mode multiplies that by 1.125 (→ 18px at the default text scale), so EVERY
+ * rem-sized element (Typography, buttons, cards, nav…) renders bigger —
+ * children need larger base type. The specificity of `html.kids-active`
+ * wins over plain `html`, and because the app-wide scale lives in a CSS
+ * variable (not inline px), the user's Text-size setting keeps working inside
+ * kids mode too. Removing the class on exit restores the adult scale.
+ */
+html.kids-active {
+  font-size: calc(16px * var(--app-font-scale, 1) * 1.125);
+}
+
+/*
+ * KIDS TOUCH TARGETS: interactive elements inside the scope must be at least
+ * 48x48px (WCAG 2.5.5 / Apple HIG kid-size guidance). Applied to the wrapper
+ * so only kids routes are affected; the adult UI keeps its compact targets.
+ * The :where() keeps this a zero-specificity default, so a component that
+ * genuinely needs to shrink — the six-tab KidsNav on a small phone — can
+ * override it without !important.
+ */
+.kidsTheme :where(button, a, [role='button'], input[type='checkbox'], input[type='radio']) {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.kidsTheme {
+  background: var(--color-bg);
+  min-height: 100vh;
+}

@@ -1,0 +1,103 @@
+.scene {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: clamp(1.25rem, 3vw, 2rem);
+  background-color: var(--color-surface);
+  box-shadow: 0 0.75rem 1.75rem rgb(0 0 0 / 12%);
+  isolation: isolate;
+}
+
+.art,
+.painting {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.painting {
+  object-fit: cover;
+  animation: scene-pan 32s ease-in-out infinite alternate;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgb(0 0 0 / 10%) 0%, transparent 34%, rgb(0 0 0 / 18%) 100%);
+}
+
+.twinkle {
+  animation: twinkle 3.4s ease-in-out infinite;
+}
+
+.waveShift {
+  animation: wave-shift 11s linear infinite;
+}
+
+.cloudDrift {
+  animation: cloud-drift 38s linear infinite;
+}
+
+.breathe {
+  animation: breathe 6.5s ease-in-out infinite;
+}
+
+.bobOnWater {
+  animation: bob 5.4s ease-in-out infinite;
+}
+
+.glowDisc {
+  animation: glow-pulse 7.5s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+
+@keyframes wave-shift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-40px); }
+}
+
+@keyframes cloud-drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-24px); }
+}
+
+@keyframes breathe {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-2px) scale(1.012); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-3px) rotate(-0.6deg); }
+  66% { transform: translateY(2px) rotate(0.6deg); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 1; }
+}
+
+@keyframes scene-pan {
+  from { transform: scale(1.04) translateX(-1.2%); }
+  to { transform: scale(1.04) translateX(1.2%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .painting,
+  .twinkle,
+  .waveShift,
+  .cloudDrift,
+  .breathe,
+  .bobOnWater,
+  .glowDisc {
+    animation: none;
+  }
+}

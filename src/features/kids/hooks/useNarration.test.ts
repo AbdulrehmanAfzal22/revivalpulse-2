@@ -1,0 +1,28 @@
+import {act,renderHook,waitFor} from '@testing-library/react';
+import {useNarration} from './useNarration';
+import {useNarratorPreferences} from 'features/speech/preferences';
+const en={name:'Microsoft Jenny Online (Natural)',lang:'en-US',voiceURI:'jenny',default:false,localService:false} as SpeechSynthesisVoice;
+const ur={name:'Microsoft Uzma Online (Natural)',lang:'ur-PK',voiceURI:'uzma',default:false,localService:false} as SpeechSynthesisVoice;
+let spoken:any[],audios:any[],available:SpeechSynthesisVoice[];
+function endUtterance(i:number){act(()=>spoken[i].onend?.())}
+beforeEach(()=>{spoken=[];audios=[];available=[en,ur];useNarratorPreferences.setState({englishVoice:'',urduVoice:'',speed:1});
+ Object.defineProperty(window,'speechSynthesis',{configurable:true,value:{getVoices:()=>available,cancel:jest.fn(),speak:jest.fn(u=>{spoken.push(u);u.onstart?.()}),paused:false,resume:jest.fn()}});
+ Object.defineProperty(window,'SpeechSynthesisUtterance',{configurable:true,value:class{constructor(public text:string){}}});
+ Object.defineProperty(window,'Audio',{configurable:true,value:jest.fn().mockImplementation((src:string)=>{const a={src,play:jest.fn().mockResolvedValue(undefined),pause:jest.fn(),load:jest.fn(),removeAttribute:jest.fn(),onended:null as any,onerror:null as any,playbackRate:1};audios.push(a);return a})});
+});
+describe('story playback',()=>{
+ it('plays recorded paragraphs in order from the full chapter button',()=>{const {result}=renderHook(()=>useNarration(['First.','Second.'],'en',{clips:['one.mp3','two.mp3']}));act(()=>result.current.toggle());expect(audios[0].src).toBe('one.mp3');act(()=>audios[0].onended());expect(audios[1].src).toBe('two.mp3');act(()=>audios[1].onended());expect(result.current.isSpeaking).toBe(false);expect(spoken).toHaveLength(0)});
+ it('uses the preferred natural voice, normal pitch and gentle pacing',()=>{const {result}=renderHook(()=>useNarration(['A beautiful story.'],'en'));act(()=>result.current.toggle());expect(spoken[0].voice).toBe(en);expect(spoken[0].pitch).toBe(1);expect(spoken[0].rate).toBe(.94)});
+ it('reads an English fallback with an English narrator under the Urdu toggle',()=>{const {result}=renderHook(()=>useNarration(['This text is English.'],'ur'));act(()=>result.current.toggle());expect(spoken[0].voice).toBe(en);expect(spoken[0].lang).toBe('en-US')});
+ it('reads genuine Urdu with an Urdu narrator',()=>{const {result}=renderHook(()=>useNarration(['یہ ایک خوبصورت کہانی ہے۔'],'ur'));act(()=>result.current.toggle());expect(spoken[0].voice).toBe(ur);expect(spoken[0].lang).toBe('ur-PK')});
+ it('reports a missing Urdu voice instead of pronouncing Urdu with an English engine',()=>{available=[en];const {result}=renderHook(()=>useNarration(['یہ ایک خوبصورت کہانی ہے۔'],'ur'));act(()=>result.current.toggle());expect(spoken).toHaveLength(0);expect(result.current.error).toMatch(/No Urdu narrator/);expect(result.current.isSpeaking).toBe(false)});
+ it('continues sentence highlights into the next paragraph',()=>{const {result}=renderHook(()=>useNarration(['First sentence. Second sentence.','Third sentence.'],'en'));act(()=>result.current.toggle());expect(result.current.activeSentence).toBe(0);endUtterance(0);expect(result.current.activeSentence).toBe(1);endUtterance(1);expect(result.current.activeSentence).toBe(2);expect(result.current.playingParagraph).toBe(1)});
+ it('does not advance a stopped recorded chapter through a late audio callback',()=>{const {result}=renderHook(()=>useNarration(['First.','Second.'],'en',{clips:['one.mp3','two.mp3']}));act(()=>result.current.toggle());const late=audios[0].onended;act(()=>result.current.stop());act(()=>late());expect(audios).toHaveLength(1);expect(result.current.isSpeaking).toBe(false)});
+ it('falls back once when a recorded clip fails',async()=>{const {result}=renderHook(()=>useNarration(['First.'],'en',{clips:['missing.mp3']}));act(()=>result.current.toggle());act(()=>audios[0].onerror());await waitFor(()=>expect(spoken).toHaveLength(1));expect(result.current.usingClip).toBe(false)});
+ it('stops old paragraph playback before starting another',()=>{const {result}=renderHook(()=>useNarration(['First.','Second.'],'en'));act(()=>result.current.toggleParagraph(0));const stale=spoken[0].onend;act(()=>result.current.toggleParagraph(1));act(()=>stale());expect(spoken).toHaveLength(2);expect(spoken[1].text).toBe('Second.')});
+ it('stops a recorded chapter when a narrator preview starts',()=>{const {result:a}=renderHook(()=>useNarration(['First.'],'en',{clips:['one.mp3']}));const {result:b}=renderHook(()=>useNarration(['Preview.'],'en'));act(()=>a.current.toggle());act(()=>b.current.toggle());expect(audios[0].pause).toHaveBeenCalled();expect(a.current.isSpeaking).toBe(false);expect(b.current.isSpeaking).toBe(true)});
+ it('releases audio on unmount',()=>{const {result,unmount}=renderHook(()=>useNarration(['First.'],'en',{clips:['one.mp3']}));act(()=>result.current.toggle());unmount();expect(audios[0].pause).toHaveBeenCalled()});
+ it('plays a recording even on a browser without speech synthesis',()=>{delete (window as any).speechSynthesis;const {result}=renderHook(()=>useNarration(['First.'],'en',{clips:['one.mp3']}));expect(result.current.supported).toBe(true);act(()=>result.current.toggle());expect(audios[0].play).toHaveBeenCalled()});
+ it('stops a recording when the story language changes',()=>{const {result,rerender}=renderHook(({lang})=>useNarration(['First.'],lang,{clips:['one.mp3']}),{initialProps:{lang:'en'}});act(()=>result.current.toggle());rerender({lang:'ur'});expect(audios[0].pause).toHaveBeenCalled();expect(result.current.isSpeaking).toBe(false)});
+
+});

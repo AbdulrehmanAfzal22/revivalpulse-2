@@ -1,0 +1,19 @@
+.row {
+  display: inline-flex;
+  gap: 0.12rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+}
+
+.sm { font-size: 0.9rem; }
+.md { font-size: 1.5rem; }
+.lg { font-size: 2.5rem; }
+
+.on {
+  color: var(--kids-sunshine, var(--color-gold-soft));
+  text-shadow: 0 0 0.6rem var(--color-gold-glow);
+}
+
+.off {
+  color: color-mix(in srgb, var(--color-text) 22%, transparent);
+}

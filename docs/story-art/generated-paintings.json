@@ -1,0 +1,36 @@
+{
+  "generation": "built-in image generation",
+  "sharedArtDirection": "Use case: illustration-story. Asset: wide 16:9 environmental illustration for an Islamic children's story, ages 5–10. Style: polished warm hand-painted storybook gouache, rounded appealing shapes, rich but soft colors, natural daylight, textured brushwork, clear focal point. Historical objects should be simple and appropriate to their setting. Constraints: no Prophet or Companion depictions, no people, no human shapes, no faces, no angels, no depiction of Allah, no modern objects, no text, no lettering, no watermark. Draw one complete landscape composition, not a collage.",
+  "assets": [
+    {
+      "panel": "adam/creation/p0",
+      "path": "public/assets/kids/story-art/adam/creation/p0/image.png",
+      "scenePrompt": "A beautiful small bank of moist reddish clay beside a clear stream, untouched earth and distant gentle mountains under a luminous dawn sky. Environmental illustration of the material mentioned in the creation story only; no depiction of the act of creation, no human forms or hands."
+    },
+    {
+      "panel": "nuh/the-ark-command/p1",
+      "path": "public/assets/kids/story-art/nuh/the-ark-command/p1/image.png",
+      "scenePrompt": "An unfinished large wooden ark on dry land, timber ribs, neat wooden planks, a simple wooden mallet and coils of rope in the foreground. Gentle distant hills. An ark being constructed, NOT floating, no sea, no flood."
+    },
+    {
+      "panel": "musa/the-night-of-the-sea/p3",
+      "path": "public/assets/kids/story-art/musa/the-night-of-the-sea/p3/image.png",
+      "scenePrompt": "A dry sandy passage stretching between TWO HIGH walls of parted blue seawater, shells visible within the translucent water, peaceful luminous horizon, a dramatic but reassuring children’s adventure landscape. No boats. No people. No army."
+    },
+    {
+      "panel": "sulayman/valley-of-ants/p1",
+      "path": "public/assets/kids/story-art/sulayman/valley-of-ants/p1/image.png",
+      "scenePrompt": "A low ground-level view in a sunlit green valley, a small ant nest entrance and a lively orderly procession of tiny ants carrying seeds to their home. Golden grass and pebbles towering over the ants, rounded friendly style. No human figures. No buildings."
+    },
+    {
+      "panel": "bilal/bought-and-freed/p0",
+      "path": "public/assets/kids/story-art/bilal/bought-and-freed/p0/image.png",
+      "scenePrompt": "Two separated broken chain links resting on warm sand beside an open simple wooden gate, a clear sunlit path leading beyond the gate, a few palm fronds. An uplifting symbolic illustration of freedom. No captive, no pain, no violence, no people."
+    },
+    {
+      "panel": "salman/the-trench-of-salman/p2",
+      "path": "public/assets/kids/story-art/salman/the-trench-of-salman/p2/image.png",
+      "scenePrompt": "A freshly dug defensive trench across the foreground outside an early seventh-century Arabian oasis settlement, excavated earth, wooden-handled spade resting safely at one side, distant low mud-brick homes and date palms. No medieval castle, no minarets, no armies, no people, no violence."
+    }
+  ]
+}

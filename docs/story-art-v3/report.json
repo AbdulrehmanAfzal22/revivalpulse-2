@@ -1,0 +1,31 @@
+{
+  "withinStoryPerceptualCandidates": [],
+  "perceptualScreen": "64-bit horizontal dHash, distance <=3. A candidate screen, not a percentage similarity guarantee.",
+  "stories": 69,
+  "chapters": 374,
+  "paragraphs": 1336,
+  "artworks": 1710,
+  "paintings": 18,
+  "identicalArtworkOrReusedSubjectSet": 0,
+  "failures": [],
+  "scope": "Entire story, including all chapter headers. Structural duplicates plus rendered file equality. These are not a claim of a universal 50% perceptual similarity score.",
+  "tests": {
+    "suites": 6,
+    "passed": 135
+  },
+  "productionBuild": "passed",
+  "originalStoryDataAndPaintings": "94 files checked against preceding delivered ZIP; all byte-identical",
+  "responsiveChecks": {
+    "routes": 7,
+    "lightWidths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "darkWidth": 390,
+    "checks": 42,
+    "failures": 0
+  }
+}

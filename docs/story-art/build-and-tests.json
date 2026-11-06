@@ -1,0 +1,8 @@
+{
+  "productionBuild": "passed: npm run build",
+  "storyMediaTests": "34 passed",
+  "typeCheck": "passed: tsc --noEmit --ignoreDeprecations 5.0",
+  "allPanelRendering": "1336 passed",
+  "originalYusufPaintings": "9 byte-identical",
+  "storyDataFiles": "unchanged"
+}

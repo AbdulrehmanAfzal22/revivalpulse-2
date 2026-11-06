@@ -1,0 +1,8552 @@
+{
+  "adam/creation/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 0
+  },
+  "adam/creation/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 2
+  },
+  "adam/creation/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 4
+  },
+  "adam/creation/p2": {
+    "stage": "terracedSlope",
+    "encounter": 3,
+    "pose": 6
+  },
+  "adam/creation/p3": {
+    "stage": "timberFrame",
+    "encounter": 4,
+    "pose": 8
+  },
+  "adam/creation/p4": {
+    "stage": "colonnade",
+    "encounter": 5,
+    "pose": 10
+  },
+  "adam/names/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 6
+  },
+  "adam/names/p0": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "adam/names/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 10
+  },
+  "adam/names/p2": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 0
+  },
+  "adam/names/p3": {
+    "stage": "mosaicFloor",
+    "encounter": 4,
+    "pose": 2
+  },
+  "adam/angels-bow/cover": {
+    "stage": "palmGrove",
+    "encounter": 5,
+    "pose": 4
+  },
+  "adam/angels-bow/p0": {
+    "stage": "stoneBridge",
+    "encounter": 6,
+    "pose": 6
+  },
+  "adam/angels-bow/p1": {
+    "stage": "courtyard",
+    "encounter": 6,
+    "pose": 7
+  },
+  "adam/angels-bow/p2": {
+    "stage": "rockGorge",
+    "encounter": 7,
+    "pose": 9
+  },
+  "adam/angels-bow/p3": {
+    "stage": "sandyBasin",
+    "encounter": 7,
+    "pose": 10
+  },
+  "adam/angels-bow/p4": {
+    "stage": "roofTerrace",
+    "encounter": 8,
+    "pose": 0
+  },
+  "adam/paradise/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "adam/paradise/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 7
+  },
+  "adam/paradise/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 9
+  },
+  "adam/paradise/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "adam/paradise/p3": {
+    "stage": "cliffLedge",
+    "encounter": 3,
+    "pose": 0
+  },
+  "adam/test/cover": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 11
+  },
+  "adam/test/p0": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "adam/test/p1": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 3
+  },
+  "adam/test/p2": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 5
+  },
+  "adam/test/p3": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "adam/test/p4": {
+    "stage": "riverBend",
+    "encounter": 5,
+    "pose": 8
+  },
+  "adam/descent/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "adam/descent/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 5,
+    "pose": 10
+  },
+  "adam/descent/p1": {
+    "stage": "hillTown",
+    "encounter": 6,
+    "pose": 0
+  },
+  "adam/descent/p2": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 7
+  },
+  "adam/descent/p3": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 9
+  },
+  "adam/repentance/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "adam/repentance/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "adam/repentance/p1": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 1
+  },
+  "adam/repentance/p2": {
+    "stage": "timberFrame",
+    "encounter": 3,
+    "pose": 3
+  },
+  "adam/repentance/p3": {
+    "stage": "colonnade",
+    "encounter": 4,
+    "pose": 5
+  },
+  "adam/first-prophet/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 4
+  },
+  "adam/first-prophet/p0": {
+    "stage": "windowSeat",
+    "encounter": 3,
+    "pose": 6
+  },
+  "adam/first-prophet/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 4,
+    "pose": 8
+  },
+  "adam/first-prophet/p2": {
+    "stage": "stoneTerrace",
+    "encounter": 5,
+    "pose": 10
+  },
+  "adam/first-prophet/p3": {
+    "stage": "mosaicFloor",
+    "encounter": 8,
+    "pose": 2
+  },
+  "adam/first-prophet/p4": {
+    "stage": "palmGrove",
+    "encounter": 6,
+    "pose": 1
+  },
+  "idris/truthful-prophet/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "idris/truthful-prophet/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 3
+  },
+  "idris/truthful-prophet/p1": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "idris/truthful-prophet/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 6
+  },
+  "idris/truthful-prophet/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 8
+  },
+  "idris/gift-of-knowledge/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 4,
+    "pose": 10
+  },
+  "idris/gift-of-knowledge/p0": {
+    "stage": "palmGrove",
+    "encounter": 5,
+    "pose": 0
+  },
+  "idris/gift-of-knowledge/p1": {
+    "stage": "stoneBridge",
+    "encounter": 6,
+    "pose": 2
+  },
+  "idris/gift-of-knowledge/p2": {
+    "stage": "courtyard",
+    "encounter": 7,
+    "pose": 4
+  },
+  "idris/gift-of-knowledge/p3": {
+    "stage": "rockGorge",
+    "encounter": 8,
+    "pose": 6
+  },
+  "idris/raised-high/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 11
+  },
+  "idris/raised-high/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 1
+  },
+  "idris/raised-high/p1": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 1
+  },
+  "idris/raised-high/p2": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "idris/raised-high/p3": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 6
+  },
+  "idris/the-lesson/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "idris/the-lesson/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 6
+  },
+  "idris/the-lesson/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 8
+  },
+  "idris/the-lesson/p2": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "idris/the-lesson/p3": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 11
+  },
+  "idris/legacy-and-lesson/cover": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 1
+  },
+  "idris/legacy-and-lesson/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "idris/legacy-and-lesson/p1": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 11
+  },
+  "idris/legacy-and-lesson/p2": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "nuh/the-call/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "nuh/the-call/p0": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 3
+  },
+  "nuh/the-call/p1": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 5
+  },
+  "nuh/the-call/p2": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 7
+  },
+  "nuh/the-call/p3": {
+    "stage": "rockGorge",
+    "encounter": 3,
+    "pose": 9
+  },
+  "nuh/the-ark-command/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 7
+  },
+  "nuh/the-ark-command/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 9
+  },
+  "nuh/the-ark-command/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 11
+  },
+  "nuh/the-ark-command/p2": {
+    "stage": "roundWindow",
+    "encounter": 3,
+    "pose": 1
+  },
+  "nuh/the-flood-comes/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 11
+  },
+  "nuh/the-flood-comes/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "nuh/the-flood-comes/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "nuh/the-flood-comes/p2": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 5
+  },
+  "nuh/the-flood-comes/p3": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "nuh/the-landing/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "nuh/the-landing/p0": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 9
+  },
+  "nuh/the-landing/p1": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 10
+  },
+  "nuh/the-landing/p2": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "nuh/the-landing/p3": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "nuh/the-lesson/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "nuh/the-lesson/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "nuh/the-lesson/p1": {
+    "stage": "recess",
+    "encounter": 5,
+    "pose": 4
+  },
+  "nuh/the-lesson/p2": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 1
+  },
+  "hud/the-proud-people/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hud/the-proud-people/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 5
+  },
+  "hud/the-proud-people/p1": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "hud/the-proud-people/p2": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 8
+  },
+  "hud/hud-calls/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 7
+  },
+  "hud/hud-calls/p0": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "hud/hud-calls/p1": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 9
+  },
+  "hud/hud-calls/p2": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 10
+  },
+  "hud/the-challenge/cover": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "hud/the-challenge/p0": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 2
+  },
+  "hud/the-challenge/p1": {
+    "stage": "windingPath",
+    "encounter": 3,
+    "pose": 4
+  },
+  "hud/the-challenge/p2": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "hud/the-wind/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hud/the-wind/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "hud/the-wind/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 7
+  },
+  "hud/the-wind/p2": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 9
+  },
+  "hud/the-survivors/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 7
+  },
+  "hud/the-survivors/p0": {
+    "stage": "openValley",
+    "encounter": 3,
+    "pose": 11
+  },
+  "hud/the-survivors/p1": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 1
+  },
+  "hud/the-survivors/p2": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 3
+  },
+  "salih/the-people-of-thamud/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "salih/the-people-of-thamud/p0": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "salih/the-people-of-thamud/p1": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "salih/the-people-of-thamud/p2": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "salih/the-people-of-thamud/p3": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 8
+  },
+  "salih/the-people-of-thamud/p4": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 9
+  },
+  "salih/the-miraculous-she-camel/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "salih/the-miraculous-she-camel/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 0
+  },
+  "salih/the-miraculous-she-camel/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "salih/the-miraculous-she-camel/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 4
+  },
+  "salih/the-miraculous-she-camel/p3": {
+    "stage": "hillTown",
+    "encounter": 4,
+    "pose": 6
+  },
+  "salih/the-miraculous-she-camel/p4": {
+    "stage": "recess",
+    "encounter": 5,
+    "pose": 8
+  },
+  "salih/they-kill-the-camel/cover": {
+    "stage": "openValley",
+    "encounter": 6,
+    "pose": 10
+  },
+  "salih/they-kill-the-camel/p0": {
+    "stage": "sideStreet",
+    "encounter": 7,
+    "pose": 0
+  },
+  "salih/they-kill-the-camel/p1": {
+    "stage": "reedScreen",
+    "encounter": 8,
+    "pose": 2
+  },
+  "salih/they-kill-the-camel/p2": {
+    "stage": "terracedSlope",
+    "encounter": 9,
+    "pose": 4
+  },
+  "salih/they-kill-the-camel/p3": {
+    "stage": "timberFrame",
+    "encounter": 10,
+    "pose": 6
+  },
+  "salih/they-kill-the-camel/p4": {
+    "stage": "colonnade",
+    "encounter": 11,
+    "pose": 8
+  },
+  "salih/the-warning/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 0
+  },
+  "salih/the-warning/p0": {
+    "stage": "windowSeat",
+    "encounter": 12,
+    "pose": 11
+  },
+  "salih/the-warning/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 3
+  },
+  "salih/the-warning/p2": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 5
+  },
+  "salih/the-warning/p3": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "salih/the-warning/p4": {
+    "stage": "palmGrove",
+    "encounter": 5,
+    "pose": 8
+  },
+  "salih/the-believers-saved/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "salih/the-believers-saved/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 6
+  },
+  "salih/the-believers-saved/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "salih/the-believers-saved/p2": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 7
+  },
+  "salih/the-believers-saved/p3": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 11
+  },
+  "salih/the-believers-saved/p4": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 2
+  },
+  "ibrahim/searching-for-truth/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ibrahim/searching-for-truth/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 6
+  },
+  "ibrahim/searching-for-truth/p1": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "ibrahim/searching-for-truth/p2": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 10
+  },
+  "ibrahim/searching-for-truth/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 0
+  },
+  "ibrahim/searching-for-truth/p4": {
+    "stage": "hillTown",
+    "encounter": 4,
+    "pose": 2
+  },
+  "ibrahim/calling-the-family/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ibrahim/calling-the-family/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 1
+  },
+  "ibrahim/calling-the-family/p1": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "ibrahim/calling-the-family/p2": {
+    "stage": "reedScreen",
+    "encounter": 3,
+    "pose": 5
+  },
+  "ibrahim/calling-the-family/p3": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 4
+  },
+  "ibrahim/calling-the-family/p4": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 6
+  },
+  "ibrahim/the-fire/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ibrahim/the-fire/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 4,
+    "pose": 10
+  },
+  "ibrahim/the-fire/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "ibrahim/the-fire/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 10
+  },
+  "ibrahim/the-fire/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ibrahim/the-fire/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 5,
+    "pose": 3
+  },
+  "ibrahim/the-sacrifice/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ibrahim/the-sacrifice/p0": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ibrahim/the-sacrifice/p1": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ibrahim/the-sacrifice/p2": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 3
+  },
+  "ibrahim/the-sacrifice/p3": {
+    "stage": "sandyBasin",
+    "encounter": 3,
+    "pose": 6
+  },
+  "ibrahim/the-sacrifice/p4": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 5
+  },
+  "ibrahim/the-kaaba/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ibrahim/the-kaaba/p0": {
+    "stage": "roundWindow",
+    "encounter": 4,
+    "pose": 10
+  },
+  "ibrahim/the-kaaba/p1": {
+    "stage": "canopy",
+    "encounter": 5,
+    "pose": 0
+  },
+  "ibrahim/the-kaaba/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ibrahim/the-kaaba/p3": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 10
+  },
+  "ibrahim/the-kaaba/p4": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ibrahim/friend-of-allah/cover": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "ibrahim/friend-of-allah/p0": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ibrahim/friend-of-allah/p1": {
+    "stage": "windingPath",
+    "encounter": 6,
+    "pose": 7
+  },
+  "ibrahim/friend-of-allah/p2": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 5
+  },
+  "ibrahim/friend-of-allah/p3": {
+    "stage": "riverBend",
+    "encounter": 3,
+    "pose": 6
+  },
+  "ibrahim/friend-of-allah/p4": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 8
+  },
+  "lut/the-soft-call/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 6
+  },
+  "lut/the-soft-call/p0": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 8
+  },
+  "lut/the-soft-call/p1": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 10
+  },
+  "lut/the-soft-call/p2": {
+    "stage": "sideStreet",
+    "encounter": 3,
+    "pose": 0
+  },
+  "lut/the-soft-call/p3": {
+    "stage": "reedScreen",
+    "encounter": 4,
+    "pose": 2
+  },
+  "lut/the-soft-call/p4": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 4
+  },
+  "lut/the-guests/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 0
+  },
+  "lut/the-guests/p0": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "lut/the-guests/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 3
+  },
+  "lut/the-guests/p2": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "lut/the-guests/p3": {
+    "stage": "steppedPlatform",
+    "encounter": 6,
+    "pose": 10
+  },
+  "lut/the-guests/p4": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 5
+  },
+  "lut/the-threat/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 3,
+    "pose": 9
+  },
+  "lut/the-threat/p0": {
+    "stage": "palmGrove",
+    "encounter": 4,
+    "pose": 11
+  },
+  "lut/the-threat/p1": {
+    "stage": "stoneBridge",
+    "encounter": 5,
+    "pose": 1
+  },
+  "lut/the-threat/p2": {
+    "stage": "courtyard",
+    "encounter": 6,
+    "pose": 3
+  },
+  "lut/the-threat/p3": {
+    "stage": "rockGorge",
+    "encounter": 7,
+    "pose": 5
+  },
+  "lut/the-threat/p4": {
+    "stage": "sandyBasin",
+    "encounter": 8,
+    "pose": 7
+  },
+  "lut/the-punishment/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "lut/the-punishment/p0": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 2
+  },
+  "lut/the-punishment/p1": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "lut/the-punishment/p2": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 6
+  },
+  "lut/the-punishment/p3": {
+    "stage": "archway",
+    "encounter": 9,
+    "pose": 1
+  },
+  "lut/the-punishment/p4": {
+    "stage": "cliffLedge",
+    "encounter": 4,
+    "pose": 9
+  },
+  "lut/the-lesson/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 6
+  },
+  "lut/the-lesson/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "lut/the-lesson/p1": {
+    "stage": "shelf",
+    "encounter": 10,
+    "pose": 6
+  },
+  "lut/the-lesson/p2": {
+    "stage": "windingPath",
+    "encounter": 7,
+    "pose": 5
+  },
+  "lut/the-lesson/p3": {
+    "stage": "raisedDais",
+    "encounter": 11,
+    "pose": 9
+  },
+  "lut/the-lesson/p4": {
+    "stage": "riverBend",
+    "encounter": 8,
+    "pose": 7
+  },
+  "ismail/a-dear-son/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 7
+  },
+  "ismail/a-dear-son/p0": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ismail/a-dear-son/p1": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 10
+  },
+  "ismail/a-dear-son/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ismail/a-dear-son/p3": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "ismail/a-dear-son/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ismail/the-barren-valley/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ismail/the-barren-valley/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 3
+  },
+  "ismail/the-barren-valley/p1": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ismail/the-barren-valley/p2": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ismail/the-barren-valley/p3": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 8
+  },
+  "ismail/the-barren-valley/p4": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "ismail/the-well-of-zamzam/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 7
+  },
+  "ismail/the-well-of-zamzam/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 9
+  },
+  "ismail/the-well-of-zamzam/p1": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ismail/the-well-of-zamzam/p2": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ismail/the-well-of-zamzam/p3": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 2
+  },
+  "ismail/the-well-of-zamzam/p4": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "ismail/the-dream-of-sacrifice/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ismail/the-dream-of-sacrifice/p0": {
+    "stage": "alcove",
+    "encounter": 4,
+    "pose": 6
+  },
+  "ismail/the-dream-of-sacrifice/p1": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "ismail/the-dream-of-sacrifice/p2": {
+    "stage": "shelf",
+    "encounter": 5,
+    "pose": 9
+  },
+  "ismail/the-dream-of-sacrifice/p3": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ismail/the-dream-of-sacrifice/p4": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ismail/building-the-kaaba/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 7
+  },
+  "ismail/building-the-kaaba/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "ismail/building-the-kaaba/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 6,
+    "pose": 3
+  },
+  "ismail/building-the-kaaba/p2": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 0
+  },
+  "ismail/building-the-kaaba/p3": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 2
+  },
+  "ismail/building-the-kaaba/p4": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 2
+  },
+  "ismail/a-prophet-of-promise/cover": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 5
+  },
+  "ismail/a-prophet-of-promise/p0": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ismail/a-prophet-of-promise/p1": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 8
+  },
+  "ismail/a-prophet-of-promise/p2": {
+    "stage": "timberFrame",
+    "encounter": 7,
+    "pose": 11
+  },
+  "ismail/a-prophet-of-promise/p3": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 8
+  },
+  "ismail/a-prophet-of-promise/p4": {
+    "stage": "sunkenCourt",
+    "encounter": 4,
+    "pose": 10
+  },
+  "ishaq/glad-news/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ishaq/glad-news/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ishaq/glad-news/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ishaq/glad-news/p2": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ishaq/glad-news/p3": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 2
+  },
+  "ishaq/glad-news/p4": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 4
+  },
+  "ishaq/son-after-long-years/cover": {
+    "stage": "rockGorge",
+    "encounter": 4,
+    "pose": 6
+  },
+  "ishaq/son-after-long-years/p0": {
+    "stage": "sandyBasin",
+    "encounter": 5,
+    "pose": 8
+  },
+  "ishaq/son-after-long-years/p1": {
+    "stage": "roofTerrace",
+    "encounter": 6,
+    "pose": 10
+  },
+  "ishaq/son-after-long-years/p2": {
+    "stage": "gardenWall",
+    "encounter": 7,
+    "pose": 0
+  },
+  "ishaq/son-after-long-years/p3": {
+    "stage": "roundWindow",
+    "encounter": 8,
+    "pose": 2
+  },
+  "ishaq/son-after-long-years/p4": {
+    "stage": "canopy",
+    "encounter": 9,
+    "pose": 4
+  },
+  "ishaq/ishaq-the-prophet/cover": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 10
+  },
+  "ishaq/ishaq-the-prophet/p0": {
+    "stage": "cliffLedge",
+    "encounter": 10,
+    "pose": 7
+  },
+  "ishaq/ishaq-the-prophet/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 0
+  },
+  "ishaq/ishaq-the-prophet/p2": {
+    "stage": "wovenMat",
+    "encounter": 11,
+    "pose": 10
+  },
+  "ishaq/ishaq-the-prophet/p3": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 3
+  },
+  "ishaq/ishaq-the-prophet/p4": {
+    "stage": "windingPath",
+    "encounter": 12,
+    "pose": 1
+  },
+  "ishaq/a-blessed-family/cover": {
+    "stage": "raisedDais",
+    "encounter": 13,
+    "pose": 3
+  },
+  "ishaq/a-blessed-family/p0": {
+    "stage": "riverBend",
+    "encounter": 14,
+    "pose": 5
+  },
+  "ishaq/a-blessed-family/p1": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "ishaq/a-blessed-family/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 6
+  },
+  "ishaq/a-blessed-family/p3": {
+    "stage": "hillTown",
+    "encounter": 15,
+    "pose": 9
+  },
+  "ishaq/a-blessed-family/p4": {
+    "stage": "recess",
+    "encounter": 16,
+    "pose": 0
+  },
+  "ishaq/legacy-and-lesson/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ishaq/legacy-and-lesson/p0": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ishaq/legacy-and-lesson/p1": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 10
+  },
+  "ishaq/legacy-and-lesson/p2": {
+    "stage": "terracedSlope",
+    "encounter": 17,
+    "pose": 5
+  },
+  "yaqub/son-of-ishaq/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 9
+  },
+  "yaqub/son-of-ishaq/p0": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 11
+  },
+  "yaqub/son-of-ishaq/p1": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 1
+  },
+  "yaqub/son-of-ishaq/p2": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 3
+  },
+  "yaqub/son-of-ishaq/p3": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 5
+  },
+  "yaqub/son-of-ishaq/p4": {
+    "stage": "roundWindow",
+    "encounter": 5,
+    "pose": 7
+  },
+  "yaqub/the-love-of-yusuf/cover": {
+    "stage": "canopy",
+    "encounter": 6,
+    "pose": 9
+  },
+  "yaqub/the-love-of-yusuf/p0": {
+    "stage": "archway",
+    "encounter": 7,
+    "pose": 11
+  },
+  "yaqub/the-love-of-yusuf/p1": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "yaqub/the-love-of-yusuf/p2": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "yaqub/the-love-of-yusuf/p3": {
+    "stage": "wovenMat",
+    "encounter": 8,
+    "pose": 4
+  },
+  "yaqub/the-love-of-yusuf/p4": {
+    "stage": "shelf",
+    "encounter": 9,
+    "pose": 5
+  },
+  "yaqub/the-patient-father/cover": {
+    "stage": "windingPath",
+    "encounter": 10,
+    "pose": 8
+  },
+  "yaqub/the-patient-father/p0": {
+    "stage": "raisedDais",
+    "encounter": 11,
+    "pose": 10
+  },
+  "yaqub/the-patient-father/p1": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 11
+  },
+  "yaqub/the-patient-father/p2": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "yaqub/the-patient-father/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "yaqub/the-patient-father/p4": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 4
+  },
+  "yaqub/the-sight-returned/cover": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 5
+  },
+  "yaqub/the-sight-returned/p0": {
+    "stage": "openValley",
+    "encounter": 3,
+    "pose": 7
+  },
+  "yaqub/the-sight-returned/p1": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 9
+  },
+  "yaqub/the-sight-returned/p2": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 11
+  },
+  "yaqub/the-sight-returned/p3": {
+    "stage": "terracedSlope",
+    "encounter": 12,
+    "pose": 8
+  },
+  "yaqub/the-sight-returned/p4": {
+    "stage": "timberFrame",
+    "encounter": 13,
+    "pose": 9
+  },
+  "yaqub/a-good-end/cover": {
+    "stage": "colonnade",
+    "encounter": 14,
+    "pose": 11
+  },
+  "yaqub/a-good-end/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yaqub/a-good-end/p1": {
+    "stage": "windowSeat",
+    "encounter": 3,
+    "pose": 2
+  },
+  "yaqub/a-good-end/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 4,
+    "pose": 4
+  },
+  "yaqub/a-good-end/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 15,
+    "pose": 4
+  },
+  "yaqub/a-good-end/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 16,
+    "pose": 6
+  },
+  "yusuf/the-dream/cover": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yusuf/the-dream/p0": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 11
+  },
+  "yusuf/the-dream/p1": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "yusuf/the-dream/p2": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "yusuf/the-dream/p3": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 5
+  },
+  "yusuf/into-the-well/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "yusuf/into-the-well/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 7
+  },
+  "yusuf/into-the-well/p1": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 6
+  },
+  "yusuf/into-the-well/p2": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 8
+  },
+  "yusuf/into-the-well/p3": {
+    "stage": "riverBend",
+    "encounter": 3,
+    "pose": 10
+  },
+  "yusuf/into-the-well/p4": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 0
+  },
+  "yusuf/tested-in-egypt/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "yusuf/tested-in-egypt/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yusuf/tested-in-egypt/p1": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 0
+  },
+  "yusuf/tested-in-egypt/p2": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 2
+  },
+  "yusuf/tested-in-egypt/p3": {
+    "stage": "sideStreet",
+    "encounter": 3,
+    "pose": 4
+  },
+  "yusuf/tested-in-egypt/p4": {
+    "stage": "reedScreen",
+    "encounter": 4,
+    "pose": 6
+  },
+  "yusuf/prison-to-palace/cover": {
+    "stage": "terracedSlope",
+    "encounter": 4,
+    "pose": 7
+  },
+  "yusuf/prison-to-palace/p0": {
+    "stage": "timberFrame",
+    "encounter": 5,
+    "pose": 9
+  },
+  "yusuf/prison-to-palace/p1": {
+    "stage": "colonnade",
+    "encounter": 5,
+    "pose": 10
+  },
+  "yusuf/prison-to-palace/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 6
+  },
+  "yusuf/prison-to-palace/p3": {
+    "stage": "windowSeat",
+    "encounter": 5,
+    "pose": 0
+  },
+  "yusuf/prison-to-palace/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 8
+  },
+  "yusuf/years-of-hunger/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "yusuf/years-of-hunger/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 11
+  },
+  "yusuf/years-of-hunger/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 1
+  },
+  "yusuf/years-of-hunger/p2": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "yusuf/years-of-hunger/p3": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 5
+  },
+  "yusuf/years-of-hunger/p4": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "yusuf/i-am-yusuf/cover": {
+    "stage": "sandyBasin",
+    "encounter": 4,
+    "pose": 9
+  },
+  "yusuf/i-am-yusuf/p0": {
+    "stage": "roofTerrace",
+    "encounter": 5,
+    "pose": 9
+  },
+  "yusuf/i-am-yusuf/p1": {
+    "stage": "gardenWall",
+    "encounter": 6,
+    "pose": 11
+  },
+  "yusuf/i-am-yusuf/p2": {
+    "stage": "roundWindow",
+    "encounter": 6,
+    "pose": 0
+  },
+  "yusuf/i-am-yusuf/p3": {
+    "stage": "canopy",
+    "encounter": 6,
+    "pose": 1
+  },
+  "yusuf/i-am-yusuf/p4": {
+    "stage": "archway",
+    "encounter": 7,
+    "pose": 3
+  },
+  "ayyub/the-rich-and-thankful/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ayyub/the-rich-and-thankful/p0": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ayyub/the-rich-and-thankful/p1": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ayyub/the-rich-and-thankful/p2": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 2
+  },
+  "ayyub/the-rich-and-thankful/p3": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ayyub/the-rich-and-thankful/p4": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "ayyub/the-great-test/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 6
+  },
+  "ayyub/the-great-test/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 6
+  },
+  "ayyub/the-great-test/p1": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 9
+  },
+  "ayyub/the-great-test/p2": {
+    "stage": "openValley",
+    "encounter": 3,
+    "pose": 11
+  },
+  "ayyub/the-great-test/p3": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 1
+  },
+  "ayyub/the-great-test/p4": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ayyub/the-loyal-wife/cover": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 4
+  },
+  "ayyub/the-loyal-wife/p0": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 1
+  },
+  "ayyub/the-loyal-wife/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 3
+  },
+  "ayyub/the-loyal-wife/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 6,
+    "pose": 8
+  },
+  "ayyub/the-loyal-wife/p3": {
+    "stage": "windowSeat",
+    "encounter": 7,
+    "pose": 10
+  },
+  "ayyub/the-loyal-wife/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 8,
+    "pose": 0
+  },
+  "ayyub/the-patient-call/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ayyub/the-patient-call/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ayyub/the-patient-call/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 9
+  },
+  "ayyub/the-patient-call/p2": {
+    "stage": "stoneBridge",
+    "encounter": 9,
+    "pose": 5
+  },
+  "ayyub/the-patient-call/p3": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 0
+  },
+  "ayyub/the-patient-call/p4": {
+    "stage": "rockGorge",
+    "encounter": 4,
+    "pose": 2
+  },
+  "ayyub/the-reward/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ayyub/the-reward/p0": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ayyub/the-reward/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 3
+  },
+  "ayyub/the-reward/p2": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 2
+  },
+  "ayyub/the-reward/p3": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 4
+  },
+  "ayyub/the-reward/p4": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "shuayb/the-people-of-midian/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "shuayb/the-people-of-midian/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "shuayb/the-people-of-midian/p1": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "shuayb/the-people-of-midian/p2": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 4
+  },
+  "shuayb/the-people-of-midian/p3": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 5
+  },
+  "shuayb/the-people-of-midian/p4": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 7
+  },
+  "shuayb/the-call-and-deniers/cover": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 8
+  },
+  "shuayb/the-call-and-deniers/p0": {
+    "stage": "terracedSlope",
+    "encounter": 3,
+    "pose": 10
+  },
+  "shuayb/the-call-and-deniers/p1": {
+    "stage": "timberFrame",
+    "encounter": 4,
+    "pose": 0
+  },
+  "shuayb/the-call-and-deniers/p2": {
+    "stage": "colonnade",
+    "encounter": 5,
+    "pose": 2
+  },
+  "shuayb/the-call-and-deniers/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 6,
+    "pose": 4
+  },
+  "shuayb/the-call-and-deniers/p4": {
+    "stage": "windowSeat",
+    "encounter": 7,
+    "pose": 6
+  },
+  "shuayb/the-threat-and-response/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 0
+  },
+  "shuayb/the-threat-and-response/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 1
+  },
+  "shuayb/the-threat-and-response/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 3
+  },
+  "shuayb/the-threat-and-response/p2": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 5
+  },
+  "shuayb/the-threat-and-response/p3": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 7
+  },
+  "shuayb/the-threat-and-response/p4": {
+    "stage": "courtyard",
+    "encounter": 8,
+    "pose": 1
+  },
+  "shuayb/the-punishment/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 6
+  },
+  "shuayb/the-punishment/p0": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 8
+  },
+  "shuayb/the-punishment/p1": {
+    "stage": "roofTerrace",
+    "encounter": 9,
+    "pose": 5
+  },
+  "shuayb/the-punishment/p2": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 9
+  },
+  "shuayb/the-punishment/p3": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 0
+  },
+  "shuayb/the-punishment/p4": {
+    "stage": "canopy",
+    "encounter": 10,
+    "pose": 9
+  },
+  "shuayb/the-lesson-of-honesty/cover": {
+    "stage": "archway",
+    "encounter": 11,
+    "pose": 11
+  },
+  "shuayb/the-lesson-of-honesty/p0": {
+    "stage": "cliffLedge",
+    "encounter": 12,
+    "pose": 1
+  },
+  "shuayb/the-lesson-of-honesty/p1": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 5
+  },
+  "shuayb/the-lesson-of-honesty/p2": {
+    "stage": "wovenMat",
+    "encounter": 13,
+    "pose": 4
+  },
+  "shuayb/the-lesson-of-honesty/p3": {
+    "stage": "shelf",
+    "encounter": 14,
+    "pose": 6
+  },
+  "shuayb/the-lesson-of-honesty/p4": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 9
+  },
+  "musa/a-baby-in-a-basket/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 1
+  },
+  "musa/a-baby-in-a-basket/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 3
+  },
+  "musa/a-baby-in-a-basket/p1": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 3
+  },
+  "musa/a-baby-in-a-basket/p2": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 6
+  },
+  "musa/a-baby-in-a-basket/p3": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "musa/a-baby-in-a-basket/p4": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 9
+  },
+  "musa/raised-in-the-royal-home/cover": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "musa/raised-in-the-royal-home/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 4,
+    "pose": 0
+  },
+  "musa/raised-in-the-royal-home/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 11
+  },
+  "musa/raised-in-the-royal-home/p2": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 10
+  },
+  "musa/raised-in-the-royal-home/p3": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 0
+  },
+  "musa/raised-in-the-royal-home/p4": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 2
+  },
+  "musa/fleeing-to-madyan/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 1
+  },
+  "musa/fleeing-to-madyan/p0": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "musa/fleeing-to-madyan/p1": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 4
+  },
+  "musa/fleeing-to-madyan/p2": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 6
+  },
+  "musa/fleeing-to-madyan/p3": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 6
+  },
+  "musa/fleeing-to-madyan/p4": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 6
+  },
+  "musa/marriage-and-the-journey/cover": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 10
+  },
+  "musa/marriage-and-the-journey/p0": {
+    "stage": "archway",
+    "encounter": 4,
+    "pose": 0
+  },
+  "musa/marriage-and-the-journey/p1": {
+    "stage": "cliffLedge",
+    "encounter": 5,
+    "pose": 2
+  },
+  "musa/marriage-and-the-journey/p2": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 0
+  },
+  "musa/marriage-and-the-journey/p3": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "musa/marriage-and-the-journey/p4": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "musa/the-burning-bush/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 1
+  },
+  "musa/the-burning-bush/p0": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 3
+  },
+  "musa/the-burning-bush/p1": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 3
+  },
+  "musa/the-burning-bush/p2": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "musa/the-burning-bush/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 5
+  },
+  "musa/the-burning-bush/p4": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 10
+  },
+  "musa/before-pharaoh/cover": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 10
+  },
+  "musa/before-pharaoh/p0": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "musa/before-pharaoh/p1": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 1
+  },
+  "musa/before-pharaoh/p2": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "musa/before-pharaoh/p3": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 4
+  },
+  "musa/before-pharaoh/p4": {
+    "stage": "timberFrame",
+    "encounter": 6,
+    "pose": 6
+  },
+  "musa/the-night-of-the-sea/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "musa/the-night-of-the-sea/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 3
+  },
+  "musa/the-night-of-the-sea/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "musa/the-night-of-the-sea/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 7
+  },
+  "musa/the-night-of-the-sea/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 5
+  },
+  "musa/the-night-of-the-sea/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 6
+  },
+  "musa/the-tablets-and-the-calf/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "musa/the-tablets-and-the-calf/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 9
+  },
+  "musa/the-tablets-and-the-calf/p1": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 9
+  },
+  "musa/the-tablets-and-the-calf/p2": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 11
+  },
+  "musa/the-tablets-and-the-calf/p3": {
+    "stage": "sandyBasin",
+    "encounter": 4,
+    "pose": 3
+  },
+  "musa/the-tablets-and-the-calf/p4": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 2
+  },
+  "musa/kalimullah/cover": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 3
+  },
+  "musa/kalimullah/p0": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 2
+  },
+  "musa/kalimullah/p1": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 4
+  },
+  "musa/kalimullah/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "musa/kalimullah/p3": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "musa/kalimullah/p4": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "harun/the-gift-of-rabb/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 2
+  },
+  "harun/the-gift-of-rabb/p0": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "harun/the-gift-of-rabb/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 1,
+    "pose": 5
+  },
+  "harun/the-gift-of-rabb/p2": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 7
+  },
+  "harun/the-gift-of-rabb/p3": {
+    "stage": "mosaicFloor",
+    "encounter": 3,
+    "pose": 9
+  },
+  "harun/the-gift-of-rabb/p4": {
+    "stage": "palmGrove",
+    "encounter": 4,
+    "pose": 0
+  },
+  "harun/together-before-pharaoh/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 8
+  },
+  "harun/together-before-pharaoh/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 10
+  },
+  "harun/together-before-pharaoh/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 0
+  },
+  "harun/together-before-pharaoh/p2": {
+    "stage": "sandyBasin",
+    "encounter": 3,
+    "pose": 2
+  },
+  "harun/together-before-pharaoh/p3": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "harun/together-before-pharaoh/p4": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 5
+  },
+  "harun/the-patience-of-harun/cover": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 2
+  },
+  "harun/the-patience-of-harun/p0": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 4
+  },
+  "harun/the-patience-of-harun/p1": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "harun/the-patience-of-harun/p2": {
+    "stage": "cliffLedge",
+    "encounter": 3,
+    "pose": 8
+  },
+  "harun/the-patience-of-harun/p3": {
+    "stage": "alcove",
+    "encounter": 4,
+    "pose": 10
+  },
+  "harun/the-patience-of-harun/p4": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "harun/the-quiet-strength/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 8
+  },
+  "harun/the-quiet-strength/p0": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 9
+  },
+  "harun/the-quiet-strength/p1": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 11
+  },
+  "harun/the-quiet-strength/p2": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 1
+  },
+  "harun/the-quiet-strength/p3": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "harun/the-quiet-strength/p4": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "harun/legacy-and-lesson/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "harun/legacy-and-lesson/p0": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 3
+  },
+  "harun/legacy-and-lesson/p1": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "harun/legacy-and-lesson/p2": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 6
+  },
+  "dawud/young-shepherd/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 3
+  },
+  "dawud/young-shepherd/p0": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "dawud/young-shepherd/p1": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 6
+  },
+  "dawud/young-shepherd/p2": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "dawud/young-shepherd/p3": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 9
+  },
+  "dawud/young-shepherd/p4": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 11
+  },
+  "dawud/zabur-voice/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 9
+  },
+  "dawud/zabur-voice/p0": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 10
+  },
+  "dawud/zabur-voice/p1": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 0
+  },
+  "dawud/zabur-voice/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "dawud/zabur-voice/p3": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 2
+  },
+  "dawud/zabur-voice/p4": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 4
+  },
+  "dawud/iron-armor/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "dawud/iron-armor/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 5
+  },
+  "dawud/iron-armor/p1": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 7
+  },
+  "dawud/iron-armor/p2": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 9
+  },
+  "dawud/iron-armor/p3": {
+    "stage": "riverBend",
+    "encounter": 4,
+    "pose": 11
+  },
+  "dawud/iron-armor/p4": {
+    "stage": "gateway",
+    "encounter": 5,
+    "pose": 1
+  },
+  "dawud/wise-judge/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "dawud/wise-judge/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "dawud/wise-judge/p1": {
+    "stage": "recess",
+    "encounter": 4,
+    "pose": 3
+  },
+  "dawud/wise-judge/p2": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 1
+  },
+  "dawud/wise-judge/p3": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "dawud/wise-judge/p4": {
+    "stage": "reedScreen",
+    "encounter": 3,
+    "pose": 5
+  },
+  "dawud/humble-king/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 3
+  },
+  "dawud/humble-king/p0": {
+    "stage": "timberFrame",
+    "encounter": 6,
+    "pose": 10
+  },
+  "dawud/humble-king/p1": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "dawud/humble-king/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 7
+  },
+  "dawud/humble-king/p3": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "sulayman/inherited-kingdom/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 4
+  },
+  "sulayman/inherited-kingdom/p0": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "sulayman/inherited-kingdom/p1": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 7
+  },
+  "sulayman/inherited-kingdom/p2": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 7
+  },
+  "sulayman/inherited-kingdom/p3": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "sulayman/inherited-kingdom/p4": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 11
+  },
+  "sulayman/valley-of-ants/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 10
+  },
+  "sulayman/valley-of-ants/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "sulayman/valley-of-ants/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 2
+  },
+  "sulayman/valley-of-ants/p2": {
+    "stage": "windingPath",
+    "encounter": 3,
+    "pose": 4
+  },
+  "sulayman/valley-of-ants/p3": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "sulayman/valley-of-ants/p4": {
+    "stage": "riverBend",
+    "encounter": 5,
+    "pose": 8
+  },
+  "sulayman/hoopoe-news/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "sulayman/hoopoe-news/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 6
+  },
+  "sulayman/hoopoe-news/p1": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 8
+  },
+  "sulayman/hoopoe-news/p2": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 10
+  },
+  "sulayman/hoopoe-news/p3": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "sulayman/hoopoe-news/p4": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 1
+  },
+  "sulayman/letter-to-queen/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 10
+  },
+  "sulayman/letter-to-queen/p0": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 4
+  },
+  "sulayman/letter-to-queen/p1": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 1
+  },
+  "sulayman/letter-to-queen/p2": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 3
+  },
+  "sulayman/letter-to-queen/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 5
+  },
+  "sulayman/letter-to-queen/p4": {
+    "stage": "windowSeat",
+    "encounter": 4,
+    "pose": 7
+  },
+  "sulayman/queen-submits/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 4
+  },
+  "sulayman/queen-submits/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 6
+  },
+  "sulayman/queen-submits/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 8
+  },
+  "sulayman/queen-submits/p2": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 10
+  },
+  "sulayman/queen-submits/p3": {
+    "stage": "stoneBridge",
+    "encounter": 6,
+    "pose": 2
+  },
+  "sulayman/queen-submits/p4": {
+    "stage": "courtyard",
+    "encounter": 4,
+    "pose": 1
+  },
+  "sulayman/wind-and-jinn/cover": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 11
+  },
+  "sulayman/wind-and-jinn/p0": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 1
+  },
+  "sulayman/wind-and-jinn/p1": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 3
+  },
+  "sulayman/wind-and-jinn/p2": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 5
+  },
+  "sulayman/wind-and-jinn/p3": {
+    "stage": "roundWindow",
+    "encounter": 5,
+    "pose": 7
+  },
+  "sulayman/wind-and-jinn/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 6,
+    "pose": 9
+  },
+  "ilyas/messenger-of-allah/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ilyas/messenger-of-allah/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ilyas/messenger-of-allah/p1": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "ilyas/messenger-of-allah/p2": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 11
+  },
+  "ilyas/messenger-of-allah/p3": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 1
+  },
+  "ilyas/the-idol-baal/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "ilyas/the-idol-baal/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 0
+  },
+  "ilyas/the-idol-baal/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "ilyas/the-idol-baal/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 4
+  },
+  "ilyas/the-idol-baal/p3": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "ilyas/firm-though-refused/cover": {
+    "stage": "recess",
+    "encounter": 5,
+    "pose": 9
+  },
+  "ilyas/firm-though-refused/p0": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 8
+  },
+  "ilyas/firm-though-refused/p1": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 6
+  },
+  "ilyas/firm-though-refused/p2": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 11
+  },
+  "ilyas/firm-though-refused/p3": {
+    "stage": "terracedSlope",
+    "encounter": 6,
+    "pose": 1
+  },
+  "ilyas/peace-upon-ilyas/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ilyas/peace-upon-ilyas/p0": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 10
+  },
+  "ilyas/peace-upon-ilyas/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 0
+  },
+  "ilyas/peace-upon-ilyas/p2": {
+    "stage": "windowSeat",
+    "encounter": 6,
+    "pose": 5
+  },
+  "ilyas/peace-upon-ilyas/p3": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 3
+  },
+  "ilyas/lesson-for-us/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ilyas/lesson-for-us/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 3
+  },
+  "ilyas/lesson-for-us/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 5
+  },
+  "ilyas/lesson-for-us/p2": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 7
+  },
+  "ilyas/lesson-for-us/p3": {
+    "stage": "courtyard",
+    "encounter": 4,
+    "pose": 9
+  },
+  "ilyas/lesson-for-us/p4": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "alyasa/successor-of-ilyas/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 6
+  },
+  "alyasa/successor-of-ilyas/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "alyasa/successor-of-ilyas/p1": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "alyasa/successor-of-ilyas/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "alyasa/successor-of-ilyas/p3": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 1
+  },
+  "alyasa/named-among-the-best/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 11
+  },
+  "alyasa/named-among-the-best/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 1
+  },
+  "alyasa/named-among-the-best/p1": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "alyasa/named-among-the-best/p2": {
+    "stage": "reedScreen",
+    "encounter": 3,
+    "pose": 5
+  },
+  "alyasa/named-among-the-best/p3": {
+    "stage": "terracedSlope",
+    "encounter": 4,
+    "pose": 7
+  },
+  "alyasa/patient-and-true/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 4
+  },
+  "alyasa/patient-and-true/p0": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 6
+  },
+  "alyasa/patient-and-true/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 8
+  },
+  "alyasa/patient-and-true/p2": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "alyasa/patient-and-true/p3": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 11
+  },
+  "alyasa/example-for-us/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "alyasa/example-for-us/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 11
+  },
+  "alyasa/example-for-us/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 1
+  },
+  "alyasa/example-for-us/p2": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 3
+  },
+  "alyasa/example-for-us/p3": {
+    "stage": "courtyard",
+    "encounter": 4,
+    "pose": 5
+  },
+  "alyasa/legacy-and-lesson/cover": {
+    "stage": "rockGorge",
+    "encounter": 5,
+    "pose": 7
+  },
+  "alyasa/legacy-and-lesson/p0": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 3
+  },
+  "alyasa/legacy-and-lesson/p1": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 4
+  },
+  "alyasa/legacy-and-lesson/p2": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 6
+  },
+  "yunus/sent-to-a-town/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 7
+  },
+  "yunus/sent-to-a-town/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 9
+  },
+  "yunus/sent-to-a-town/p1": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yunus/sent-to-a-town/p2": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 0
+  },
+  "yunus/sent-to-a-town/p3": {
+    "stage": "terracedSlope",
+    "encounter": 3,
+    "pose": 2
+  },
+  "yunus/leaves-in-haste/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 0
+  },
+  "yunus/leaves-in-haste/p0": {
+    "stage": "colonnade",
+    "encounter": 4,
+    "pose": 5
+  },
+  "yunus/leaves-in-haste/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 3
+  },
+  "yunus/leaves-in-haste/p2": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "yunus/leaves-in-haste/p3": {
+    "stage": "steppedPlatform",
+    "encounter": 5,
+    "pose": 9
+  },
+  "yunus/the-storm/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 6
+  },
+  "yunus/the-storm/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 3,
+    "pose": 9
+  },
+  "yunus/the-storm/p1": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 8
+  },
+  "yunus/the-storm/p2": {
+    "stage": "stoneBridge",
+    "encounter": 4,
+    "pose": 0
+  },
+  "yunus/the-storm/p3": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 11
+  },
+  "yunus/the-storm/p4": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yunus/in-the-fish/cover": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 0
+  },
+  "yunus/in-the-fish/p0": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 2
+  },
+  "yunus/in-the-fish/p1": {
+    "stage": "gardenWall",
+    "encounter": 3,
+    "pose": 4
+  },
+  "yunus/in-the-fish/p2": {
+    "stage": "roundWindow",
+    "encounter": 4,
+    "pose": 6
+  },
+  "yunus/in-the-fish/p3": {
+    "stage": "canopy",
+    "encounter": 5,
+    "pose": 8
+  },
+  "yunus/in-the-fish/p4": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "yunus/the-dua/cover": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 6
+  },
+  "yunus/the-dua/p0": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 8
+  },
+  "yunus/the-dua/p1": {
+    "stage": "wovenMat",
+    "encounter": 3,
+    "pose": 10
+  },
+  "yunus/the-dua/p2": {
+    "stage": "shelf",
+    "encounter": 4,
+    "pose": 0
+  },
+  "yunus/the-dua/p3": {
+    "stage": "windingPath",
+    "encounter": 6,
+    "pose": 3
+  },
+  "yunus/saved-on-shore/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yunus/saved-on-shore/p0": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 11
+  },
+  "yunus/saved-on-shore/p1": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "yunus/saved-on-shore/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 4
+  },
+  "yunus/saved-on-shore/p3": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "yunus/town-believed/cover": {
+    "stage": "alcove",
+    "encounter": 6,
+    "pose": 9
+  },
+  "yunus/town-believed/p0": {
+    "stage": "wovenMat",
+    "encounter": 7,
+    "pose": 11
+  },
+  "yunus/town-believed/p1": {
+    "stage": "sideStreet",
+    "encounter": 8,
+    "pose": 1
+  },
+  "yunus/town-believed/p2": {
+    "stage": "windingPath",
+    "encounter": 9,
+    "pose": 3
+  },
+  "yunus/town-believed/p3": {
+    "stage": "raisedDais",
+    "encounter": 10,
+    "pose": 5
+  },
+  "yunus/town-believed/p4": {
+    "stage": "timberFrame",
+    "encounter": 7,
+    "pose": 3
+  },
+  "dhul-kifl/who-is-dhul-kifl/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 8
+  },
+  "dhul-kifl/who-is-dhul-kifl/p0": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 10
+  },
+  "dhul-kifl/who-is-dhul-kifl/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 0
+  },
+  "dhul-kifl/who-is-dhul-kifl/p2": {
+    "stage": "windowSeat",
+    "encounter": 3,
+    "pose": 2
+  },
+  "dhul-kifl/who-is-dhul-kifl/p3": {
+    "stage": "steppedPlatform",
+    "encounter": 4,
+    "pose": 4
+  },
+  "dhul-kifl/who-is-dhul-kifl/p4": {
+    "stage": "stoneTerrace",
+    "encounter": 5,
+    "pose": 6
+  },
+  "dhul-kifl/keeper-of-promises/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "dhul-kifl/keeper-of-promises/p0": {
+    "stage": "palmGrove",
+    "encounter": 6,
+    "pose": 9
+  },
+  "dhul-kifl/keeper-of-promises/p1": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "dhul-kifl/keeper-of-promises/p2": {
+    "stage": "courtyard",
+    "encounter": 7,
+    "pose": 0
+  },
+  "dhul-kifl/keeper-of-promises/p3": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "dhul-kifl/keeper-of-promises/p4": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 9
+  },
+  "dhul-kifl/counted-among-the-praised/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 8
+  },
+  "dhul-kifl/counted-among-the-praised/p0": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 10
+  },
+  "dhul-kifl/counted-among-the-praised/p1": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 11
+  },
+  "dhul-kifl/counted-among-the-praised/p2": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 1
+  },
+  "dhul-kifl/counted-among-the-praised/p3": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "dhul-kifl/counted-among-the-praised/p4": {
+    "stage": "cliffLedge",
+    "encounter": 4,
+    "pose": 5
+  },
+  "dhul-kifl/the-lesson/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 2
+  },
+  "dhul-kifl/the-lesson/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "dhul-kifl/the-lesson/p1": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "dhul-kifl/the-lesson/p2": {
+    "stage": "windingPath",
+    "encounter": 8,
+    "pose": 1
+  },
+  "dhul-kifl/the-lesson/p3": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 8
+  },
+  "dhul-kifl/the-lesson/p4": {
+    "stage": "riverBend",
+    "encounter": 3,
+    "pose": 10
+  },
+  "dhul-kifl/legacy-and-lesson/cover": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 0
+  },
+  "dhul-kifl/legacy-and-lesson/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "dhul-kifl/legacy-and-lesson/p1": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "dhul-kifl/legacy-and-lesson/p2": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 1
+  },
+  "zakariyya/the-caretaker/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 10
+  },
+  "zakariyya/the-caretaker/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 10
+  },
+  "zakariyya/the-caretaker/p1": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 0
+  },
+  "zakariyya/the-caretaker/p2": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 1
+  },
+  "zakariyya/the-caretaker/p3": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 1
+  },
+  "zakariyya/the-caretaker/p4": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 3
+  },
+  "zakariyya/a-quiet-dua/cover": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 4
+  },
+  "zakariyya/a-quiet-dua/p0": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 4
+  },
+  "zakariyya/a-quiet-dua/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 7
+  },
+  "zakariyya/a-quiet-dua/p2": {
+    "stage": "roundWindow",
+    "encounter": 3,
+    "pose": 9
+  },
+  "zakariyya/a-quiet-dua/p3": {
+    "stage": "canopy",
+    "encounter": 4,
+    "pose": 11
+  },
+  "zakariyya/a-quiet-dua/p4": {
+    "stage": "archway",
+    "encounter": 5,
+    "pose": 1
+  },
+  "zakariyya/the-angels-glad-news/cover": {
+    "stage": "cliffLedge",
+    "encounter": 6,
+    "pose": 3
+  },
+  "zakariyya/the-angels-glad-news/p0": {
+    "stage": "alcove",
+    "encounter": 7,
+    "pose": 5
+  },
+  "zakariyya/the-angels-glad-news/p1": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "zakariyya/the-angels-glad-news/p2": {
+    "stage": "shelf",
+    "encounter": 8,
+    "pose": 9
+  },
+  "zakariyya/the-angels-glad-news/p3": {
+    "stage": "windingPath",
+    "encounter": 9,
+    "pose": 10
+  },
+  "zakariyya/the-angels-glad-news/p4": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 2
+  },
+  "zakariyya/a-faithful-life/cover": {
+    "stage": "riverBend",
+    "encounter": 10,
+    "pose": 1
+  },
+  "zakariyya/a-faithful-life/p0": {
+    "stage": "gateway",
+    "encounter": 11,
+    "pose": 3
+  },
+  "zakariyya/a-faithful-life/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 6
+  },
+  "zakariyya/a-faithful-life/p2": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 8
+  },
+  "zakariyya/a-faithful-life/p3": {
+    "stage": "recess",
+    "encounter": 12,
+    "pose": 7
+  },
+  "zakariyya/a-faithful-life/p4": {
+    "stage": "openValley",
+    "encounter": 13,
+    "pose": 9
+  },
+  "zakariyya/the-lesson/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "zakariyya/the-lesson/p0": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 0
+  },
+  "zakariyya/the-lesson/p1": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 0
+  },
+  "zakariyya/the-lesson/p2": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 2
+  },
+  "zakariyya/the-lesson/p3": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 4
+  },
+  "zakariyya/the-lesson/p4": {
+    "stage": "sunkenCourt",
+    "encounter": 14,
+    "pose": 4
+  },
+  "yahya/a-son-for-old-parents/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "yahya/a-son-for-old-parents/p0": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 11
+  },
+  "yahya/a-son-for-old-parents/p1": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "yahya/a-son-for-old-parents/p2": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 2
+  },
+  "yahya/a-son-for-old-parents/p3": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "yahya/a-son-for-old-parents/p4": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 6
+  },
+  "yahya/wisdom-as-a-child/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "yahya/wisdom-as-a-child/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 6
+  },
+  "yahya/wisdom-as-a-child/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 8
+  },
+  "yahya/wisdom-as-a-child/p2": {
+    "stage": "wovenMat",
+    "encounter": 3,
+    "pose": 10
+  },
+  "yahya/wisdom-as-a-child/p3": {
+    "stage": "shelf",
+    "encounter": 4,
+    "pose": 0
+  },
+  "yahya/wisdom-as-a-child/p4": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 2
+  },
+  "yahya/prophet-among-the-righteous/cover": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 11
+  },
+  "yahya/prophet-among-the-righteous/p0": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 2
+  },
+  "yahya/prophet-among-the-righteous/p1": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 4
+  },
+  "yahya/prophet-among-the-righteous/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 4,
+    "pose": 5
+  },
+  "yahya/prophet-among-the-righteous/p3": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "yahya/prophet-among-the-righteous/p4": {
+    "stage": "recess",
+    "encounter": 5,
+    "pose": 8
+  },
+  "yahya/the-final-lesson/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "yahya/the-final-lesson/p0": {
+    "stage": "sideStreet",
+    "encounter": 5,
+    "pose": 10
+  },
+  "yahya/the-final-lesson/p1": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 7
+  },
+  "yahya/the-final-lesson/p2": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 9
+  },
+  "yahya/the-final-lesson/p3": {
+    "stage": "timberFrame",
+    "encounter": 6,
+    "pose": 2
+  },
+  "yahya/the-final-lesson/p4": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 0
+  },
+  "yahya/legacy-and-lesson/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 4,
+    "pose": 2
+  },
+  "yahya/legacy-and-lesson/p0": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "yahya/legacy-and-lesson/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 0
+  },
+  "yahya/legacy-and-lesson/p2": {
+    "stage": "stoneTerrace",
+    "encounter": 5,
+    "pose": 6
+  },
+  "isa/the-angel-news/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 1
+  },
+  "isa/the-angel-news/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 2
+  },
+  "isa/the-angel-news/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "isa/the-angel-news/p2": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 5
+  },
+  "isa/the-angel-news/p3": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "isa/the-angel-news/p4": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "isa/the-birth-under-the-palm/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "isa/the-birth-under-the-palm/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 7
+  },
+  "isa/the-birth-under-the-palm/p1": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "isa/the-birth-under-the-palm/p2": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 0
+  },
+  "isa/the-birth-under-the-palm/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "isa/the-birth-under-the-palm/p4": {
+    "stage": "hillTown",
+    "encounter": 1,
+    "pose": 11
+  },
+  "isa/the-messenger-and-miracles/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 11
+  },
+  "isa/the-messenger-and-miracles/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 2
+  },
+  "isa/the-messenger-and-miracles/p1": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 2
+  },
+  "isa/the-messenger-and-miracles/p2": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 2
+  },
+  "isa/the-messenger-and-miracles/p3": {
+    "stage": "terracedSlope",
+    "encounter": 5,
+    "pose": 9
+  },
+  "isa/the-messenger-and-miracles/p4": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 6
+  },
+  "isa/the-table-from-heaven/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 6
+  },
+  "isa/the-table-from-heaven/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 7
+  },
+  "isa/the-table-from-heaven/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "isa/the-table-from-heaven/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 11
+  },
+  "isa/the-table-from-heaven/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 1
+  },
+  "isa/the-table-from-heaven/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 10
+  },
+  "isa/the-enemies-plan/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "isa/the-enemies-plan/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 1
+  },
+  "isa/the-enemies-plan/p1": {
+    "stage": "courtyard",
+    "encounter": 5,
+    "pose": 6
+  },
+  "isa/the-enemies-plan/p2": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 4
+  },
+  "isa/the-enemies-plan/p3": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 5
+  },
+  "isa/the-enemies-plan/p4": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 7
+  },
+  "isa/allah-raised-him/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "isa/allah-raised-him/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 7
+  },
+  "isa/allah-raised-him/p1": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 7
+  },
+  "isa/allah-raised-him/p2": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 10
+  },
+  "isa/allah-raised-him/p3": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 11
+  },
+  "isa/allah-raised-him/p4": {
+    "stage": "courtyard",
+    "encounter": 6,
+    "pose": 6
+  },
+  "isa/the-lesson/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "isa/the-lesson/p0": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "isa/the-lesson/p1": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 2
+  },
+  "isa/the-lesson/p2": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 4
+  },
+  "isa/the-lesson/p3": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 5
+  },
+  "isa/the-lesson/p4": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 7
+  },
+  "muhammad/mekka-before/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "muhammad/mekka-before/p0": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 1
+  },
+  "muhammad/mekka-before/p1": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 3
+  },
+  "muhammad/mekka-before/p2": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 5
+  },
+  "muhammad/mekka-before/p3": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 7
+  },
+  "muhammad/mekka-before/p4": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 5
+  },
+  "muhammad/the-call/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 6
+  },
+  "muhammad/the-call/p0": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 8
+  },
+  "muhammad/the-call/p1": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "muhammad/the-call/p2": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 11
+  },
+  "muhammad/the-call/p3": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 0
+  },
+  "muhammad/patience-in-hurt/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 11
+  },
+  "muhammad/patience-in-hurt/p0": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 1
+  },
+  "muhammad/patience-in-hurt/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 3
+  },
+  "muhammad/patience-in-hurt/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 5
+  },
+  "muhammad/patience-in-hurt/p3": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "muhammad/patience-in-hurt/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 4
+  },
+  "muhammad/orphan-boy/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 8
+  },
+  "muhammad/orphan-boy/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 8
+  },
+  "muhammad/orphan-boy/p1": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "muhammad/orphan-boy/p2": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 11
+  },
+  "muhammad/orphan-boy/p3": {
+    "stage": "courtyard",
+    "encounter": 4,
+    "pose": 1
+  },
+  "muhammad/the-trustworthy/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "muhammad/the-trustworthy/p0": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 0
+  },
+  "muhammad/the-trustworthy/p1": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 1
+  },
+  "muhammad/the-trustworthy/p2": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 6
+  },
+  "muhammad/the-trustworthy/p3": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "muhammad/first-revelation/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 3
+  },
+  "muhammad/first-revelation/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "muhammad/first-revelation/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 7
+  },
+  "muhammad/first-revelation/p2": {
+    "stage": "alcove",
+    "encounter": 5,
+    "pose": 11
+  },
+  "muhammad/first-revelation/p3": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "muhammad/first-revelation/p4": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 11
+  },
+  "muhammad/night-journey/cover": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 11
+  },
+  "muhammad/night-journey/p0": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 1
+  },
+  "muhammad/night-journey/p1": {
+    "stage": "riverBend",
+    "encounter": 4,
+    "pose": 3
+  },
+  "muhammad/night-journey/p2": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 4
+  },
+  "muhammad/night-journey/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 5,
+    "pose": 6
+  },
+  "muhammad/night-journey/p4": {
+    "stage": "cliffLedge",
+    "encounter": 5,
+    "pose": 7
+  },
+  "muhammad/pledges-of-aqabah/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 3
+  },
+  "muhammad/pledges-of-aqabah/p0": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 8
+  },
+  "muhammad/pledges-of-aqabah/p1": {
+    "stage": "sideStreet",
+    "encounter": 5,
+    "pose": 10
+  },
+  "muhammad/pledges-of-aqabah/p2": {
+    "stage": "windingPath",
+    "encounter": 6,
+    "pose": 0
+  },
+  "muhammad/pledges-of-aqabah/p3": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 8
+  },
+  "muhammad/pledges-of-aqabah/p4": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 10
+  },
+  "muhammad/the-hijrah/cover": {
+    "stage": "colonnade",
+    "encounter": 6,
+    "pose": 3
+  },
+  "muhammad/the-hijrah/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 6,
+    "pose": 4
+  },
+  "muhammad/the-hijrah/p1": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "muhammad/the-hijrah/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 4,
+    "pose": 4
+  },
+  "muhammad/the-hijrah/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 1
+  },
+  "muhammad/the-hijrah/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 3
+  },
+  "muhammad/the-mosque-and-brotherhood/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 3
+  },
+  "muhammad/the-mosque-and-brotherhood/p0": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "muhammad/the-mosque-and-brotherhood/p1": {
+    "stage": "courtyard",
+    "encounter": 7,
+    "pose": 0
+  },
+  "muhammad/the-mosque-and-brotherhood/p2": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 6
+  },
+  "muhammad/the-mosque-and-brotherhood/p3": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 8
+  },
+  "muhammad/the-mosque-and-brotherhood/p4": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 8
+  },
+  "muhammad/badr/cover": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 10
+  },
+  "muhammad/badr/p0": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 0
+  },
+  "muhammad/badr/p1": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 2
+  },
+  "muhammad/badr/p2": {
+    "stage": "archway",
+    "encounter": 4,
+    "pose": 4
+  },
+  "muhammad/badr/p3": {
+    "stage": "cliffLedge",
+    "encounter": 5,
+    "pose": 6
+  },
+  "muhammad/badr/p4": {
+    "stage": "alcove",
+    "encounter": 6,
+    "pose": 8
+  },
+  "muhammad/uhud/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "muhammad/uhud/p0": {
+    "stage": "shelf",
+    "encounter": 7,
+    "pose": 11
+  },
+  "muhammad/uhud/p1": {
+    "stage": "windingPath",
+    "encounter": 8,
+    "pose": 1
+  },
+  "muhammad/uhud/p2": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 7
+  },
+  "muhammad/uhud/p3": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 9
+  },
+  "muhammad/uhud/p4": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 11
+  },
+  "muhammad/the-trench/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "muhammad/the-trench/p0": {
+    "stage": "hillTown",
+    "encounter": 4,
+    "pose": 2
+  },
+  "muhammad/the-trench/p1": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 0
+  },
+  "muhammad/the-trench/p2": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 2
+  },
+  "muhammad/the-trench/p3": {
+    "stage": "sideStreet",
+    "encounter": 3,
+    "pose": 4
+  },
+  "muhammad/the-trench/p4": {
+    "stage": "reedScreen",
+    "encounter": 4,
+    "pose": 6
+  },
+  "muhammad/hudaybiyyah/cover": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 6
+  },
+  "muhammad/hudaybiyyah/p0": {
+    "stage": "timberFrame",
+    "encounter": 5,
+    "pose": 9
+  },
+  "muhammad/hudaybiyyah/p1": {
+    "stage": "colonnade",
+    "encounter": 4,
+    "pose": 9
+  },
+  "muhammad/hudaybiyyah/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 6
+  },
+  "muhammad/hudaybiyyah/p3": {
+    "stage": "windowSeat",
+    "encounter": 5,
+    "pose": 0
+  },
+  "muhammad/hudaybiyyah/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 6,
+    "pose": 2
+  },
+  "muhammad/letters-to-kings/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 7,
+    "pose": 4
+  },
+  "muhammad/letters-to-kings/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 8,
+    "pose": 6
+  },
+  "muhammad/letters-to-kings/p1": {
+    "stage": "palmGrove",
+    "encounter": 9,
+    "pose": 8
+  },
+  "muhammad/letters-to-kings/p2": {
+    "stage": "stoneBridge",
+    "encounter": 10,
+    "pose": 10
+  },
+  "muhammad/letters-to-kings/p3": {
+    "stage": "courtyard",
+    "encounter": 11,
+    "pose": 0
+  },
+  "muhammad/letters-to-kings/p4": {
+    "stage": "rockGorge",
+    "encounter": 12,
+    "pose": 2
+  },
+  "muhammad/conquest-of-mekka/cover": {
+    "stage": "sandyBasin",
+    "encounter": 8,
+    "pose": 11
+  },
+  "muhammad/conquest-of-mekka/p0": {
+    "stage": "roofTerrace",
+    "encounter": 13,
+    "pose": 5
+  },
+  "muhammad/conquest-of-mekka/p1": {
+    "stage": "gardenWall",
+    "encounter": 9,
+    "pose": 2
+  },
+  "muhammad/conquest-of-mekka/p2": {
+    "stage": "roundWindow",
+    "encounter": 6,
+    "pose": 0
+  },
+  "muhammad/conquest-of-mekka/p3": {
+    "stage": "canopy",
+    "encounter": 7,
+    "pose": 2
+  },
+  "muhammad/conquest-of-mekka/p4": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "muhammad/farewell-pilgrimage/cover": {
+    "stage": "cliffLedge",
+    "encounter": 8,
+    "pose": 5
+  },
+  "muhammad/farewell-pilgrimage/p0": {
+    "stage": "timberFrame",
+    "encounter": 7,
+    "pose": 5
+  },
+  "muhammad/farewell-pilgrimage/p1": {
+    "stage": "wovenMat",
+    "encounter": 9,
+    "pose": 8
+  },
+  "muhammad/farewell-pilgrimage/p2": {
+    "stage": "shelf",
+    "encounter": 10,
+    "pose": 10
+  },
+  "muhammad/farewell-pilgrimage/p3": {
+    "stage": "roofTerrace",
+    "encounter": 11,
+    "pose": 0
+  },
+  "muhammad/farewell-pilgrimage/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 12,
+    "pose": 2
+  },
+  "muhammad/the-last-days/cover": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 4
+  },
+  "muhammad/the-last-days/p0": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "muhammad/the-last-days/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 8
+  },
+  "muhammad/the-last-days/p2": {
+    "stage": "hillTown",
+    "encounter": 10,
+    "pose": 4
+  },
+  "muhammad/the-last-days/p3": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 8
+  },
+  "muhammad/the-last-days/p4": {
+    "stage": "openValley",
+    "encounter": 6,
+    "pose": 2
+  },
+  "muhammad/mercy-to-the-worlds/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "muhammad/mercy-to-the-worlds/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "muhammad/mercy-to-the-worlds/p1": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 1
+  },
+  "muhammad/mercy-to-the-worlds/p2": {
+    "stage": "riverBend",
+    "encounter": 8,
+    "pose": 9
+  },
+  "muhammad/mercy-to-the-worlds/p3": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 4
+  },
+  "abu-bakr/true-friend/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "abu-bakr/true-friend/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "abu-bakr/true-friend/p1": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 4
+  },
+  "abu-bakr/true-friend/p2": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "abu-bakr/true-friend/p3": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abu-bakr/as-siddiq/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 6
+  },
+  "abu-bakr/as-siddiq/p0": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 8
+  },
+  "abu-bakr/as-siddiq/p1": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 9
+  },
+  "abu-bakr/as-siddiq/p2": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 11
+  },
+  "abu-bakr/as-siddiq/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 1
+  },
+  "abu-bakr/freeing-the-slaves/cover": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abu-bakr/freeing-the-slaves/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 2
+  },
+  "abu-bakr/freeing-the-slaves/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 2
+  },
+  "abu-bakr/freeing-the-slaves/p2": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 4
+  },
+  "abu-bakr/freeing-the-slaves/p3": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 6
+  },
+  "abu-bakr/the-cave/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "abu-bakr/the-cave/p0": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 8
+  },
+  "abu-bakr/the-cave/p1": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "abu-bakr/the-cave/p2": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 9
+  },
+  "abu-bakr/the-cave/p3": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 8
+  },
+  "abu-bakr/first-caliph/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 9
+  },
+  "abu-bakr/first-caliph/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 11
+  },
+  "abu-bakr/first-caliph/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abu-bakr/first-caliph/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "abu-bakr/first-caliph/p3": {
+    "stage": "cliffLedge",
+    "encounter": 3,
+    "pose": 4
+  },
+  "umar/conversion/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 2
+  },
+  "umar/conversion/p0": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 3
+  },
+  "umar/conversion/p1": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 5
+  },
+  "umar/conversion/p2": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "umar/conversion/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 7
+  },
+  "umar/conversion/p4": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "umar/days-of-hardship/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 8
+  },
+  "umar/days-of-hardship/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 11
+  },
+  "umar/days-of-hardship/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 10
+  },
+  "umar/days-of-hardship/p2": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 2
+  },
+  "umar/days-of-hardship/p3": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 0
+  },
+  "umar/treaty-of-hudaybiyyah/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 1
+  },
+  "umar/treaty-of-hudaybiyyah/p0": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "umar/treaty-of-hudaybiyyah/p1": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 4
+  },
+  "umar/treaty-of-hudaybiyyah/p2": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 6
+  },
+  "umar/treaty-of-hudaybiyyah/p3": {
+    "stage": "gardenWall",
+    "encounter": 3,
+    "pose": 8
+  },
+  "umar/treaty-of-hudaybiyyah/p4": {
+    "stage": "roundWindow",
+    "encounter": 4,
+    "pose": 10
+  },
+  "umar/al-faruq/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 7
+  },
+  "umar/al-faruq/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "umar/al-faruq/p1": {
+    "stage": "cliffLedge",
+    "encounter": 4,
+    "pose": 1
+  },
+  "umar/al-faruq/p2": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 10
+  },
+  "umar/al-faruq/p3": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "umar/second-caliph/cover": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 3
+  },
+  "umar/second-caliph/p0": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 1
+  },
+  "umar/second-caliph/p1": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "umar/second-caliph/p2": {
+    "stage": "riverBend",
+    "encounter": 5,
+    "pose": 8
+  },
+  "umar/second-caliph/p3": {
+    "stage": "gateway",
+    "encounter": 5,
+    "pose": 9
+  },
+  "uthman/well-of-rumah/cover": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "uthman/well-of-rumah/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 1,
+    "pose": 5
+  },
+  "uthman/well-of-rumah/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 7
+  },
+  "uthman/well-of-rumah/p2": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 6
+  },
+  "uthman/well-of-rumah/p3": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "uthman/the-two-lights/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 8
+  },
+  "uthman/the-two-lights/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 10
+  },
+  "uthman/the-two-lights/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 0
+  },
+  "uthman/the-two-lights/p2": {
+    "stage": "sandyBasin",
+    "encounter": 3,
+    "pose": 2
+  },
+  "uthman/the-two-lights/p3": {
+    "stage": "roofTerrace",
+    "encounter": 4,
+    "pose": 4
+  },
+  "uthman/one-quran/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 1
+  },
+  "uthman/one-quran/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 3
+  },
+  "uthman/one-quran/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 5
+  },
+  "uthman/one-quran/p2": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 7
+  },
+  "uthman/one-quran/p3": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "uthman/one-quran/p4": {
+    "stage": "alcove",
+    "encounter": 4,
+    "pose": 10
+  },
+  "uthman/army-of-hardship/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "uthman/army-of-hardship/p0": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 8
+  },
+  "uthman/army-of-hardship/p1": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 9
+  },
+  "uthman/army-of-hardship/p2": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 11
+  },
+  "uthman/army-of-hardship/p3": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 1
+  },
+  "uthman/army-of-hardship/p4": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "uthman/third-caliph/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "uthman/third-caliph/p0": {
+    "stage": "hillTown",
+    "encounter": 5,
+    "pose": 7
+  },
+  "uthman/third-caliph/p1": {
+    "stage": "recess",
+    "encounter": 4,
+    "pose": 7
+  },
+  "uthman/third-caliph/p2": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "uthman/third-caliph/p3": {
+    "stage": "sideStreet",
+    "encounter": 3,
+    "pose": 8
+  },
+  "ali/boy-in-the-prophets-house/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "ali/boy-in-the-prophets-house/p0": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ali/boy-in-the-prophets-house/p1": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ali/boy-in-the-prophets-house/p2": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 10
+  },
+  "ali/boy-in-the-prophets-house/p3": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 11
+  },
+  "ali/the-first-of-the-children/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ali/the-first-of-the-children/p0": {
+    "stage": "roundWindow",
+    "encounter": 4,
+    "pose": 3
+  },
+  "ali/the-first-of-the-children/p1": {
+    "stage": "canopy",
+    "encounter": 5,
+    "pose": 5
+  },
+  "ali/the-first-of-the-children/p2": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ali/the-first-of-the-children/p3": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 2
+  },
+  "ali/the-first-of-the-children/p4": {
+    "stage": "alcove",
+    "encounter": 6,
+    "pose": 8
+  },
+  "ali/the-brave-fighter/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ali/the-brave-fighter/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 5
+  },
+  "ali/the-brave-fighter/p1": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ali/the-brave-fighter/p2": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ali/the-brave-fighter/p3": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 9
+  },
+  "ali/the-brave-fighter/p4": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 11
+  },
+  "ali/the-prophets-praise/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "ali/the-prophets-praise/p0": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "ali/the-prophets-praise/p1": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 3
+  },
+  "ali/the-prophets-praise/p2": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 4
+  },
+  "ali/the-prophets-praise/p3": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "ali/the-prophets-praise/p4": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 7
+  },
+  "ali/wise-and-fair/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ali/wise-and-fair/p0": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 5
+  },
+  "ali/wise-and-fair/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 7
+  },
+  "ali/wise-and-fair/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 7,
+    "pose": 1
+  },
+  "ali/wise-and-fair/p3": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ali/wise-and-fair/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 11
+  },
+  "khadijah/fair-merchant-of-makkah/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "khadijah/fair-merchant-of-makkah/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 7
+  },
+  "khadijah/fair-merchant-of-makkah/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 9
+  },
+  "khadijah/fair-merchant-of-makkah/p2": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 11
+  },
+  "khadijah/fair-merchant-of-makkah/p3": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 9
+  },
+  "khadijah/the-first-to-believe/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 10
+  },
+  "khadijah/the-first-to-believe/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "khadijah/the-first-to-believe/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 2
+  },
+  "khadijah/the-first-to-believe/p2": {
+    "stage": "windingPath",
+    "encounter": 3,
+    "pose": 4
+  },
+  "khadijah/the-first-to-believe/p3": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "khadijah/the-first-to-believe/p4": {
+    "stage": "riverBend",
+    "encounter": 5,
+    "pose": 10
+  },
+  "khadijah/warmth-in-the-dark-room/cover": {
+    "stage": "gateway",
+    "encounter": 6,
+    "pose": 10
+  },
+  "khadijah/warmth-in-the-dark-room/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 5
+  },
+  "khadijah/warmth-in-the-dark-room/p1": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 6
+  },
+  "khadijah/warmth-in-the-dark-room/p2": {
+    "stage": "recess",
+    "encounter": 7,
+    "pose": 2
+  },
+  "khadijah/warmth-in-the-dark-room/p3": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "khadijah/warmth-in-the-dark-room/p4": {
+    "stage": "sideStreet",
+    "encounter": 8,
+    "pose": 5
+  },
+  "khadijah/the-year-of-sorrow/cover": {
+    "stage": "reedScreen",
+    "encounter": 9,
+    "pose": 7
+  },
+  "khadijah/the-year-of-sorrow/p0": {
+    "stage": "terracedSlope",
+    "encounter": 10,
+    "pose": 10
+  },
+  "khadijah/the-year-of-sorrow/p1": {
+    "stage": "timberFrame",
+    "encounter": 11,
+    "pose": 1
+  },
+  "khadijah/the-year-of-sorrow/p2": {
+    "stage": "colonnade",
+    "encounter": 12,
+    "pose": 1
+  },
+  "khadijah/the-year-of-sorrow/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 13,
+    "pose": 5
+  },
+  "khadijah/the-year-of-sorrow/p4": {
+    "stage": "windowSeat",
+    "encounter": 14,
+    "pose": 7
+  },
+  "khadijah/he-never-stopped-loving-her/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 4
+  },
+  "khadijah/he-never-stopped-loving-her/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 15,
+    "pose": 8
+  },
+  "khadijah/he-never-stopped-loving-her/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 7
+  },
+  "khadijah/he-never-stopped-loving-her/p2": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 9
+  },
+  "khadijah/he-never-stopped-loving-her/p3": {
+    "stage": "stoneBridge",
+    "encounter": 16,
+    "pose": 0
+  },
+  "khadijah/he-never-stopped-loving-her/p4": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 0
+  },
+  "bilal/steadfast-heart/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 6
+  },
+  "bilal/steadfast-heart/p0": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "bilal/steadfast-heart/p1": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 9
+  },
+  "bilal/steadfast-heart/p2": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 11
+  },
+  "bilal/steadfast-heart/p3": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 1
+  },
+  "bilal/bought-and-freed/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 11
+  },
+  "bilal/bought-and-freed/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "bilal/bought-and-freed/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 3
+  },
+  "bilal/bought-and-freed/p2": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "bilal/bought-and-freed/p3": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 6
+  },
+  "bilal/first-adhan/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "bilal/first-adhan/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 6
+  },
+  "bilal/first-adhan/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 8
+  },
+  "bilal/first-adhan/p2": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 7
+  },
+  "bilal/first-adhan/p3": {
+    "stage": "timberFrame",
+    "encounter": 3,
+    "pose": 11
+  },
+  "bilal/voice-after-the-prophet/cover": {
+    "stage": "colonnade",
+    "encounter": 4,
+    "pose": 1
+  },
+  "bilal/voice-after-the-prophet/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 10
+  },
+  "bilal/voice-after-the-prophet/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "bilal/voice-after-the-prophet/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 5,
+    "pose": 5
+  },
+  "bilal/voice-after-the-prophet/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 6,
+    "pose": 7
+  },
+  "bilal/legacy-and-lesson/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "bilal/legacy-and-lesson/p0": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 4
+  },
+  "bilal/legacy-and-lesson/p1": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 4
+  },
+  "bilal/legacy-and-lesson/p2": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 7
+  },
+  "khalid/great-warrior/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 7
+  },
+  "khalid/great-warrior/p0": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "khalid/great-warrior/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 10
+  },
+  "khalid/great-warrior/p2": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 10
+  },
+  "khalid/great-warrior/p3": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 1
+  },
+  "khalid/the-day-he-came/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 0
+  },
+  "khalid/the-day-he-came/p0": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 1
+  },
+  "khalid/the-day-he-came/p1": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 3
+  },
+  "khalid/the-day-he-came/p2": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 4
+  },
+  "khalid/the-day-he-came/p3": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 6
+  },
+  "khalid/sword-of-allah/cover": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 6
+  },
+  "khalid/sword-of-allah/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 6
+  },
+  "khalid/sword-of-allah/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "khalid/sword-of-allah/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 11
+  },
+  "khalid/sword-of-allah/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 1
+  },
+  "khalid/second-service/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 11
+  },
+  "khalid/second-service/p0": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 2
+  },
+  "khalid/second-service/p1": {
+    "stage": "stoneBridge",
+    "encounter": 4,
+    "pose": 4
+  },
+  "khalid/second-service/p2": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 3
+  },
+  "khalid/second-service/p3": {
+    "stage": "rockGorge",
+    "encounter": 5,
+    "pose": 7
+  },
+  "khalid/legacy-and-lesson/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 3
+  },
+  "khalid/legacy-and-lesson/p0": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 4
+  },
+  "khalid/legacy-and-lesson/p1": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "khalid/legacy-and-lesson/p2": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 6
+  },
+  "ammar/first-family/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ammar/first-family/p0": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "ammar/first-family/p1": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "ammar/first-family/p2": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 1
+  },
+  "ammar/first-family/p3": {
+    "stage": "timberFrame",
+    "encounter": 3,
+    "pose": 3
+  },
+  "ammar/first-martyrs/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ammar/first-martyrs/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 2
+  },
+  "ammar/first-martyrs/p1": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ammar/first-martyrs/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 1,
+    "pose": 5
+  },
+  "ammar/first-martyrs/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 9
+  },
+  "ammar/tortured-but-strong/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 8
+  },
+  "ammar/tortured-but-strong/p0": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "ammar/tortured-but-strong/p1": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 8
+  },
+  "ammar/tortured-but-strong/p2": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 0
+  },
+  "ammar/tortured-but-strong/p3": {
+    "stage": "rockGorge",
+    "encounter": 4,
+    "pose": 2
+  },
+  "ammar/tortured-but-strong/p4": {
+    "stage": "sandyBasin",
+    "encounter": 5,
+    "pose": 4
+  },
+  "ammar/with-the-truth/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "ammar/with-the-truth/p0": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 1
+  },
+  "ammar/with-the-truth/p1": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 3
+  },
+  "ammar/with-the-truth/p2": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 5
+  },
+  "ammar/with-the-truth/p3": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "ammar/lessons/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ammar/lessons/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ammar/lessons/p1": {
+    "stage": "wovenMat",
+    "encounter": 5,
+    "pose": 1
+  },
+  "ammar/lessons/p2": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 10
+  },
+  "ammar/lessons/p3": {
+    "stage": "windingPath",
+    "encounter": 6,
+    "pose": 3
+  },
+  "abu-dharr/the-lonely-seeker/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 9
+  },
+  "abu-dharr/the-lonely-seeker/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abu-dharr/the-lonely-seeker/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "abu-dharr/the-lonely-seeker/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 0
+  },
+  "abu-dharr/the-lonely-seeker/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 3
+  },
+  "abu-dharr/the-first-two-heard/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "abu-dharr/the-first-two-heard/p0": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 6
+  },
+  "abu-dharr/the-first-two-heard/p1": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 7
+  },
+  "abu-dharr/the-first-two-heard/p2": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 7
+  },
+  "abu-dharr/the-first-two-heard/p3": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "abu-dharr/the-first-two-heard/p4": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abu-dharr/the-courage-to-say-it/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 8
+  },
+  "abu-dharr/the-courage-to-say-it/p0": {
+    "stage": "gardenWall",
+    "encounter": 3,
+    "pose": 0
+  },
+  "abu-dharr/the-courage-to-say-it/p1": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 11
+  },
+  "abu-dharr/the-courage-to-say-it/p2": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abu-dharr/the-courage-to-say-it/p3": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "abu-dharr/a-simple-life/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 1
+  },
+  "abu-dharr/a-simple-life/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 3
+  },
+  "abu-dharr/a-simple-life/p1": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 3
+  },
+  "abu-dharr/a-simple-life/p2": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abu-dharr/a-simple-life/p3": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "abu-dharr/the-truth-teller/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 7
+  },
+  "abu-dharr/the-truth-teller/p0": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 7
+  },
+  "abu-dharr/the-truth-teller/p1": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 10
+  },
+  "abu-dharr/the-truth-teller/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "abu-dharr/the-truth-teller/p3": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 1
+  },
+  "anas/a-gift-for-the-prophet/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 0
+  },
+  "anas/a-gift-for-the-prophet/p0": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 0
+  },
+  "anas/a-gift-for-the-prophet/p1": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 5
+  },
+  "anas/a-gift-for-the-prophet/p2": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 10
+  },
+  "anas/a-gift-for-the-prophet/p3": {
+    "stage": "rockGorge",
+    "encounter": 3,
+    "pose": 8
+  },
+  "anas/a-gift-for-the-prophet/p4": {
+    "stage": "sandyBasin",
+    "encounter": 4,
+    "pose": 0
+  },
+  "anas/ten-years-of-service/cover": {
+    "stage": "roofTerrace",
+    "encounter": 5,
+    "pose": 1
+  },
+  "anas/ten-years-of-service/p0": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 5
+  },
+  "anas/ten-years-of-service/p1": {
+    "stage": "roundWindow",
+    "encounter": 6,
+    "pose": 1
+  },
+  "anas/ten-years-of-service/p2": {
+    "stage": "canopy",
+    "encounter": 7,
+    "pose": 2
+  },
+  "anas/ten-years-of-service/p3": {
+    "stage": "archway",
+    "encounter": 8,
+    "pose": 4
+  },
+  "anas/ten-years-of-service/p4": {
+    "stage": "cliffLedge",
+    "encounter": 9,
+    "pose": 6
+  },
+  "anas/memories-of-kindness/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 10
+  },
+  "anas/memories-of-kindness/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "anas/memories-of-kindness/p1": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 1
+  },
+  "anas/memories-of-kindness/p2": {
+    "stage": "windingPath",
+    "encounter": 10,
+    "pose": 11
+  },
+  "anas/memories-of-kindness/p3": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 4
+  },
+  "anas/memories-of-kindness/p4": {
+    "stage": "riverBend",
+    "encounter": 3,
+    "pose": 6
+  },
+  "anas/the-memory-keeper/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 5
+  },
+  "anas/the-memory-keeper/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 7
+  },
+  "anas/the-memory-keeper/p1": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 8
+  },
+  "anas/the-memory-keeper/p2": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 8
+  },
+  "anas/the-memory-keeper/p3": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "anas/the-memory-keeper/p4": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "anas/lessons/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 10
+  },
+  "anas/lessons/p0": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 1
+  },
+  "anas/lessons/p1": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 3
+  },
+  "anas/lessons/p2": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 5
+  },
+  "anas/lessons/p3": {
+    "stage": "sunkenCourt",
+    "encounter": 4,
+    "pose": 6
+  },
+  "hamza/the-strong-uncle/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 0
+  },
+  "hamza/the-strong-uncle/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 1
+  },
+  "hamza/the-strong-uncle/p1": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hamza/the-strong-uncle/p2": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 2
+  },
+  "hamza/the-strong-uncle/p3": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hamza/what-made-him-muslim/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 4
+  },
+  "hamza/what-made-him-muslim/p0": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 7
+  },
+  "hamza/what-made-him-muslim/p1": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 7
+  },
+  "hamza/what-made-him-muslim/p2": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 9
+  },
+  "hamza/what-made-him-muslim/p3": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 9
+  },
+  "hamza/what-made-him-muslim/p4": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 11
+  },
+  "hamza/the-lion-of-allah/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "hamza/the-lion-of-allah/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 0
+  },
+  "hamza/the-lion-of-allah/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "hamza/the-lion-of-allah/p2": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 3
+  },
+  "hamza/the-lion-of-allah/p3": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 5
+  },
+  "hamza/uhud/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hamza/uhud/p0": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 9
+  },
+  "hamza/uhud/p1": {
+    "stage": "sideStreet",
+    "encounter": 5,
+    "pose": 10
+  },
+  "hamza/uhud/p2": {
+    "stage": "reedScreen",
+    "encounter": 6,
+    "pose": 0
+  },
+  "hamza/uhud/p3": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 7
+  },
+  "hamza/uhud/p4": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 9
+  },
+  "hamza/lessons/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 9
+  },
+  "hamza/lessons/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 10
+  },
+  "hamza/lessons/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "hamza/lessons/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 2
+  },
+  "hamza/lessons/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 4
+  },
+  "musab/the-youth-of-luxury/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "musab/the-youth-of-luxury/p0": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "musab/the-youth-of-luxury/p1": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 3
+  },
+  "musab/the-youth-of-luxury/p2": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "musab/the-youth-of-luxury/p3": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "musab/he-found-the-truth/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 5
+  },
+  "musab/he-found-the-truth/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 7
+  },
+  "musab/he-found-the-truth/p1": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "musab/he-found-the-truth/p2": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 10
+  },
+  "musab/he-found-the-truth/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 10
+  },
+  "musab/the-cost-of-faith/cover": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 0
+  },
+  "musab/the-cost-of-faith/p0": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 3
+  },
+  "musab/the-cost-of-faith/p1": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 0
+  },
+  "musab/the-cost-of-faith/p2": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 8
+  },
+  "musab/the-cost-of-faith/p3": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 8
+  },
+  "musab/the-first-teacher/cover": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 5
+  },
+  "musab/the-first-teacher/p0": {
+    "stage": "timberFrame",
+    "encounter": 3,
+    "pose": 7
+  },
+  "musab/the-first-teacher/p1": {
+    "stage": "colonnade",
+    "encounter": 4,
+    "pose": 9
+  },
+  "musab/the-first-teacher/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 5,
+    "pose": 11
+  },
+  "musab/the-first-teacher/p3": {
+    "stage": "windowSeat",
+    "encounter": 6,
+    "pose": 1
+  },
+  "musab/the-first-teacher/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 8
+  },
+  "musab/the-flag-and-farewell/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "musab/the-flag-and-farewell/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 0
+  },
+  "musab/the-flag-and-farewell/p1": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "musab/the-flag-and-farewell/p2": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 2
+  },
+  "musab/the-flag-and-farewell/p3": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 4
+  },
+  "musab/the-flag-and-farewell/p4": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 3
+  },
+  "sad/the-answer-to-a-mother/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 2
+  },
+  "sad/the-answer-to-a-mother/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 2
+  },
+  "sad/the-answer-to-a-mother/p1": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 4
+  },
+  "sad/the-answer-to-a-mother/p2": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "sad/the-answer-to-a-mother/p3": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 8
+  },
+  "sad/the-answer-to-a-mother/p4": {
+    "stage": "hillTown",
+    "encounter": 4,
+    "pose": 11
+  },
+  "sad/the-first-arrow/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 7
+  },
+  "sad/the-first-arrow/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 9
+  },
+  "sad/the-first-arrow/p1": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "sad/the-first-arrow/p2": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "sad/the-first-arrow/p3": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 1
+  },
+  "sad/the-first-arrow/p4": {
+    "stage": "timberFrame",
+    "encounter": 3,
+    "pose": 3
+  },
+  "sad/the-answered-dua/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "sad/the-answered-dua/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 5,
+    "pose": 7
+  },
+  "sad/the-answered-dua/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "sad/the-answered-dua/p2": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 6
+  },
+  "sad/the-answered-dua/p3": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 5
+  },
+  "sad/the-answered-dua/p4": {
+    "stage": "mosaicFloor",
+    "encounter": 3,
+    "pose": 10
+  },
+  "sad/the-ten-promised/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "sad/the-ten-promised/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 9
+  },
+  "sad/the-ten-promised/p1": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 11
+  },
+  "sad/the-ten-promised/p2": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 0
+  },
+  "sad/the-ten-promised/p3": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 0
+  },
+  "sad/the-ten-promised/p4": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 3
+  },
+  "sad/lessons/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 1
+  },
+  "sad/lessons/p0": {
+    "stage": "roundWindow",
+    "encounter": 6,
+    "pose": 8
+  },
+  "sad/lessons/p1": {
+    "stage": "canopy",
+    "encounter": 4,
+    "pose": 7
+  },
+  "sad/lessons/p2": {
+    "stage": "archway",
+    "encounter": 4,
+    "pose": 11
+  },
+  "sad/lessons/p3": {
+    "stage": "cliffLedge",
+    "encounter": 7,
+    "pose": 0
+  },
+  "salman/the-seeker/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "salman/the-seeker/p0": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 5
+  },
+  "salman/the-seeker/p1": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "salman/the-seeker/p2": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 5
+  },
+  "salman/the-seeker/p3": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 9
+  },
+  "salman/from-monk-to-monk/cover": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 8
+  },
+  "salman/from-monk-to-monk/p0": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 10
+  },
+  "salman/from-monk-to-monk/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 11
+  },
+  "salman/from-monk-to-monk/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 1
+  },
+  "salman/from-monk-to-monk/p3": {
+    "stage": "windowSeat",
+    "encounter": 4,
+    "pose": 4
+  },
+  "salman/the-long-road/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 5,
+    "pose": 5
+  },
+  "salman/the-long-road/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 1
+  },
+  "salman/the-long-road/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 2
+  },
+  "salman/the-long-road/p2": {
+    "stage": "palmGrove",
+    "encounter": 6,
+    "pose": 9
+  },
+  "salman/the-long-road/p3": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 5
+  },
+  "salman/the-long-road/p4": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 5
+  },
+  "salman/the-trench-of-salman/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 6
+  },
+  "salman/the-trench-of-salman/p0": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 7
+  },
+  "salman/the-trench-of-salman/p1": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 9
+  },
+  "salman/the-trench-of-salman/p2": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 11
+  },
+  "salman/the-trench-of-salman/p3": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 5
+  },
+  "salman/the-trench-of-salman/p4": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 0
+  },
+  "salman/the-companion-of-light/cover": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "salman/the-companion-of-light/p0": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "salman/the-companion-of-light/p1": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 5
+  },
+  "salman/the-companion-of-light/p2": {
+    "stage": "wovenMat",
+    "encounter": 4,
+    "pose": 8
+  },
+  "salman/the-companion-of-light/p3": {
+    "stage": "shelf",
+    "encounter": 5,
+    "pose": 9
+  },
+  "zayd/the-captive-boy/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 6
+  },
+  "zayd/the-captive-boy/p0": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 4
+  },
+  "zayd/the-captive-boy/p1": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "zayd/the-captive-boy/p2": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 8
+  },
+  "zayd/the-captive-boy/p3": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "zayd/the-captive-boy/p4": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 8
+  },
+  "zayd/named-in-the-quran/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 9
+  },
+  "zayd/named-in-the-quran/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 11
+  },
+  "zayd/named-in-the-quran/p1": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 1
+  },
+  "zayd/named-in-the-quran/p2": {
+    "stage": "stoneBridge",
+    "encounter": 3,
+    "pose": 6
+  },
+  "zayd/named-in-the-quran/p3": {
+    "stage": "courtyard",
+    "encounter": 4,
+    "pose": 11
+  },
+  "zayd/named-in-the-quran/p4": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 4
+  },
+  "zayd/the-commander/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 3
+  },
+  "zayd/the-commander/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 5
+  },
+  "zayd/the-commander/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 7
+  },
+  "zayd/the-commander/p2": {
+    "stage": "roundWindow",
+    "encounter": 3,
+    "pose": 9
+  },
+  "zayd/the-commander/p3": {
+    "stage": "canopy",
+    "encounter": 4,
+    "pose": 11
+  },
+  "zayd/the-commander/p4": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "zayd/the-last-stand/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 9
+  },
+  "zayd/the-last-stand/p0": {
+    "stage": "alcove",
+    "encounter": 5,
+    "pose": 3
+  },
+  "zayd/the-last-stand/p1": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "zayd/the-last-stand/p2": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 2
+  },
+  "zayd/the-last-stand/p3": {
+    "stage": "windingPath",
+    "encounter": 3,
+    "pose": 4
+  },
+  "zayd/the-last-stand/p4": {
+    "stage": "raisedDais",
+    "encounter": 4,
+    "pose": 6
+  },
+  "zayd/lessons/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 3
+  },
+  "zayd/lessons/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "zayd/lessons/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 6,
+    "pose": 11
+  },
+  "zayd/lessons/p2": {
+    "stage": "hillTown",
+    "encounter": 5,
+    "pose": 1
+  },
+  "zayd/lessons/p3": {
+    "stage": "recess",
+    "encounter": 6,
+    "pose": 6
+  },
+  "zayd/lessons/p4": {
+    "stage": "openValley",
+    "encounter": 7,
+    "pose": 3
+  },
+  "abdullah-ibn-umar/early-faith/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 5
+  },
+  "abdullah-ibn-umar/early-faith/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 7
+  },
+  "abdullah-ibn-umar/early-faith/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 8
+  },
+  "abdullah-ibn-umar/legacy-lesson/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "abdullah-ibn-umar/legacy-lesson/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 9
+  },
+  "abdullah-ibn-umar/legacy-lesson/p1": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 11
+  },
+  "abdullah-ibn-umar/service-and-sacrifice/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "abdullah-ibn-umar/service-and-sacrifice/p0": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 0
+  },
+  "abdullah-ibn-umar/service-and-sacrifice/p1": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 2
+  },
+  "abdullah-ibn-umar/near-the-prophet/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 1
+  },
+  "abdullah-ibn-umar/near-the-prophet/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 9
+  },
+  "abdullah-ibn-umar/near-the-prophet/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abdullah-ibn-umar/legacy-and-lesson/cover": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 7
+  },
+  "abdullah-ibn-umar/legacy-and-lesson/p0": {
+    "stage": "cliffLedge",
+    "encounter": 4,
+    "pose": 9
+  },
+  "abdullah-ibn-umar/legacy-and-lesson/p1": {
+    "stage": "alcove",
+    "encounter": 5,
+    "pose": 11
+  },
+  "abdullah-ibn-abbas/early-faith/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 5
+  },
+  "abdullah-ibn-abbas/early-faith/p0": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "abdullah-ibn-abbas/early-faith/p1": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 9
+  },
+  "abdullah-ibn-abbas/legacy-lesson/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 8
+  },
+  "abdullah-ibn-abbas/legacy-lesson/p0": {
+    "stage": "gardenWall",
+    "encounter": 3,
+    "pose": 0
+  },
+  "abdullah-ibn-abbas/legacy-lesson/p1": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 11
+  },
+  "abdullah-ibn-abbas/service-and-sacrifice/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abdullah-ibn-abbas/service-and-sacrifice/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 1
+  },
+  "abdullah-ibn-abbas/service-and-sacrifice/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "abdullah-ibn-abbas/near-the-prophet/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 2
+  },
+  "abdullah-ibn-abbas/near-the-prophet/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abdullah-ibn-abbas/near-the-prophet/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 8
+  },
+  "abdullah-ibn-abbas/legacy-and-lesson/cover": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abdullah-ibn-abbas/legacy-and-lesson/p0": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 9
+  },
+  "abdullah-ibn-abbas/legacy-and-lesson/p1": {
+    "stage": "riverBend",
+    "encounter": 4,
+    "pose": 11
+  },
+  "abdullah-ibn-masud/early-faith/cover": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 6
+  },
+  "abdullah-ibn-masud/early-faith/p0": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 8
+  },
+  "abdullah-ibn-masud/early-faith/p1": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 10
+  },
+  "abdullah-ibn-masud/legacy-lesson/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "abdullah-ibn-masud/legacy-lesson/p0": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 1
+  },
+  "abdullah-ibn-masud/legacy-lesson/p1": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "abdullah-ibn-masud/service-and-sacrifice/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 0
+  },
+  "abdullah-ibn-masud/service-and-sacrifice/p0": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 2
+  },
+  "abdullah-ibn-masud/service-and-sacrifice/p1": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 5
+  },
+  "abdullah-ibn-masud/near-the-prophet/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 3
+  },
+  "abdullah-ibn-masud/near-the-prophet/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abdullah-ibn-masud/near-the-prophet/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abdullah-ibn-masud/legacy-and-lesson/cover": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 8
+  },
+  "abdullah-ibn-masud/legacy-and-lesson/p0": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 10
+  },
+  "abdullah-ibn-masud/legacy-and-lesson/p1": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 0
+  },
+  "abu-ubaydah/early-faith/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 9
+  },
+  "abu-ubaydah/early-faith/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 10
+  },
+  "abu-ubaydah/early-faith/p1": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 11
+  },
+  "abu-ubaydah/legacy-lesson/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 10
+  },
+  "abu-ubaydah/legacy-lesson/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 0
+  },
+  "abu-ubaydah/legacy-lesson/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "abu-ubaydah/service-and-sacrifice/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 1
+  },
+  "abu-ubaydah/service-and-sacrifice/p0": {
+    "stage": "hillTown",
+    "encounter": 1,
+    "pose": 3
+  },
+  "abu-ubaydah/service-and-sacrifice/p1": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 5
+  },
+  "abu-ubaydah/near-the-prophet/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "abu-ubaydah/near-the-prophet/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 9
+  },
+  "abu-ubaydah/near-the-prophet/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 10
+  },
+  "abu-ubaydah/legacy-and-lesson/cover": {
+    "stage": "terracedSlope",
+    "encounter": 3,
+    "pose": 10
+  },
+  "abu-ubaydah/legacy-and-lesson/p0": {
+    "stage": "timberFrame",
+    "encounter": 4,
+    "pose": 0
+  },
+  "abu-ubaydah/legacy-and-lesson/p1": {
+    "stage": "colonnade",
+    "encounter": 5,
+    "pose": 2
+  },
+  "said-ibn-zayd/early-faith/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "said-ibn-zayd/early-faith/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 10
+  },
+  "said-ibn-zayd/early-faith/p1": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 0
+  },
+  "said-ibn-zayd/legacy-lesson/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 11
+  },
+  "said-ibn-zayd/legacy-lesson/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 2
+  },
+  "said-ibn-zayd/legacy-lesson/p1": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "said-ibn-zayd/service-and-sacrifice/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 2
+  },
+  "said-ibn-zayd/service-and-sacrifice/p0": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 4
+  },
+  "said-ibn-zayd/service-and-sacrifice/p1": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 6
+  },
+  "said-ibn-zayd/near-the-prophet/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "said-ibn-zayd/near-the-prophet/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 9
+  },
+  "said-ibn-zayd/near-the-prophet/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 10
+  },
+  "said-ibn-zayd/legacy-and-lesson/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 11
+  },
+  "said-ibn-zayd/legacy-and-lesson/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 2
+  },
+  "said-ibn-zayd/legacy-and-lesson/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 5,
+    "pose": 4
+  },
+  "talhah/early-faith/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 9
+  },
+  "talhah/early-faith/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 11
+  },
+  "talhah/early-faith/p1": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 1
+  },
+  "talhah/legacy-lesson/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 1
+  },
+  "talhah/legacy-lesson/p0": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 1
+  },
+  "talhah/legacy-lesson/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 3
+  },
+  "talhah/service-and-sacrifice/cover": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "talhah/service-and-sacrifice/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 6
+  },
+  "talhah/service-and-sacrifice/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 8
+  },
+  "talhah/near-the-prophet/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 7
+  },
+  "talhah/near-the-prophet/p0": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 8
+  },
+  "talhah/near-the-prophet/p1": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 10
+  },
+  "talhah/legacy-and-lesson/cover": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 0
+  },
+  "talhah/legacy-and-lesson/p0": {
+    "stage": "rockGorge",
+    "encounter": 3,
+    "pose": 1
+  },
+  "talhah/legacy-and-lesson/p1": {
+    "stage": "sandyBasin",
+    "encounter": 4,
+    "pose": 4
+  },
+  "zubayr/early-faith/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 10
+  },
+  "zubayr/early-faith/p0": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "zubayr/early-faith/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 2
+  },
+  "zubayr/legacy-lesson/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 3
+  },
+  "zubayr/legacy-lesson/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 5
+  },
+  "zubayr/legacy-lesson/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 6
+  },
+  "zubayr/service-and-sacrifice/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 6
+  },
+  "zubayr/service-and-sacrifice/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 6
+  },
+  "zubayr/service-and-sacrifice/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "zubayr/near-the-prophet/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 2
+  },
+  "zubayr/near-the-prophet/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 2
+  },
+  "zubayr/near-the-prophet/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 11
+  },
+  "zubayr/legacy-and-lesson/cover": {
+    "stage": "roundWindow",
+    "encounter": 3,
+    "pose": 1
+  },
+  "zubayr/legacy-and-lesson/p0": {
+    "stage": "canopy",
+    "encounter": 4,
+    "pose": 3
+  },
+  "zubayr/legacy-and-lesson/p1": {
+    "stage": "archway",
+    "encounter": 5,
+    "pose": 5
+  },
+  "abdur-rahman/early-faith/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abdur-rahman/early-faith/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 1
+  },
+  "abdur-rahman/early-faith/p1": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 3
+  },
+  "abdur-rahman/legacy-lesson/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "abdur-rahman/legacy-lesson/p0": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 3
+  },
+  "abdur-rahman/legacy-lesson/p1": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abdur-rahman/service-and-sacrifice/cover": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 6
+  },
+  "abdur-rahman/service-and-sacrifice/p0": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 8
+  },
+  "abdur-rahman/service-and-sacrifice/p1": {
+    "stage": "canopy",
+    "encounter": 3,
+    "pose": 10
+  },
+  "abdur-rahman/near-the-prophet/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "abdur-rahman/near-the-prophet/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 10
+  },
+  "abdur-rahman/near-the-prophet/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abdur-rahman/legacy-and-lesson/cover": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abdur-rahman/legacy-and-lesson/p0": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 3
+  },
+  "abdur-rahman/legacy-and-lesson/p1": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 5
+  },
+  "jafar/early-faith/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "jafar/early-faith/p0": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 2
+  },
+  "jafar/early-faith/p1": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "jafar/legacy-lesson/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 4
+  },
+  "jafar/legacy-lesson/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 6
+  },
+  "jafar/legacy-lesson/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 7
+  },
+  "jafar/service-and-sacrifice/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 6
+  },
+  "jafar/service-and-sacrifice/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "jafar/service-and-sacrifice/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 10
+  },
+  "jafar/near-the-prophet/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 9
+  },
+  "jafar/near-the-prophet/p0": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 11
+  },
+  "jafar/near-the-prophet/p1": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 1
+  },
+  "jafar/legacy-and-lesson/cover": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "jafar/legacy-and-lesson/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 4,
+    "pose": 5
+  },
+  "jafar/legacy-and-lesson/p1": {
+    "stage": "hillTown",
+    "encounter": 5,
+    "pose": 7
+  },
+  "muadh/early-faith/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 1
+  },
+  "muadh/early-faith/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 3
+  },
+  "muadh/early-faith/p1": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "muadh/legacy-lesson/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "muadh/legacy-lesson/p0": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 6
+  },
+  "muadh/legacy-lesson/p1": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 6
+  },
+  "muadh/service-and-sacrifice/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 7
+  },
+  "muadh/service-and-sacrifice/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "muadh/service-and-sacrifice/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 11
+  },
+  "muadh/near-the-prophet/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "muadh/near-the-prophet/p0": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 7
+  },
+  "muadh/near-the-prophet/p1": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 2
+  },
+  "muadh/legacy-and-lesson/cover": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 4
+  },
+  "muadh/legacy-and-lesson/p0": {
+    "stage": "reedScreen",
+    "encounter": 3,
+    "pose": 5
+  },
+  "muadh/legacy-and-lesson/p1": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 4
+  },
+  "abu-hurairah/early-faith/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 2
+  },
+  "abu-hurairah/early-faith/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 4
+  },
+  "abu-hurairah/early-faith/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "abu-hurairah/legacy-lesson/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 6
+  },
+  "abu-hurairah/legacy-lesson/p0": {
+    "stage": "hillTown",
+    "encounter": 1,
+    "pose": 9
+  },
+  "abu-hurairah/legacy-lesson/p1": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 9
+  },
+  "abu-hurairah/service-and-sacrifice/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 8
+  },
+  "abu-hurairah/service-and-sacrifice/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 10
+  },
+  "abu-hurairah/service-and-sacrifice/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 0
+  },
+  "abu-hurairah/near-the-prophet/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 11
+  },
+  "abu-hurairah/near-the-prophet/p0": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 2
+  },
+  "abu-hurairah/near-the-prophet/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 4
+  },
+  "abu-hurairah/legacy-and-lesson/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 5
+  },
+  "abu-hurairah/legacy-and-lesson/p0": {
+    "stage": "windowSeat",
+    "encounter": 4,
+    "pose": 7
+  },
+  "abu-hurairah/legacy-and-lesson/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 5,
+    "pose": 9
+  },
+  "abu-ayyub/early-faith/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 3
+  },
+  "abu-ayyub/early-faith/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abu-ayyub/early-faith/p1": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abu-ayyub/legacy-lesson/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 6
+  },
+  "abu-ayyub/legacy-lesson/p0": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 8
+  },
+  "abu-ayyub/legacy-lesson/p1": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 10
+  },
+  "abu-ayyub/service-and-sacrifice/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 9
+  },
+  "abu-ayyub/service-and-sacrifice/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 11
+  },
+  "abu-ayyub/service-and-sacrifice/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abu-ayyub/near-the-prophet/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 0
+  },
+  "abu-ayyub/near-the-prophet/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 2
+  },
+  "abu-ayyub/near-the-prophet/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 4
+  },
+  "abu-ayyub/legacy-and-lesson/cover": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 8
+  },
+  "abu-ayyub/legacy-and-lesson/p0": {
+    "stage": "stoneBridge",
+    "encounter": 4,
+    "pose": 8
+  },
+  "abu-ayyub/legacy-and-lesson/p1": {
+    "stage": "courtyard",
+    "encounter": 5,
+    "pose": 10
+  },
+  "sad-ibn-muadh/early-faith/cover": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 4
+  },
+  "sad-ibn-muadh/early-faith/p0": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 6
+  },
+  "sad-ibn-muadh/early-faith/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 2,
+    "pose": 8
+  },
+  "sad-ibn-muadh/legacy-lesson/cover": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 8
+  },
+  "sad-ibn-muadh/legacy-lesson/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 1,
+    "pose": 10
+  },
+  "sad-ibn-muadh/legacy-lesson/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 11
+  },
+  "sad-ibn-muadh/service-and-sacrifice/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 10
+  },
+  "sad-ibn-muadh/service-and-sacrifice/p0": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 0
+  },
+  "sad-ibn-muadh/service-and-sacrifice/p1": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 2
+  },
+  "sad-ibn-muadh/near-the-prophet/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 2
+  },
+  "sad-ibn-muadh/near-the-prophet/p0": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 3
+  },
+  "sad-ibn-muadh/near-the-prophet/p1": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 5
+  },
+  "sad-ibn-muadh/legacy-and-lesson/cover": {
+    "stage": "roofTerrace",
+    "encounter": 3,
+    "pose": 7
+  },
+  "sad-ibn-muadh/legacy-and-lesson/p0": {
+    "stage": "gardenWall",
+    "encounter": 4,
+    "pose": 9
+  },
+  "sad-ibn-muadh/legacy-and-lesson/p1": {
+    "stage": "roundWindow",
+    "encounter": 5,
+    "pose": 0
+  },
+  "ubayy-ibn-kab/early-faith/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ubayy-ibn-kab/early-faith/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ubayy-ibn-kab/early-faith/p1": {
+    "stage": "palmGrove",
+    "encounter": 2,
+    "pose": 10
+  },
+  "ubayy-ibn-kab/legacy-lesson/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 10
+  },
+  "ubayy-ibn-kab/legacy-lesson/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 1
+  },
+  "ubayy-ibn-kab/legacy-lesson/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 0
+  },
+  "ubayy-ibn-kab/service-and-sacrifice/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ubayy-ibn-kab/service-and-sacrifice/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 1
+  },
+  "ubayy-ibn-kab/service-and-sacrifice/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 3
+  },
+  "ubayy-ibn-kab/near-the-prophet/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 0,
+    "pose": 3
+  },
+  "ubayy-ibn-kab/near-the-prophet/p0": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 8
+  },
+  "ubayy-ibn-kab/near-the-prophet/p1": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "ubayy-ibn-kab/legacy-and-lesson/cover": {
+    "stage": "cliffLedge",
+    "encounter": 3,
+    "pose": 8
+  },
+  "ubayy-ibn-kab/legacy-and-lesson/p0": {
+    "stage": "alcove",
+    "encounter": 4,
+    "pose": 10
+  },
+  "ubayy-ibn-kab/legacy-and-lesson/p1": {
+    "stage": "wovenMat",
+    "encounter": 5,
+    "pose": 2
+  },
+  "suhayb/early-faith/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 8
+  },
+  "suhayb/early-faith/p0": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 8
+  },
+  "suhayb/early-faith/p1": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 10
+  },
+  "suhayb/legacy-lesson/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 10
+  },
+  "suhayb/legacy-lesson/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 2
+  },
+  "suhayb/legacy-lesson/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 1
+  },
+  "suhayb/service-and-sacrifice/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 0
+  },
+  "suhayb/service-and-sacrifice/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 2
+  },
+  "suhayb/service-and-sacrifice/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 4
+  },
+  "suhayb/near-the-prophet/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 6
+  },
+  "suhayb/near-the-prophet/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 10
+  },
+  "suhayb/near-the-prophet/p1": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 10
+  },
+  "suhayb/legacy-and-lesson/cover": {
+    "stage": "raisedDais",
+    "encounter": 3,
+    "pose": 11
+  },
+  "suhayb/legacy-and-lesson/p0": {
+    "stage": "riverBend",
+    "encounter": 4,
+    "pose": 1
+  },
+  "suhayb/legacy-and-lesson/p1": {
+    "stage": "gateway",
+    "encounter": 5,
+    "pose": 1
+  },
+  "usama/early-faith/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 7
+  },
+  "usama/early-faith/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 9
+  },
+  "usama/early-faith/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 0
+  },
+  "usama/legacy-lesson/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 0
+  },
+  "usama/legacy-lesson/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 3
+  },
+  "usama/legacy-lesson/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 2
+  },
+  "usama/service-and-sacrifice/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 1
+  },
+  "usama/service-and-sacrifice/p0": {
+    "stage": "raisedDais",
+    "encounter": 1,
+    "pose": 3
+  },
+  "usama/service-and-sacrifice/p1": {
+    "stage": "riverBend",
+    "encounter": 2,
+    "pose": 5
+  },
+  "usama/near-the-prophet/cover": {
+    "stage": "gateway",
+    "encounter": 0,
+    "pose": 7
+  },
+  "usama/near-the-prophet/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 6
+  },
+  "usama/near-the-prophet/p1": {
+    "stage": "hillTown",
+    "encounter": 2,
+    "pose": 3
+  },
+  "usama/legacy-and-lesson/cover": {
+    "stage": "recess",
+    "encounter": 3,
+    "pose": 0
+  },
+  "usama/legacy-and-lesson/p0": {
+    "stage": "openValley",
+    "encounter": 4,
+    "pose": 3
+  },
+  "usama/legacy-and-lesson/p1": {
+    "stage": "sideStreet",
+    "encounter": 5,
+    "pose": 2
+  },
+  "zayd-ibn-thabit/early-faith/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 8
+  },
+  "zayd-ibn-thabit/early-faith/p0": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 10
+  },
+  "zayd-ibn-thabit/early-faith/p1": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 0
+  },
+  "zayd-ibn-thabit/legacy-lesson/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 2
+  },
+  "zayd-ibn-thabit/legacy-lesson/p0": {
+    "stage": "gateway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "zayd-ibn-thabit/legacy-lesson/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 1,
+    "pose": 2
+  },
+  "zayd-ibn-thabit/service-and-sacrifice/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 2
+  },
+  "zayd-ibn-thabit/service-and-sacrifice/p0": {
+    "stage": "recess",
+    "encounter": 1,
+    "pose": 4
+  },
+  "zayd-ibn-thabit/service-and-sacrifice/p1": {
+    "stage": "openValley",
+    "encounter": 2,
+    "pose": 6
+  },
+  "zayd-ibn-thabit/near-the-prophet/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 10
+  },
+  "zayd-ibn-thabit/near-the-prophet/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 0
+  },
+  "zayd-ibn-thabit/near-the-prophet/p1": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 0
+  },
+  "zayd-ibn-thabit/legacy-and-lesson/cover": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 11
+  },
+  "zayd-ibn-thabit/legacy-and-lesson/p0": {
+    "stage": "colonnade",
+    "encounter": 3,
+    "pose": 1
+  },
+  "zayd-ibn-thabit/legacy-and-lesson/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 4,
+    "pose": 4
+  },
+  "abdullah-ibn-salam/early-faith/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "abdullah-ibn-salam/early-faith/p0": {
+    "stage": "hillTown",
+    "encounter": 1,
+    "pose": 11
+  },
+  "abdullah-ibn-salam/early-faith/p1": {
+    "stage": "recess",
+    "encounter": 2,
+    "pose": 1
+  },
+  "abdullah-ibn-salam/legacy-lesson/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 5
+  },
+  "abdullah-ibn-salam/legacy-lesson/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abdullah-ibn-salam/legacy-lesson/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 4
+  },
+  "abdullah-ibn-salam/service-and-sacrifice/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 3
+  },
+  "abdullah-ibn-salam/service-and-sacrifice/p0": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 5
+  },
+  "abdullah-ibn-salam/service-and-sacrifice/p1": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 7
+  },
+  "abdullah-ibn-salam/near-the-prophet/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 6
+  },
+  "abdullah-ibn-salam/near-the-prophet/p0": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 8
+  },
+  "abdullah-ibn-salam/near-the-prophet/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 10
+  },
+  "abdullah-ibn-salam/legacy-and-lesson/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 0
+  },
+  "abdullah-ibn-salam/legacy-and-lesson/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 4,
+    "pose": 6
+  },
+  "abdullah-ibn-salam/legacy-and-lesson/p1": {
+    "stage": "palmGrove",
+    "encounter": 5,
+    "pose": 4
+  },
+  "aisha/early-faith/cover": {
+    "stage": "reedScreen",
+    "encounter": 0,
+    "pose": 10
+  },
+  "aisha/early-faith/p0": {
+    "stage": "terracedSlope",
+    "encounter": 1,
+    "pose": 0
+  },
+  "aisha/early-faith/p1": {
+    "stage": "timberFrame",
+    "encounter": 2,
+    "pose": 2
+  },
+  "aisha/legacy-lesson/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 3
+  },
+  "aisha/legacy-lesson/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 5
+  },
+  "aisha/legacy-lesson/p1": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "aisha/service-and-sacrifice/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 4
+  },
+  "aisha/service-and-sacrifice/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 6
+  },
+  "aisha/service-and-sacrifice/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 8
+  },
+  "aisha/near-the-prophet/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 7
+  },
+  "aisha/near-the-prophet/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 9
+  },
+  "aisha/near-the-prophet/p1": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 0
+  },
+  "aisha/legacy-and-lesson/cover": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 3
+  },
+  "aisha/legacy-and-lesson/p0": {
+    "stage": "sandyBasin",
+    "encounter": 3,
+    "pose": 2
+  },
+  "aisha/legacy-and-lesson/p1": {
+    "stage": "roofTerrace",
+    "encounter": 4,
+    "pose": 4
+  },
+  "fatimah/early-faith/cover": {
+    "stage": "windowSeat",
+    "encounter": 0,
+    "pose": 11
+  },
+  "fatimah/early-faith/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 1,
+    "pose": 1
+  },
+  "fatimah/early-faith/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 2,
+    "pose": 3
+  },
+  "fatimah/legacy-lesson/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 7
+  },
+  "fatimah/legacy-lesson/p0": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 3
+  },
+  "fatimah/legacy-lesson/p1": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 5
+  },
+  "fatimah/service-and-sacrifice/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 5
+  },
+  "fatimah/service-and-sacrifice/p0": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 7
+  },
+  "fatimah/service-and-sacrifice/p1": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 9
+  },
+  "fatimah/near-the-prophet/cover": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 4
+  },
+  "fatimah/near-the-prophet/p0": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 3
+  },
+  "fatimah/near-the-prophet/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 3,
+    "pose": 5
+  },
+  "fatimah/legacy-and-lesson/cover": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 2
+  },
+  "fatimah/legacy-and-lesson/p0": {
+    "stage": "archway",
+    "encounter": 3,
+    "pose": 3
+  },
+  "fatimah/legacy-and-lesson/p1": {
+    "stage": "cliffLedge",
+    "encounter": 4,
+    "pose": 11
+  },
+  "umm-salamah/early-faith/cover": {
+    "stage": "stoneBridge",
+    "encounter": 0,
+    "pose": 0
+  },
+  "umm-salamah/early-faith/p0": {
+    "stage": "courtyard",
+    "encounter": 1,
+    "pose": 2
+  },
+  "umm-salamah/early-faith/p1": {
+    "stage": "rockGorge",
+    "encounter": 2,
+    "pose": 4
+  },
+  "umm-salamah/legacy-lesson/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 5
+  },
+  "umm-salamah/legacy-lesson/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 6
+  },
+  "umm-salamah/legacy-lesson/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 7
+  },
+  "umm-salamah/service-and-sacrifice/cover": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 6
+  },
+  "umm-salamah/service-and-sacrifice/p0": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 8
+  },
+  "umm-salamah/service-and-sacrifice/p1": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 10
+  },
+  "umm-salamah/near-the-prophet/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 9
+  },
+  "umm-salamah/near-the-prophet/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 4
+  },
+  "umm-salamah/near-the-prophet/p1": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 2
+  },
+  "umm-salamah/legacy-and-lesson/cover": {
+    "stage": "shelf",
+    "encounter": 3,
+    "pose": 5
+  },
+  "umm-salamah/legacy-and-lesson/p0": {
+    "stage": "windingPath",
+    "encounter": 4,
+    "pose": 8
+  },
+  "umm-salamah/legacy-and-lesson/p1": {
+    "stage": "raisedDais",
+    "encounter": 5,
+    "pose": 7
+  },
+  "hafsah/early-faith/cover": {
+    "stage": "gardenWall",
+    "encounter": 0,
+    "pose": 3
+  },
+  "hafsah/early-faith/p0": {
+    "stage": "roundWindow",
+    "encounter": 1,
+    "pose": 5
+  },
+  "hafsah/early-faith/p1": {
+    "stage": "canopy",
+    "encounter": 2,
+    "pose": 6
+  },
+  "hafsah/legacy-lesson/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "hafsah/legacy-lesson/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 0
+  },
+  "hafsah/legacy-lesson/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 9
+  },
+  "hafsah/service-and-sacrifice/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 7
+  },
+  "hafsah/service-and-sacrifice/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 9
+  },
+  "hafsah/service-and-sacrifice/p1": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 11
+  },
+  "hafsah/near-the-prophet/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 0
+  },
+  "hafsah/near-the-prophet/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 0
+  },
+  "hafsah/near-the-prophet/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 3
+  },
+  "hafsah/legacy-and-lesson/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 3,
+    "pose": 4
+  },
+  "hafsah/legacy-and-lesson/p0": {
+    "stage": "hillTown",
+    "encounter": 4,
+    "pose": 6
+  },
+  "hafsah/legacy-and-lesson/p1": {
+    "stage": "recess",
+    "encounter": 5,
+    "pose": 8
+  },
+  "zaynab-bint-jahsh/early-faith/cover": {
+    "stage": "alcove",
+    "encounter": 0,
+    "pose": 2
+  },
+  "zaynab-bint-jahsh/early-faith/p0": {
+    "stage": "wovenMat",
+    "encounter": 1,
+    "pose": 4
+  },
+  "zaynab-bint-jahsh/early-faith/p1": {
+    "stage": "shelf",
+    "encounter": 2,
+    "pose": 6
+  },
+  "zaynab-bint-jahsh/legacy-lesson/cover": {
+    "stage": "windingPath",
+    "encounter": 0,
+    "pose": 9
+  },
+  "zaynab-bint-jahsh/legacy-lesson/p0": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 6
+  },
+  "zaynab-bint-jahsh/legacy-lesson/p1": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 8
+  },
+  "zaynab-bint-jahsh/service-and-sacrifice/cover": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 10
+  },
+  "zaynab-bint-jahsh/service-and-sacrifice/p0": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 0
+  },
+  "zaynab-bint-jahsh/service-and-sacrifice/p1": {
+    "stage": "hillTown",
+    "encounter": 3,
+    "pose": 1
+  },
+  "zaynab-bint-jahsh/near-the-prophet/cover": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 9
+  },
+  "zaynab-bint-jahsh/near-the-prophet/p0": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 1
+  },
+  "zaynab-bint-jahsh/near-the-prophet/p1": {
+    "stage": "sideStreet",
+    "encounter": 2,
+    "pose": 3
+  },
+  "zaynab-bint-jahsh/legacy-and-lesson/cover": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 8
+  },
+  "zaynab-bint-jahsh/legacy-and-lesson/p0": {
+    "stage": "terracedSlope",
+    "encounter": 3,
+    "pose": 6
+  },
+  "zaynab-bint-jahsh/legacy-and-lesson/p1": {
+    "stage": "timberFrame",
+    "encounter": 4,
+    "pose": 8
+  },
+  "ruqayyah/early-faith/cover": {
+    "stage": "riverBend",
+    "encounter": 0,
+    "pose": 5
+  },
+  "ruqayyah/early-faith/p0": {
+    "stage": "gateway",
+    "encounter": 1,
+    "pose": 7
+  },
+  "ruqayyah/early-faith/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 2,
+    "pose": 8
+  },
+  "ruqayyah/legacy-lesson/cover": {
+    "stage": "hillTown",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ruqayyah/legacy-lesson/p0": {
+    "stage": "recess",
+    "encounter": 0,
+    "pose": 10
+  },
+  "ruqayyah/legacy-lesson/p1": {
+    "stage": "openValley",
+    "encounter": 1,
+    "pose": 9
+  },
+  "ruqayyah/service-and-sacrifice/cover": {
+    "stage": "sideStreet",
+    "encounter": 0,
+    "pose": 11
+  },
+  "ruqayyah/service-and-sacrifice/p0": {
+    "stage": "reedScreen",
+    "encounter": 1,
+    "pose": 1
+  },
+  "ruqayyah/service-and-sacrifice/p1": {
+    "stage": "terracedSlope",
+    "encounter": 2,
+    "pose": 2
+  },
+  "ruqayyah/near-the-prophet/cover": {
+    "stage": "timberFrame",
+    "encounter": 1,
+    "pose": 4
+  },
+  "ruqayyah/near-the-prophet/p0": {
+    "stage": "colonnade",
+    "encounter": 2,
+    "pose": 6
+  },
+  "ruqayyah/near-the-prophet/p1": {
+    "stage": "sunkenCourt",
+    "encounter": 3,
+    "pose": 10
+  },
+  "ruqayyah/legacy-and-lesson/cover": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "ruqayyah/legacy-and-lesson/p0": {
+    "stage": "steppedPlatform",
+    "encounter": 3,
+    "pose": 7
+  },
+  "ruqayyah/legacy-and-lesson/p1": {
+    "stage": "stoneTerrace",
+    "encounter": 4,
+    "pose": 10
+  },
+  "umm-kulthum/early-faith/cover": {
+    "stage": "openValley",
+    "encounter": 0,
+    "pose": 4
+  },
+  "umm-kulthum/early-faith/p0": {
+    "stage": "sideStreet",
+    "encounter": 1,
+    "pose": 6
+  },
+  "umm-kulthum/early-faith/p1": {
+    "stage": "reedScreen",
+    "encounter": 2,
+    "pose": 8
+  },
+  "umm-kulthum/legacy-lesson/cover": {
+    "stage": "terracedSlope",
+    "encounter": 0,
+    "pose": 7
+  },
+  "umm-kulthum/legacy-lesson/p0": {
+    "stage": "timberFrame",
+    "encounter": 0,
+    "pose": 8
+  },
+  "umm-kulthum/legacy-lesson/p1": {
+    "stage": "colonnade",
+    "encounter": 1,
+    "pose": 10
+  },
+  "umm-kulthum/service-and-sacrifice/cover": {
+    "stage": "sunkenCourt",
+    "encounter": 0,
+    "pose": 10
+  },
+  "umm-kulthum/service-and-sacrifice/p0": {
+    "stage": "windowSeat",
+    "encounter": 1,
+    "pose": 0
+  },
+  "umm-kulthum/service-and-sacrifice/p1": {
+    "stage": "steppedPlatform",
+    "encounter": 2,
+    "pose": 2
+  },
+  "umm-kulthum/near-the-prophet/cover": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 7
+  },
+  "umm-kulthum/near-the-prophet/p0": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 5
+  },
+  "umm-kulthum/near-the-prophet/p1": {
+    "stage": "palmGrove",
+    "encounter": 3,
+    "pose": 6
+  },
+  "umm-kulthum/legacy-and-lesson/cover": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 6
+  },
+  "umm-kulthum/legacy-and-lesson/p0": {
+    "stage": "courtyard",
+    "encounter": 3,
+    "pose": 8
+  },
+  "umm-kulthum/legacy-and-lesson/p1": {
+    "stage": "rockGorge",
+    "encounter": 4,
+    "pose": 10
+  },
+  "asma-bint-abi-bakr/early-faith/cover": {
+    "stage": "colonnade",
+    "encounter": 0,
+    "pose": 5
+  },
+  "asma-bint-abi-bakr/early-faith/p0": {
+    "stage": "sunkenCourt",
+    "encounter": 1,
+    "pose": 7
+  },
+  "asma-bint-abi-bakr/early-faith/p1": {
+    "stage": "windowSeat",
+    "encounter": 2,
+    "pose": 9
+  },
+  "asma-bint-abi-bakr/legacy-lesson/cover": {
+    "stage": "steppedPlatform",
+    "encounter": 0,
+    "pose": 8
+  },
+  "asma-bint-abi-bakr/legacy-lesson/p0": {
+    "stage": "stoneTerrace",
+    "encounter": 1,
+    "pose": 5
+  },
+  "asma-bint-abi-bakr/legacy-lesson/p1": {
+    "stage": "mosaicFloor",
+    "encounter": 2,
+    "pose": 0
+  },
+  "asma-bint-abi-bakr/service-and-sacrifice/cover": {
+    "stage": "palmGrove",
+    "encounter": 0,
+    "pose": 11
+  },
+  "asma-bint-abi-bakr/service-and-sacrifice/p0": {
+    "stage": "stoneBridge",
+    "encounter": 1,
+    "pose": 1
+  },
+  "asma-bint-abi-bakr/service-and-sacrifice/p1": {
+    "stage": "courtyard",
+    "encounter": 2,
+    "pose": 3
+  },
+  "asma-bint-abi-bakr/near-the-prophet/cover": {
+    "stage": "rockGorge",
+    "encounter": 0,
+    "pose": 2
+  },
+  "asma-bint-abi-bakr/near-the-prophet/p0": {
+    "stage": "sandyBasin",
+    "encounter": 1,
+    "pose": 4
+  },
+  "asma-bint-abi-bakr/near-the-prophet/p1": {
+    "stage": "roofTerrace",
+    "encounter": 2,
+    "pose": 6
+  },
+  "asma-bint-abi-bakr/legacy-and-lesson/cover": {
+    "stage": "gardenWall",
+    "encounter": 3,
+    "pose": 8
+  },
+  "asma-bint-abi-bakr/legacy-and-lesson/p0": {
+    "stage": "roundWindow",
+    "encounter": 4,
+    "pose": 10
+  },
+  "asma-bint-abi-bakr/legacy-and-lesson/p1": {
+    "stage": "canopy",
+    "encounter": 5,
+    "pose": 0
+  },
+  "umm-aiman/early-faith/cover": {
+    "stage": "mosaicFloor",
+    "encounter": 0,
+    "pose": 6
+  },
+  "umm-aiman/early-faith/p0": {
+    "stage": "palmGrove",
+    "encounter": 1,
+    "pose": 8
+  },
+  "umm-aiman/early-faith/p1": {
+    "stage": "stoneBridge",
+    "encounter": 2,
+    "pose": 10
+  },
+  "umm-aiman/legacy-lesson/cover": {
+    "stage": "courtyard",
+    "encounter": 0,
+    "pose": 2
+  },
+  "umm-aiman/legacy-lesson/p0": {
+    "stage": "rockGorge",
+    "encounter": 1,
+    "pose": 11
+  },
+  "umm-aiman/legacy-lesson/p1": {
+    "stage": "sandyBasin",
+    "encounter": 2,
+    "pose": 1
+  },
+  "umm-aiman/service-and-sacrifice/cover": {
+    "stage": "roofTerrace",
+    "encounter": 0,
+    "pose": 0
+  },
+  "umm-aiman/service-and-sacrifice/p0": {
+    "stage": "gardenWall",
+    "encounter": 1,
+    "pose": 2
+  },
+  "umm-aiman/service-and-sacrifice/p1": {
+    "stage": "roundWindow",
+    "encounter": 2,
+    "pose": 4
+  },
+  "umm-aiman/near-the-prophet/cover": {
+    "stage": "canopy",
+    "encounter": 0,
+    "pose": 3
+  },
+  "umm-aiman/near-the-prophet/p0": {
+    "stage": "archway",
+    "encounter": 1,
+    "pose": 5
+  },
+  "umm-aiman/near-the-prophet/p1": {
+    "stage": "cliffLedge",
+    "encounter": 2,
+    "pose": 8
+  },
+  "umm-aiman/legacy-and-lesson/cover": {
+    "stage": "alcove",
+    "encounter": 3,
+    "pose": 1
+  },
+  "umm-aiman/legacy-and-lesson/p0": {
+    "stage": "wovenMat",
+    "encounter": 4,
+    "pose": 5
+  },
+  "umm-aiman/legacy-and-lesson/p1": {
+    "stage": "shelf",
+    "encounter": 5,
+    "pose": 1
+  },
+  "sumayyah/early-faith/cover": {
+    "stage": "sandyBasin",
+    "encounter": 0,
+    "pose": 7
+  },
+  "sumayyah/early-faith/p0": {
+    "stage": "roofTerrace",
+    "encounter": 1,
+    "pose": 9
+  },
+  "sumayyah/early-faith/p1": {
+    "stage": "gardenWall",
+    "encounter": 2,
+    "pose": 11
+  },
+  "sumayyah/legacy-lesson/cover": {
+    "stage": "roundWindow",
+    "encounter": 0,
+    "pose": 3
+  },
+  "sumayyah/legacy-lesson/p0": {
+    "stage": "canopy",
+    "encounter": 1,
+    "pose": 5
+  },
+  "sumayyah/legacy-lesson/p1": {
+    "stage": "archway",
+    "encounter": 2,
+    "pose": 2
+  },
+  "sumayyah/service-and-sacrifice/cover": {
+    "stage": "cliffLedge",
+    "encounter": 0,
+    "pose": 1
+  },
+  "sumayyah/service-and-sacrifice/p0": {
+    "stage": "alcove",
+    "encounter": 1,
+    "pose": 3
+  },
+  "sumayyah/service-and-sacrifice/p1": {
+    "stage": "wovenMat",
+    "encounter": 2,
+    "pose": 5
+  },
+  "sumayyah/near-the-prophet/cover": {
+    "stage": "shelf",
+    "encounter": 0,
+    "pose": 4
+  },
+  "sumayyah/near-the-prophet/p0": {
+    "stage": "windingPath",
+    "encounter": 1,
+    "pose": 6
+  },
+  "sumayyah/near-the-prophet/p1": {
+    "stage": "raisedDais",
+    "encounter": 2,
+    "pose": 8
+  },
+  "sumayyah/legacy-and-lesson/cover": {
+    "stage": "riverBend",
+    "encounter": 3,
+    "pose": 4
+  },
+  "sumayyah/legacy-and-lesson/p0": {
+    "stage": "gateway",
+    "encounter": 4,
+    "pose": 4
+  },
+  "sumayyah/legacy-and-lesson/p1": {
+    "stage": "clothBackdrop",
+    "encounter": 5,
+    "pose": 3
+  },
+  "nusaybah/early-faith/cover": {
+    "stage": "archway",
+    "encounter": 0,
+    "pose": 8
+  },
+  "nusaybah/early-faith/p0": {
+    "stage": "cliffLedge",
+    "encounter": 1,
+    "pose": 10
+  },
+  "nusaybah/early-faith/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 0
+  },
+  "nusaybah/legacy-lesson/cover": {
+    "stage": "wovenMat",
+    "encounter": 0,
+    "pose": 6
+  },
+  "nusaybah/legacy-lesson/p0": {
+    "stage": "shelf",
+    "encounter": 1,
+    "pose": 6
+  },
+  "nusaybah/legacy-lesson/p1": {
+    "stage": "windingPath",
+    "encounter": 2,
+    "pose": 3
+  },
+  "nusaybah/service-and-sacrifice/cover": {
+    "stage": "raisedDais",
+    "encounter": 0,
+    "pose": 2
+  },
+  "nusaybah/service-and-sacrifice/p0": {
+    "stage": "riverBend",
+    "encounter": 1,
+    "pose": 4
+  },
+  "nusaybah/service-and-sacrifice/p1": {
+    "stage": "gateway",
+    "encounter": 2,
+    "pose": 6
+  },
+  "nusaybah/near-the-prophet/cover": {
+    "stage": "clothBackdrop",
+    "encounter": 0,
+    "pose": 9
+  },
+  "nusaybah/near-the-prophet/p0": {
+    "stage": "hillTown",
+    "encounter": 1,
+    "pose": 7
+  },
+  "nusaybah/near-the-prophet/p1": {
+    "stage": "alcove",
+    "encounter": 2,
+    "pose": 9
+  },
+  "nusaybah/legacy-and-lesson/cover": {
+    "stage": "openValley",
+    "encounter": 3,
+    "pose": 11
+  },
+  "nusaybah/legacy-and-lesson/p0": {
+    "stage": "sideStreet",
+    "encounter": 4,
+    "pose": 1
+  },
+  "nusaybah/legacy-and-lesson/p1": {
+    "stage": "reedScreen",
+    "encounter": 5,
+    "pose": 3
+  }
+}

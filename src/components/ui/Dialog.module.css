@@ -1,0 +1,83 @@
+.overlayWrapper {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-dialog);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-overlay);
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  max-width: 32rem;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.sharePanel {
+  height: calc(100vh - 48px);
+  max-height: calc(100vh - 48px);
+  height: calc(100dvh - 48px);
+  max-height: calc(100dvh - 48px);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 1rem 1.25rem;
+  border-block-end: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-shrink: 0;
+  background-color: var(--color-surface-raised);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.content {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding: 1.25rem;
+}
+
+/* A long dialog must scroll internally rather than losing its header and
+   close button beyond a short phone/landscape viewport. */
+.panel {
+  max-height: calc(100vh - 48px);
+  max-height: calc(100dvh - 48px);
+  min-width: 0;
+}
+.header { min-width: 0; }
+.title { min-width: 0; overflow-wrap: anywhere; }
+@media (max-height: 480px) {
+  .overlayWrapper { padding: 12px; }
+  .panel, .sharePanel { max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); }
+  .sharePanel { height: calc(100vh - 24px); height: calc(100dvh - 24px); }
+}

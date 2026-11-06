@@ -1,0 +1,2 @@
+import {useEffect,useState} from 'react';
+export default function useVoices(){const [voices,set]=useState<SpeechSynthesisVoice[]>([]);useEffect(()=>{if(typeof window==='undefined'||!window.speechSynthesis)return;const synth=window.speechSynthesis;const read=()=>set(synth.getVoices());read();synth.addEventListener?.('voiceschanged',read);return()=>synth.removeEventListener?.('voiceschanged',read)},[]);return voices;}

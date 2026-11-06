@@ -1,0 +1,11 @@
+[
+  "public/data/kidsStoryMedia.json",
+  "src/types/kidsStories.types.ts",
+  "src/features/kids/components/StoryScene.tsx",
+  "src/features/kids/storyScenes/sceneTypes.ts",
+  "src/features/kids/storyScenes/scenes.ts",
+  "src/features/kids/storyScenes/sceneVariation.ts",
+  "src/features/kids/storyScenes/storyMedia.test.ts",
+  "src/features/kids/storyScenes/motifs.tsx",
+  "src/pages/KidsStoryChapterPage.tsx"
+]
