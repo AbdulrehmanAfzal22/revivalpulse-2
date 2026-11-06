@@ -50,7 +50,7 @@ export default function KidsLessonsPage() {
   );
   const masteredCount = useMemo(() => guidedIds.filter((id) => (stars[id] ?? 0) >= 3).length, [guidedIds, stars]);
 
-  const { data: verses, isPending, isError } = useBeginnerLessonVerses(selectedSurahId ?? 0);
+  const { data: verses, isPending, isError } = useBeginnerLessonVerses(selectedSurahId);
   useEffect(() => {
     if (selectedSurahId !== null && verses && verses.length > 0 && !isPending && !isError) {
       markContentViewed('surahLesson', String(selectedSurahId));
@@ -114,7 +114,7 @@ export default function KidsLessonsPage() {
             <p className={styles.practice}><ScrollText size={16} aria-hidden="true" /> {t('kids.questPracticeTitle')}: {quest.practice}</p>
             {verses && verses.length > 0 && (
               <Button variant="primary" onClick={() => setLabOpen(true)}>
-                {priorStars > 0 ? t('kids.openQuest') : t('kids.startQuest')}
+                {priorStars > 0 ? t('kids.openQuest', { surah: surah.nameSimple }) : t('kids.startQuest')}
               </Button>
             )}
             {priorStars > 0 && <Typography variant="caption" muted>{t('kids.letterStars', { stars: priorStars })}</Typography>}
@@ -128,7 +128,7 @@ export default function KidsLessonsPage() {
           </Card>
         )}
         {!quest && quizSurahId === surah.id && lessonViewed && verses && <SurahQuiz surah={surah} verses={verses} onComplete={(score, total) => { recordQuizResult(`surah:${surah.id}`, score, total); completeLesson(surah.id); awardStars(25 + score * 10); setQuizSurahId(null); }} />}
-        {isCompleted && <Button variant="secondary" disabled leadingIcon={<Check size={16} />}>{t('kids.lessonComplete')}</Button>}
+        {!quest && isCompleted && <Button variant="secondary" disabled leadingIcon={<Check size={16} />}>{t('kids.lessonComplete')}</Button>}
         {labOpen && quest && verses && (
           <SurahLab
             quest={quest}
