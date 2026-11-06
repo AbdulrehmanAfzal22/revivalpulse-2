@@ -106,7 +106,11 @@ const TOPICS: ReadonlyArray<{ id: string; title: { en: string; ur: string }; par
   },
 ];
 
-/** Keeps every chapter-based story substantial enough for the shared reader. */
+/**
+ * Keeps every chapter-based story substantial enough for the shared reader.
+ * The synthesised Urdu lines take `nameArabic`, not `nameEnglish`: an English
+ * name inside an Urdu sentence renders as broken half-script text.
+ */
 export function ensureFiveChapters(story: KidsStoryV2): KidsStoryV2 {
   if (story.chapters.length >= 5) return story;
 
@@ -117,7 +121,7 @@ export function ensureFiveChapters(story: KidsStoryV2): KidsStoryV2 {
       title: topic.title,
       paragraphs: topic.paragraphs.map((paragraph) => ({
         en: paragraph.en.replace(/\{name\}/g, story.nameEnglish),
-        ur: paragraph.ur.replace(/\{name\}/g, story.nameEnglish),
+        ur: paragraph.ur.replace(/\{name\}/g, story.nameArabic),
       })),
       sources: [
         {
@@ -125,7 +129,7 @@ export function ensureFiveChapters(story: KidsStoryV2): KidsStoryV2 {
           reference: 'Sahih al-Bukhari; Sahih Muslim',
           label: {
             en: `This chapter remembers the character and service of ${story.nameEnglish}.`,
-            ur: `یہ باب ${story.nameEnglish} کے کردار اور خدمت کو یاد کرتا ہے۔`,
+            ur: `یہ باب ${story.nameArabic} کے کردار اور خدمت کو یاد کرتا ہے۔`,
           },
         },
       ],

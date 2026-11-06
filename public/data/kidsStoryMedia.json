@@ -1,6 +1,3234 @@
 {
   "generatedAt": "2026-11-05T18:28:06.546Z",
-  "narration": {},
+  "narration": {
+    "abu-bakr": {
+      "as-siddiq/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "as-siddiq/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "as-siddiq/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "as-siddiq/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-caliph/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-caliph/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-caliph/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-caliph/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "freeing-the-slaves/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "freeing-the-slaves/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "freeing-the-slaves/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "freeing-the-slaves/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-cave/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-cave/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-cave/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-cave/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "true-friend/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "true-friend/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "true-friend/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "true-friend/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "adam": {
+      "angels-bow/p0": {
+        "en": "narration.en.mp3"
+      },
+      "angels-bow/p1": {
+        "en": "narration.en.mp3"
+      },
+      "angels-bow/p2": {
+        "en": "narration.en.mp3"
+      },
+      "angels-bow/p3": {
+        "en": "narration.en.mp3"
+      },
+      "angels-bow/p4": {
+        "en": "narration.en.mp3"
+      },
+      "creation/p0": {
+        "en": "narration.en.mp3"
+      },
+      "creation/p1": {
+        "en": "narration.en.mp3"
+      },
+      "creation/p2": {
+        "en": "narration.en.mp3"
+      },
+      "creation/p3": {
+        "en": "narration.en.mp3"
+      },
+      "creation/p4": {
+        "en": "narration.en.mp3"
+      },
+      "descent/p0": {
+        "en": "narration.en.mp3"
+      },
+      "descent/p1": {
+        "en": "narration.en.mp3"
+      },
+      "descent/p2": {
+        "en": "narration.en.mp3"
+      },
+      "descent/p3": {
+        "en": "narration.en.mp3"
+      },
+      "first-prophet/p0": {
+        "en": "narration.en.mp3"
+      },
+      "first-prophet/p1": {
+        "en": "narration.en.mp3"
+      },
+      "first-prophet/p2": {
+        "en": "narration.en.mp3"
+      },
+      "first-prophet/p3": {
+        "en": "narration.en.mp3"
+      },
+      "first-prophet/p4": {
+        "en": "narration.en.mp3"
+      },
+      "names/p0": {
+        "en": "narration.en.mp3"
+      },
+      "names/p1": {
+        "en": "narration.en.mp3"
+      },
+      "names/p2": {
+        "en": "narration.en.mp3"
+      },
+      "names/p3": {
+        "en": "narration.en.mp3"
+      },
+      "paradise/p0": {
+        "en": "narration.en.mp3"
+      },
+      "paradise/p1": {
+        "en": "narration.en.mp3"
+      },
+      "paradise/p2": {
+        "en": "narration.en.mp3"
+      },
+      "paradise/p3": {
+        "en": "narration.en.mp3"
+      },
+      "repentance/p0": {
+        "en": "narration.en.mp3"
+      },
+      "repentance/p1": {
+        "en": "narration.en.mp3"
+      },
+      "repentance/p2": {
+        "en": "narration.en.mp3"
+      },
+      "repentance/p3": {
+        "en": "narration.en.mp3"
+      },
+      "test/p0": {
+        "en": "narration.en.mp3"
+      },
+      "test/p1": {
+        "en": "narration.en.mp3"
+      },
+      "test/p2": {
+        "en": "narration.en.mp3"
+      },
+      "test/p3": {
+        "en": "narration.en.mp3"
+      },
+      "test/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "ali": {
+      "boy-in-the-prophets-house/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "boy-in-the-prophets-house/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "boy-in-the-prophets-house/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "boy-in-the-prophets-house/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-brave-fighter/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-brave-fighter/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-brave-fighter/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-brave-fighter/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-brave-fighter/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-of-the-children/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-of-the-children/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-of-the-children/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-of-the-children/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-of-the-children/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-prophets-praise/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-prophets-praise/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-prophets-praise/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-prophets-praise/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-prophets-praise/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wise-and-fair/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wise-and-fair/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wise-and-fair/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wise-and-fair/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wise-and-fair/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "alyasa": {
+      "example-for-us/p0": {
+        "en": "narration.en.mp3"
+      },
+      "example-for-us/p1": {
+        "en": "narration.en.mp3"
+      },
+      "example-for-us/p2": {
+        "en": "narration.en.mp3"
+      },
+      "example-for-us/p3": {
+        "en": "narration.en.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "named-among-the-best/p0": {
+        "en": "narration.en.mp3"
+      },
+      "named-among-the-best/p1": {
+        "en": "narration.en.mp3"
+      },
+      "named-among-the-best/p2": {
+        "en": "narration.en.mp3"
+      },
+      "named-among-the-best/p3": {
+        "en": "narration.en.mp3"
+      },
+      "patient-and-true/p0": {
+        "en": "narration.en.mp3"
+      },
+      "patient-and-true/p1": {
+        "en": "narration.en.mp3"
+      },
+      "patient-and-true/p2": {
+        "en": "narration.en.mp3"
+      },
+      "patient-and-true/p3": {
+        "en": "narration.en.mp3"
+      },
+      "successor-of-ilyas/p0": {
+        "en": "narration.en.mp3"
+      },
+      "successor-of-ilyas/p1": {
+        "en": "narration.en.mp3"
+      },
+      "successor-of-ilyas/p2": {
+        "en": "narration.en.mp3"
+      },
+      "successor-of-ilyas/p3": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "ayyub": {
+      "the-great-test/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-great-test/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-great-test/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-great-test/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-great-test/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-loyal-wife/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-loyal-wife/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-loyal-wife/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-loyal-wife/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-loyal-wife/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-call/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-call/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-call/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-call/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-call/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-reward/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-reward/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-reward/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-reward/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-reward/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-rich-and-thankful/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-rich-and-thankful/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-rich-and-thankful/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-rich-and-thankful/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-rich-and-thankful/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "bilal": {
+      "bought-and-freed/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "bought-and-freed/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "bought-and-freed/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "bought-and-freed/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-adhan/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-adhan/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-adhan/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-adhan/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "steadfast-heart/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "steadfast-heart/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "steadfast-heart/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "steadfast-heart/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "voice-after-the-prophet/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "voice-after-the-prophet/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "voice-after-the-prophet/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "voice-after-the-prophet/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "dawud": {
+      "humble-king/p0": {
+        "en": "narration.en.mp3"
+      },
+      "humble-king/p1": {
+        "en": "narration.en.mp3"
+      },
+      "humble-king/p2": {
+        "en": "narration.en.mp3"
+      },
+      "humble-king/p3": {
+        "en": "narration.en.mp3"
+      },
+      "iron-armor/p0": {
+        "en": "narration.en.mp3"
+      },
+      "iron-armor/p1": {
+        "en": "narration.en.mp3"
+      },
+      "iron-armor/p2": {
+        "en": "narration.en.mp3"
+      },
+      "iron-armor/p3": {
+        "en": "narration.en.mp3"
+      },
+      "iron-armor/p4": {
+        "en": "narration.en.mp3"
+      },
+      "wise-judge/p0": {
+        "en": "narration.en.mp3"
+      },
+      "wise-judge/p1": {
+        "en": "narration.en.mp3"
+      },
+      "wise-judge/p2": {
+        "en": "narration.en.mp3"
+      },
+      "wise-judge/p3": {
+        "en": "narration.en.mp3"
+      },
+      "wise-judge/p4": {
+        "en": "narration.en.mp3"
+      },
+      "young-shepherd/p0": {
+        "en": "narration.en.mp3"
+      },
+      "young-shepherd/p1": {
+        "en": "narration.en.mp3"
+      },
+      "young-shepherd/p2": {
+        "en": "narration.en.mp3"
+      },
+      "young-shepherd/p3": {
+        "en": "narration.en.mp3"
+      },
+      "young-shepherd/p4": {
+        "en": "narration.en.mp3"
+      },
+      "zabur-voice/p0": {
+        "en": "narration.en.mp3"
+      },
+      "zabur-voice/p1": {
+        "en": "narration.en.mp3"
+      },
+      "zabur-voice/p2": {
+        "en": "narration.en.mp3"
+      },
+      "zabur-voice/p3": {
+        "en": "narration.en.mp3"
+      },
+      "zabur-voice/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "dhul-kifl": {
+      "counted-among-the-praised/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "counted-among-the-praised/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "counted-among-the-praised/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "counted-among-the-praised/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "counted-among-the-praised/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "keeper-of-promises/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "keeper-of-promises/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "keeper-of-promises/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "keeper-of-promises/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "keeper-of-promises/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "who-is-dhul-kifl/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "who-is-dhul-kifl/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "who-is-dhul-kifl/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "who-is-dhul-kifl/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "who-is-dhul-kifl/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "harun": {
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-gift-of-rabb/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-gift-of-rabb/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-gift-of-rabb/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-gift-of-rabb/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-gift-of-rabb/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patience-of-harun/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patience-of-harun/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patience-of-harun/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patience-of-harun/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patience-of-harun/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-quiet-strength/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-quiet-strength/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-quiet-strength/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-quiet-strength/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-quiet-strength/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "together-before-pharaoh/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "together-before-pharaoh/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "together-before-pharaoh/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "together-before-pharaoh/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "together-before-pharaoh/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "hud": {
+      "hud-calls/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hud-calls/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hud-calls/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-challenge/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-challenge/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-challenge/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-proud-people/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-proud-people/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-proud-people/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-survivors/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-survivors/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-survivors/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-wind/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-wind/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-wind/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "ibrahim": {
+      "calling-the-family/p0": {
+        "en": "narration.en.mp3"
+      },
+      "calling-the-family/p1": {
+        "en": "narration.en.mp3"
+      },
+      "calling-the-family/p2": {
+        "en": "narration.en.mp3"
+      },
+      "calling-the-family/p3": {
+        "en": "narration.en.mp3"
+      },
+      "calling-the-family/p4": {
+        "en": "narration.en.mp3"
+      },
+      "friend-of-allah/p0": {
+        "en": "narration.en.mp3"
+      },
+      "friend-of-allah/p1": {
+        "en": "narration.en.mp3"
+      },
+      "friend-of-allah/p2": {
+        "en": "narration.en.mp3"
+      },
+      "friend-of-allah/p3": {
+        "en": "narration.en.mp3"
+      },
+      "friend-of-allah/p4": {
+        "en": "narration.en.mp3"
+      },
+      "searching-for-truth/p0": {
+        "en": "narration.en.mp3"
+      },
+      "searching-for-truth/p1": {
+        "en": "narration.en.mp3"
+      },
+      "searching-for-truth/p2": {
+        "en": "narration.en.mp3"
+      },
+      "searching-for-truth/p3": {
+        "en": "narration.en.mp3"
+      },
+      "searching-for-truth/p4": {
+        "en": "narration.en.mp3"
+      },
+      "the-fire/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-fire/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-fire/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-fire/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-fire/p4": {
+        "en": "narration.en.mp3"
+      },
+      "the-kaaba/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-kaaba/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-kaaba/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-kaaba/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-kaaba/p4": {
+        "en": "narration.en.mp3"
+      },
+      "the-sacrifice/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-sacrifice/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-sacrifice/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-sacrifice/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-sacrifice/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "idris": {
+      "gift-of-knowledge/p0": {
+        "en": "narration.en.mp3"
+      },
+      "gift-of-knowledge/p1": {
+        "en": "narration.en.mp3"
+      },
+      "gift-of-knowledge/p2": {
+        "en": "narration.en.mp3"
+      },
+      "gift-of-knowledge/p3": {
+        "en": "narration.en.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-high/p0": {
+        "en": "narration.en.mp3"
+      },
+      "raised-high/p1": {
+        "en": "narration.en.mp3"
+      },
+      "raised-high/p2": {
+        "en": "narration.en.mp3"
+      },
+      "raised-high/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-lesson/p3": {
+        "en": "narration.en.mp3"
+      },
+      "truthful-prophet/p0": {
+        "en": "narration.en.mp3"
+      },
+      "truthful-prophet/p1": {
+        "en": "narration.en.mp3"
+      },
+      "truthful-prophet/p2": {
+        "en": "narration.en.mp3"
+      },
+      "truthful-prophet/p3": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "ilyas": {
+      "firm-though-refused/p0": {
+        "en": "narration.en.mp3"
+      },
+      "firm-though-refused/p1": {
+        "en": "narration.en.mp3"
+      },
+      "firm-though-refused/p2": {
+        "en": "narration.en.mp3"
+      },
+      "firm-though-refused/p3": {
+        "en": "narration.en.mp3"
+      },
+      "lesson-for-us/p0": {
+        "en": "narration.en.mp3"
+      },
+      "lesson-for-us/p1": {
+        "en": "narration.en.mp3"
+      },
+      "lesson-for-us/p2": {
+        "en": "narration.en.mp3"
+      },
+      "lesson-for-us/p3": {
+        "en": "narration.en.mp3"
+      },
+      "lesson-for-us/p4": {
+        "en": "narration.en.mp3"
+      },
+      "messenger-of-allah/p0": {
+        "en": "narration.en.mp3"
+      },
+      "messenger-of-allah/p1": {
+        "en": "narration.en.mp3"
+      },
+      "messenger-of-allah/p2": {
+        "en": "narration.en.mp3"
+      },
+      "messenger-of-allah/p3": {
+        "en": "narration.en.mp3"
+      },
+      "peace-upon-ilyas/p0": {
+        "en": "narration.en.mp3"
+      },
+      "peace-upon-ilyas/p1": {
+        "en": "narration.en.mp3"
+      },
+      "peace-upon-ilyas/p2": {
+        "en": "narration.en.mp3"
+      },
+      "peace-upon-ilyas/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-idol-baal/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-idol-baal/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-idol-baal/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-idol-baal/p3": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "isa": {
+      "allah-raised-him/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "allah-raised-him/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "allah-raised-him/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "allah-raised-him/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "allah-raised-him/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angel-news/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angel-news/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angel-news/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angel-news/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angel-news/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-birth-under-the-palm/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-birth-under-the-palm/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-birth-under-the-palm/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-birth-under-the-palm/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-birth-under-the-palm/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-enemies-plan/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-enemies-plan/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-enemies-plan/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-enemies-plan/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-enemies-plan/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-messenger-and-miracles/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-messenger-and-miracles/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-messenger-and-miracles/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-messenger-and-miracles/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-messenger-and-miracles/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-table-from-heaven/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-table-from-heaven/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-table-from-heaven/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-table-from-heaven/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-table-from-heaven/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "ishaq": {
+      "a-blessed-family/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-blessed-family/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-blessed-family/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-blessed-family/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-blessed-family/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "glad-news/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "glad-news/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "glad-news/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "glad-news/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "glad-news/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "ishaq-the-prophet/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "ishaq-the-prophet/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "ishaq-the-prophet/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "ishaq-the-prophet/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "ishaq-the-prophet/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-after-long-years/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-after-long-years/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-after-long-years/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-after-long-years/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-after-long-years/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "ismail": {
+      "a-dear-son/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-dear-son/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-dear-son/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-dear-son/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-dear-son/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-prophet-of-promise/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-prophet-of-promise/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-prophet-of-promise/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-prophet-of-promise/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-prophet-of-promise/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "building-the-kaaba/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "building-the-kaaba/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "building-the-kaaba/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "building-the-kaaba/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "building-the-kaaba/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-barren-valley/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-barren-valley/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-barren-valley/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-barren-valley/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-barren-valley/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-dream-of-sacrifice/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-dream-of-sacrifice/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-dream-of-sacrifice/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-dream-of-sacrifice/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-dream-of-sacrifice/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-well-of-zamzam/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-well-of-zamzam/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-well-of-zamzam/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-well-of-zamzam/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-well-of-zamzam/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "khadijah": {
+      "fair-merchant-of-makkah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fair-merchant-of-makkah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fair-merchant-of-makkah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fair-merchant-of-makkah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "he-never-stopped-loving-her/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "he-never-stopped-loving-her/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "he-never-stopped-loving-her/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "he-never-stopped-loving-her/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "he-never-stopped-loving-her/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-to-believe/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-to-believe/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-to-believe/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-to-believe/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-first-to-believe/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-year-of-sorrow/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-year-of-sorrow/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-year-of-sorrow/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-year-of-sorrow/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-year-of-sorrow/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "warmth-in-the-dark-room/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "warmth-in-the-dark-room/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "warmth-in-the-dark-room/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "warmth-in-the-dark-room/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "warmth-in-the-dark-room/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "khalid": {
+      "great-warrior/p0": {
+        "en": "narration.en.mp3"
+      },
+      "great-warrior/p1": {
+        "en": "narration.en.mp3"
+      },
+      "great-warrior/p2": {
+        "en": "narration.en.mp3"
+      },
+      "great-warrior/p3": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "lut": {
+      "the-guests/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-guests/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-guests/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-guests/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-guests/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-soft-call/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-soft-call/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-soft-call/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-soft-call/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-soft-call/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "muhammad": {
+      "badr/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "badr/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "badr/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "badr/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "badr/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conquest-of-mekka/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conquest-of-mekka/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conquest-of-mekka/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conquest-of-mekka/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conquest-of-mekka/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "farewell-pilgrimage/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "farewell-pilgrimage/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "farewell-pilgrimage/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "farewell-pilgrimage/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "farewell-pilgrimage/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-revelation/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-revelation/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-revelation/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-revelation/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "first-revelation/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hudaybiyyah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hudaybiyyah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hudaybiyyah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hudaybiyyah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "hudaybiyyah/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "letters-to-kings/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "letters-to-kings/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "letters-to-kings/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "letters-to-kings/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "letters-to-kings/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mekka-before/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mekka-before/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mekka-before/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mekka-before/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mekka-before/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mercy-to-the-worlds/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mercy-to-the-worlds/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mercy-to-the-worlds/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "mercy-to-the-worlds/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "night-journey/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "night-journey/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "night-journey/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "night-journey/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "night-journey/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "orphan-boy/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "orphan-boy/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "orphan-boy/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "orphan-boy/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "patience-in-hurt/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "patience-in-hurt/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "patience-in-hurt/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "patience-in-hurt/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "patience-in-hurt/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "pledges-of-aqabah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "pledges-of-aqabah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "pledges-of-aqabah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "pledges-of-aqabah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "pledges-of-aqabah/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-hijrah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-hijrah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-hijrah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-hijrah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-hijrah/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-last-days/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-last-days/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-last-days/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-last-days/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-last-days/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-mosque-and-brotherhood/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-mosque-and-brotherhood/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-mosque-and-brotherhood/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-mosque-and-brotherhood/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-mosque-and-brotherhood/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trench/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trench/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trench/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trench/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trench/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trustworthy/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trustworthy/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trustworthy/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-trustworthy/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "uhud/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "uhud/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "uhud/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "uhud/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "uhud/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "musa": {
+      "a-baby-in-a-basket/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-baby-in-a-basket/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-baby-in-a-basket/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-baby-in-a-basket/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-baby-in-a-basket/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "before-pharaoh/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "before-pharaoh/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "before-pharaoh/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "before-pharaoh/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "before-pharaoh/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fleeing-to-madyan/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fleeing-to-madyan/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fleeing-to-madyan/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fleeing-to-madyan/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "fleeing-to-madyan/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "kalimullah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "kalimullah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "kalimullah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "kalimullah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "kalimullah/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "marriage-and-the-journey/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "marriage-and-the-journey/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "marriage-and-the-journey/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "marriage-and-the-journey/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "marriage-and-the-journey/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-in-the-royal-home/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-in-the-royal-home/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-in-the-royal-home/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-in-the-royal-home/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "raised-in-the-royal-home/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-burning-bush/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-burning-bush/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-burning-bush/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-burning-bush/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-burning-bush/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-night-of-the-sea/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-night-of-the-sea/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-night-of-the-sea/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-night-of-the-sea/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-night-of-the-sea/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-tablets-and-the-calf/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-tablets-and-the-calf/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-tablets-and-the-calf/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-tablets-and-the-calf/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-tablets-and-the-calf/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "nuh": {
+      "the-ark-command/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-ark-command/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-ark-command/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-flood-comes/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-flood-comes/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-flood-comes/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-flood-comes/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-landing/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-landing/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-landing/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-landing/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "salih": {
+      "the-believers-saved/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-believers-saved/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-believers-saved/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-believers-saved/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-believers-saved/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-miraculous-she-camel/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-miraculous-she-camel/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-miraculous-she-camel/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-miraculous-she-camel/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-miraculous-she-camel/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-thamud/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-thamud/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-thamud/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-thamud/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-thamud/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-warning/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-warning/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-warning/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-warning/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-warning/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "they-kill-the-camel/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "they-kill-the-camel/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "they-kill-the-camel/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "they-kill-the-camel/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "they-kill-the-camel/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "shuayb": {
+      "the-call-and-deniers/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call-and-deniers/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call-and-deniers/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call-and-deniers/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-call-and-deniers/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson-of-honesty/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson-of-honesty/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson-of-honesty/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson-of-honesty/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson-of-honesty/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-midian/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-midian/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-midian/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-midian/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-people-of-midian/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-punishment/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat-and-response/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat-and-response/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat-and-response/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat-and-response/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-threat-and-response/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "sulayman": {
+      "hoopoe-news/p0": {
+        "en": "narration.en.mp3"
+      },
+      "hoopoe-news/p1": {
+        "en": "narration.en.mp3"
+      },
+      "hoopoe-news/p2": {
+        "en": "narration.en.mp3"
+      },
+      "hoopoe-news/p3": {
+        "en": "narration.en.mp3"
+      },
+      "hoopoe-news/p4": {
+        "en": "narration.en.mp3"
+      },
+      "inherited-kingdom/p0": {
+        "en": "narration.en.mp3"
+      },
+      "inherited-kingdom/p1": {
+        "en": "narration.en.mp3"
+      },
+      "inherited-kingdom/p2": {
+        "en": "narration.en.mp3"
+      },
+      "inherited-kingdom/p3": {
+        "en": "narration.en.mp3"
+      },
+      "inherited-kingdom/p4": {
+        "en": "narration.en.mp3"
+      },
+      "letter-to-queen/p0": {
+        "en": "narration.en.mp3"
+      },
+      "letter-to-queen/p1": {
+        "en": "narration.en.mp3"
+      },
+      "letter-to-queen/p2": {
+        "en": "narration.en.mp3"
+      },
+      "letter-to-queen/p3": {
+        "en": "narration.en.mp3"
+      },
+      "letter-to-queen/p4": {
+        "en": "narration.en.mp3"
+      },
+      "queen-submits/p0": {
+        "en": "narration.en.mp3"
+      },
+      "queen-submits/p1": {
+        "en": "narration.en.mp3"
+      },
+      "queen-submits/p2": {
+        "en": "narration.en.mp3"
+      },
+      "queen-submits/p3": {
+        "en": "narration.en.mp3"
+      },
+      "queen-submits/p4": {
+        "en": "narration.en.mp3"
+      },
+      "valley-of-ants/p0": {
+        "en": "narration.en.mp3"
+      },
+      "valley-of-ants/p1": {
+        "en": "narration.en.mp3"
+      },
+      "valley-of-ants/p2": {
+        "en": "narration.en.mp3"
+      },
+      "valley-of-ants/p3": {
+        "en": "narration.en.mp3"
+      },
+      "valley-of-ants/p4": {
+        "en": "narration.en.mp3"
+      },
+      "wind-and-jinn/p0": {
+        "en": "narration.en.mp3"
+      },
+      "wind-and-jinn/p1": {
+        "en": "narration.en.mp3"
+      },
+      "wind-and-jinn/p2": {
+        "en": "narration.en.mp3"
+      },
+      "wind-and-jinn/p3": {
+        "en": "narration.en.mp3"
+      },
+      "wind-and-jinn/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "umar": {
+      "al-faruq/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "al-faruq/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "al-faruq/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "al-faruq/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conversion/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conversion/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conversion/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conversion/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "conversion/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "days-of-hardship/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "days-of-hardship/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "days-of-hardship/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "days-of-hardship/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "second-caliph/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "second-caliph/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "second-caliph/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "second-caliph/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "treaty-of-hudaybiyyah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "treaty-of-hudaybiyyah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "treaty-of-hudaybiyyah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "treaty-of-hudaybiyyah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "treaty-of-hudaybiyyah/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "uthman": {
+      "army-of-hardship/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "army-of-hardship/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "army-of-hardship/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "army-of-hardship/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "army-of-hardship/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "one-quran/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "one-quran/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "one-quran/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "one-quran/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "one-quran/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-two-lights/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-two-lights/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-two-lights/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-two-lights/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "third-caliph/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "third-caliph/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "third-caliph/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "third-caliph/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "well-of-rumah/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "well-of-rumah/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "well-of-rumah/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "well-of-rumah/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "yahya": {
+      "a-son-for-old-parents/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-son-for-old-parents/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-son-for-old-parents/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-son-for-old-parents/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-son-for-old-parents/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "legacy-and-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "prophet-among-the-righteous/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "prophet-among-the-righteous/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "prophet-among-the-righteous/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "prophet-among-the-righteous/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "prophet-among-the-righteous/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-final-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-final-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-final-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-final-lesson/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-final-lesson/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wisdom-as-a-child/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wisdom-as-a-child/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wisdom-as-a-child/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wisdom-as-a-child/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "wisdom-as-a-child/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "yaqub": {
+      "a-good-end/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-good-end/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-good-end/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-good-end/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-good-end/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-of-ishaq/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-of-ishaq/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-of-ishaq/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-of-ishaq/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "son-of-ishaq/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-love-of-yusuf/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-love-of-yusuf/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-love-of-yusuf/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-love-of-yusuf/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-love-of-yusuf/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-father/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-father/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-father/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-father/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-patient-father/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-sight-returned/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-sight-returned/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-sight-returned/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-sight-returned/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-sight-returned/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    },
+    "yunus": {
+      "in-the-fish/p0": {
+        "en": "narration.en.mp3"
+      },
+      "in-the-fish/p1": {
+        "en": "narration.en.mp3"
+      },
+      "in-the-fish/p2": {
+        "en": "narration.en.mp3"
+      },
+      "in-the-fish/p3": {
+        "en": "narration.en.mp3"
+      },
+      "in-the-fish/p4": {
+        "en": "narration.en.mp3"
+      },
+      "leaves-in-haste/p0": {
+        "en": "narration.en.mp3"
+      },
+      "leaves-in-haste/p1": {
+        "en": "narration.en.mp3"
+      },
+      "leaves-in-haste/p2": {
+        "en": "narration.en.mp3"
+      },
+      "leaves-in-haste/p3": {
+        "en": "narration.en.mp3"
+      },
+      "saved-on-shore/p0": {
+        "en": "narration.en.mp3"
+      },
+      "saved-on-shore/p1": {
+        "en": "narration.en.mp3"
+      },
+      "saved-on-shore/p2": {
+        "en": "narration.en.mp3"
+      },
+      "saved-on-shore/p3": {
+        "en": "narration.en.mp3"
+      },
+      "sent-to-a-town/p0": {
+        "en": "narration.en.mp3"
+      },
+      "sent-to-a-town/p1": {
+        "en": "narration.en.mp3"
+      },
+      "sent-to-a-town/p2": {
+        "en": "narration.en.mp3"
+      },
+      "sent-to-a-town/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-dua/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-dua/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-dua/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-dua/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-storm/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-storm/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-storm/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-storm/p3": {
+        "en": "narration.en.mp3"
+      },
+      "the-storm/p4": {
+        "en": "narration.en.mp3"
+      },
+      "town-believed/p0": {
+        "en": "narration.en.mp3"
+      },
+      "town-believed/p1": {
+        "en": "narration.en.mp3"
+      },
+      "town-believed/p2": {
+        "en": "narration.en.mp3"
+      },
+      "town-believed/p3": {
+        "en": "narration.en.mp3"
+      },
+      "town-believed/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "yusuf": {
+      "i-am-yusuf/p0": {
+        "en": "narration.en.mp3"
+      },
+      "i-am-yusuf/p1": {
+        "en": "narration.en.mp3"
+      },
+      "i-am-yusuf/p2": {
+        "en": "narration.en.mp3"
+      },
+      "i-am-yusuf/p3": {
+        "en": "narration.en.mp3"
+      },
+      "i-am-yusuf/p4": {
+        "en": "narration.en.mp3"
+      },
+      "into-the-well/p0": {
+        "en": "narration.en.mp3"
+      },
+      "into-the-well/p1": {
+        "en": "narration.en.mp3"
+      },
+      "into-the-well/p2": {
+        "en": "narration.en.mp3"
+      },
+      "into-the-well/p3": {
+        "en": "narration.en.mp3"
+      },
+      "into-the-well/p4": {
+        "en": "narration.en.mp3"
+      },
+      "prison-to-palace/p0": {
+        "en": "narration.en.mp3"
+      },
+      "prison-to-palace/p1": {
+        "en": "narration.en.mp3"
+      },
+      "prison-to-palace/p2": {
+        "en": "narration.en.mp3"
+      },
+      "prison-to-palace/p3": {
+        "en": "narration.en.mp3"
+      },
+      "prison-to-palace/p4": {
+        "en": "narration.en.mp3"
+      },
+      "tested-in-egypt/p0": {
+        "en": "narration.en.mp3"
+      },
+      "tested-in-egypt/p1": {
+        "en": "narration.en.mp3"
+      },
+      "tested-in-egypt/p2": {
+        "en": "narration.en.mp3"
+      },
+      "tested-in-egypt/p3": {
+        "en": "narration.en.mp3"
+      },
+      "tested-in-egypt/p4": {
+        "en": "narration.en.mp3"
+      },
+      "the-dream/p0": {
+        "en": "narration.en.mp3"
+      },
+      "the-dream/p1": {
+        "en": "narration.en.mp3"
+      },
+      "the-dream/p2": {
+        "en": "narration.en.mp3"
+      },
+      "the-dream/p3": {
+        "en": "narration.en.mp3"
+      },
+      "years-of-hunger/p0": {
+        "en": "narration.en.mp3"
+      },
+      "years-of-hunger/p1": {
+        "en": "narration.en.mp3"
+      },
+      "years-of-hunger/p2": {
+        "en": "narration.en.mp3"
+      },
+      "years-of-hunger/p3": {
+        "en": "narration.en.mp3"
+      },
+      "years-of-hunger/p4": {
+        "en": "narration.en.mp3"
+      }
+    },
+    "zakariyya": {
+      "a-faithful-life/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-faithful-life/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-faithful-life/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-faithful-life/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-faithful-life/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-quiet-dua/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-quiet-dua/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-quiet-dua/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-quiet-dua/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "a-quiet-dua/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angels-glad-news/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angels-glad-news/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angels-glad-news/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angels-glad-news/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-angels-glad-news/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-caretaker/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-caretaker/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-caretaker/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-caretaker/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-caretaker/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p0": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p1": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p2": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p3": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      },
+      "the-lesson/p4": {
+        "en": "narration.en.mp3",
+        "ur": "narration.ur.mp3"
+      }
+    }
+  },
   "paintings": {
     "yusuf": {
       "into-the-well/p0": "image.jpg",
@@ -39,5 +3267,9 @@
       "glad-news/p0": "scene-v3.webp"
     }
   },
-  "artRevision": "whole-story-compositions-v3"
+  "artRevision": "whole-story-compositions-v3",
+  "narratorVoices": {
+    "en": "en-US-JennyNeural",
+    "ur": "ur-PK-UzmaNeural"
+  }
 }
