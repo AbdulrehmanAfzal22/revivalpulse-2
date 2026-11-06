@@ -40,14 +40,17 @@
   transform: translateY(-2px);
 }
 
-.itemActive {
+/* `.nav .item` sets the muted resting colour at 0-2-0, so the active state has
+   to outrank it — a bare `.itemActive` loses the cascade and the tab keeps
+   muted text on top of its own filled gradient. */
+.nav .item.itemActive {
   color: var(--color-primary-contrast);
   background: linear-gradient(180deg, var(--color-primary), var(--color-primary-hover));
   box-shadow: 0 3px 10px color-mix(in srgb, var(--color-primary) 38%, transparent);
   animation: tab-pop 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-.itemActive svg {
+.nav .item.itemActive svg {
   animation: tab-bounce 2s ease-in-out infinite;
 }
 
@@ -63,8 +66,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .item:hover,
-  .itemActive,
-  .itemActive svg {
+  .nav .item.itemActive,
+  .nav .item.itemActive svg {
     animation: none;
     transform: none;
   }
