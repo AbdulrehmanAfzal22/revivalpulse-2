@@ -5,19 +5,31 @@ function wordCount(value: string): number {
 }
 
 /**
+ * True when a part is actually read in Urdu: its title and every paragraph
+ * carry Urdu. Shared with storyValidation.ts so the "bilingual lesson" rule
+ * asks for Urdu only where there is Urdu to be bilingual about.
+ */
+export function chapterHasUrduNarration(chapter: KidsStoryChapter): boolean {
+  return Boolean(chapter.title.ur?.trim()) && chapter.paragraphs.every((paragraph) => paragraph.ur?.trim());
+}
+
+/**
  * The takeaway for a part that doesn't carry one.
  *
  * A chapter whose ayah note is already bilingual ends on that takeaway, so it
  * needs no invented second one — the reader would show the same thought twice.
+ * The invented Urdu line is only shipped when the part itself is in Urdu, and
+ * it names the subject in the Arabic script: an English name inside an Urdu
+ * sentence renders as broken half-script text, which is worse than the clean
+ * English fallback under "Urdu is coming soon".
  */
 function makeLesson(story: KidsStoryV2, chapter: KidsStoryChapter): LocalizedText | undefined {
   const existing = chapter.lesson;
   if (existing?.en.trim() && existing.ur?.trim()) return existing;
   if (chapter.ayahNote?.en.trim() && chapter.ayahNote.ur?.trim()) return undefined;
-  return {
-    en: `${story.nameEnglish} shows us what ${chapter.title.en.toLowerCase()} really means: faith when it is hard, courage when it costs something, and kindness even when nobody returns it.`,
-    ur: `${story.nameEnglish} ہمیں ایمان، ہمت، مہربانی اور سچائی کا خوبصورت درس دیتے ہیں۔`,
-  };
+  const en = existing?.en.trim() || `${story.nameEnglish} shows us what ${chapter.title.en.toLowerCase()} really means: faith when it is hard, courage when it costs something, and kindness even when nobody returns it.`;
+  const ur = existing?.ur?.trim() || (chapterHasUrduNarration(chapter) ? `${story.nameArabic} ہمیں ایمان، ہمت، مہربانی اور سچائی کا خوبصورت درس دیتے ہیں۔` : undefined);
+  return ur ? { en, ur } : { en };
 }
 
 /**

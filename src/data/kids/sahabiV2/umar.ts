@@ -9,12 +9,17 @@ import type { KidsStoryV2 } from 'types/kidsStories.types';
  * writing, the reference is marked `needsVerification: true` rather than
  * guessing a hadith number.
  *
- * `ur` is intentionally empty — readers see the English fallback until
- * careful Urdu translations are added later.
+ * `ur` here is a faithful rendering of the English on this page — no event,
+ * title or ruling is added that the English does not carry. The subject is
+ * named in the Urdu reading form (عمر بن خطاب رضی اللہ عنہ) rather than the
+ * English spelling, because English words dropped inside an Urdu sentence
+ * render as broken half-script text for the child reader.
  *
  * Review sign-off: single-reviewer (site owner). Sources get `reviewed: true`
  * + `reviewedBy`/`reviewedDate` in batches; confirm-read sign-off, not
- * scholarly/ijazah certification.
+ * scholarly/ijazah certification. This Urdu is newly written and unsigned:
+ * every citation keeps `needsVerification: true`, so none of it reads as
+ * signed off.
  */
 export const SAHABI_UMAR: KidsStoryV2 = {
   id: 'umar',
@@ -25,26 +30,32 @@ export const SAHABI_UMAR: KidsStoryV2 = {
   accentColor: '#4472ca',
   summary: {
     en: 'Umar ibn al-Khattab was one of the strongest and bravest men of Makkah — at first a fierce enemy of Islam, and later one of its greatest protectors. Allah changed his heart, and he became a close companion of the Prophet ﷺ and a protector of the believers. When he became the second caliph, Muslims never forgot his courage, his simple life, and his love of fairness.',
+    ur: 'عمر بن خطاب رضی اللہ عنہ مکہ کے سب سے مضبوط اور بہادر مردوں میں سے تھے — شروع میں اسلام کے سخت دشمن، اور بعد میں اس کے سب سے بڑے محافظ۔ اللہ نے ان کا دل بدل دیا، وہ نبی کریم ﷺ کے خاص صحابی اور مومنوں کے ڈھال بن گئے۔ جب وہ دوسرے خلیفہ بنے تو مسلمان ان کی ہمت، ان کی سادہ زندگی اور انصاف سے ان کی محبت کبھی نہ بھولے۔',
   },
   chapters: [
     {
       id: 'conversion',
-      title: { en: 'The Sword That Became a Shield' },
+      title: { en: 'The Sword That Became a Shield', ur: 'وہ تلوار جو ڈھال بن گئی' },
       paragraphs: [
         {
           en: 'Before he accepted Islam, Umar ibn al-Khattab was one of the strongest and most respected men in Makkah. He was tall, quick-tempered, and utterly fearless, and the people of the city were careful never to cross him. When the Prophet ﷺ began to call people to Allah, Umar was one of the fiercest opponents, and he meant to use all his strength to stop the new faith.',
+          ur: 'اسلام قبول کرنے سے پہلے عمر بن خطاب رضی اللہ عنہ مکہ کے سب سے مضبوط اور معزز مردوں میں سے تھے۔ وہ قد میں لمبے، جلد غصے والے اور ہر خوف سے آزاد تھے، اور شہر والے انہیں کبھی چڑھانے سے ڈرتے تھے۔ جب نبی کریم ﷺ نے لوگوں کو اللہ کی طرف بلانا شروع کیا تو عمر سب سے سخت مخالف تھے اور وہ اپنی پوری طاقت اس نئے دین کو روکنے پر لگانا چاہتے تھے۔',
         },
         {
           en: 'One day Umar became so angry that he took up his sword and walked out across Makkah, determined to confront the Prophet ﷺ himself. On the way a friend stopped him and said: "Before you go anywhere, Umar, look at your own family first." So Umar turned instead toward the house of his sister and her husband — and he learned that they had quietly accepted Islam.',
+          ur: 'ایک دن عمر اتنے غصے میں ہوئے کہ تلوار اٹھا کر مکہ کی گلیوں میں نکل پڑے اور انہوں نے ٹھان لیا کہ خود نبی کریم ﷺ کے سامنے جائیں گے۔ راستے میں ایک دوست نے انہیں روک کر کہا: "عمر! جہاں جانے سے پہلے ایک بار اپنے ہی گھر والوں کو دیکھ لو۔" چناچہ عمر مڑ کر اپنی بہن اور ان کے شوہر کے گھر کی طرف گئے — اور انہیں معلوم ہوا کہ وہ دونوں چپکے سے اسلام قبول کر چکے ہیں۔',
         },
         {
           en: 'At his sister’s house, Umar heard the words of the Qur’an being read in a gentle voice. He asked to see them, and as he read he came upon a beautiful verse: "Indeed, it is I — I am Allah — there is no god except Me" (Qur’an 20:14). The words entered his heart like cool water on thirsty earth, and he wanted to hear more.',
+          ur: 'اپنی بہن کے گھر میں عمر نے قرآن کے الفاظ ایک نرم آواز میں پڑھے ہوئے سنے۔ انہوں نے وہ صحف مانگیں اور پڑھتے پڑھتے ایک خوبصورت آیت پر پہنچے: "بے شک میں ہی اللہ ہوں، میرے سوا کوئی معبود نہیں" (قرآن 20:14)۔ وہ الفاظ پیاسی زمین پر ٹھنڈے پانی کی طرح ان کے دل میں اتر گئے اور انہیں مزید سننے کی خواہش ہوئی۔',
         },
         {
           en: 'Then and there, Umar went to the Prophet ﷺ and said, plainly and sincerely, that he believed. He accepted Islam with his whole strong heart, and the Muslims of Makkah felt a new safety from that very day. A proud voice that had been raised against the truth now spoke for it.',
+          ur: 'پھر وہیں سے عمر نبی کریم ﷺ کے پاس گئے اور سیدھے اور مخلص لہجے میں اقرار کیا کہ وہ ایمان لائے ہیں۔ انہوں نے اپنے مضبوط دل کے ساتھ اسلام قبول کیا اور اسی دن سے مکہ کے مسلمانوں نے ایک نئی ہمت محسوس کی۔ وہ مغرور آواز جو سچ کے خلاف اٹھتی تھی، اب اسی سچ کی طرف سے بولنے لگی۔',
         },
         {
           en: 'The sword that Umar had carried against the believers became a shield for them. He used the same courage and boldness to stand beside the companions and to protect the young Muslims who were weak. His story teaches every child that an honest heart can change, and that the strongest hearts belong to the truth of Allah.',
+          ur: 'عمر کی وہ تلوار جو مومنوں کے خلاف اٹھائی گئی تھی، انہی کے لیے ڈھال بن گئی۔ انہوں نے وہی ہمت اور وہی دلیری صحابہ کے ساتھ کھڑے ہونے اور کمزور نئے مسلمانوں کی حفاظت کے لیے کام لائی۔ ان کی کہانی ہر بچے کو سکھاتی ہے کہ سچا دل بدل سکتا ہے، اور سب سے مضبوط دل اسی کے ہوتے ہیں جو اللہ کے سچ سے جڑ جائے۔',
         },
       ],
       sources: [
@@ -54,19 +65,23 @@ export const SAHABI_UMAR: KidsStoryV2 = {
     },
     {
       id: 'days-of-hardship',
-      title: { en: 'The Days of Hardship' },
+      title: { en: 'The Days of Hardship', ur: 'مشقت کے دن' },
       paragraphs: [
         {
           en: 'When the Muslims came from Makkah to Madinah, they left behind their homes and much of their wealth. The people of Madinah opened their doors and shared whatever they had, and the two groups became one large family. Even so, no one pretended the first months were easy.',
+          ur: 'جب مسلمان مکہ سے مدینہ آئے تو وہ اپنے گھر اور اپنا بہت سا مال پیچھے چھوڑ آئے۔ مدینہ والوں نے اپنے دروازے کھول دیے اور جو کچھ ان کے پاس تھا بانٹ دیا، اور دونوں گروہ ایک بڑے خاندان بن گئے۔ اس کے باوجود کسی نے یہ دعویٰ نہیں کیا کہ پہلے مہینے آسان تھے۔',
         },
         {
           en: 'There were days when food was scarce and money was lighter than a leaf. Umar never forgot how the Prophet ﷺ would sometimes tie a stone over his own stomach to press down the hunger, living on the simplest meals the earth could give. The believers knew those hard days well — every cup of water was counted and shared.',
+          ur: 'کئی دن ایسے آتے تھے جب کھانا کم اور مال پتے سے بھی ہلکا ہو جاتا تھا۔ عمر کبھی نہیں بھولے کہ نبی کریم ﷺ کبھار اپنے پیٹ پر پتھر باندھ لیتے تھے تاکہ بھوک دب جائے، اور زمین کے سادہ ترین کھانے پر گزر کرتے تھے۔ مومن ان سخت دنوں کو اچھی طرح جانتے تھے — ہر پیالہ پانی گنا جاتا اور بانٹا جاتا تھا۔',
         },
         {
           en: 'Yet nobody grumbled or lost heart. The Muhajirun, who had left Makkah, and the Ansar, who welcomed them in Madinah, worked, ate, and prayed as brothers. When one had nothing, the other gave more than what was needed, and the tie of faith grew stronger than jewels.',
+          ur: 'پھر بھی کسی نے شکوہ نہیں کیا اور نہ ہمت ہاری۔ مکہ سے آنے والے مہاجرین اور مدینہ میں خوش آمدید کہنے والے انصار بھائیوں کی طرح مل کر کام کرتے، کھاتے اور نماز پڑھتے۔ جب کسی کے پاس کچھ نہ ہوتا تو دوسرا ضرورت سے بھی زیادہ دے دیتا، اور ایمان کا رشتہ موتیوں سے بھی مضبوط ہو جاتا۔',
         },
         {
           en: 'The hard days taught them patience, and the patience brought fruit. They became grateful for every bite of bread and every cup of water, and their hearts stayed soft even after wealth came. That is the lesson for every child: a thankful heart turns the smallest gift into a great treasure.',
+          ur: 'سخت دنوں نے انہیں صبر سکھایا، اور صبر نے پھل دیا۔ وہ ہر روٹی کے لقمے اور ہر پیالہ پانی پر شکر گزار ہو گئے، اور دولت آجانے کے بعد بھی ان کے دل نرم رہے۔ یہی ہر بچے کے لیے سبق ہے: شکر گزار دل سب سے چھوٹی چیز کو بھی بڑا خزانہ بنا دیتا ہے۔',
         },
       ],
       sources: [

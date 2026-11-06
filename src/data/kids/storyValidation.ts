@@ -1,7 +1,7 @@
 import type { KidsStoryV2, KidsStoryChapter, StorySource } from 'types/kidsStories.types';
 import { KIDS_STORIES_V2 } from 'data/kids/storiesV2';
 import { KIDS_SAHABI_V2 } from 'data/kids/sahabiV2';
-import { chapterWordCount } from 'data/kids/storyContent';
+import { chapterHasUrduNarration, chapterWordCount } from 'data/kids/storyContent';
 
 export interface CitationIssue {
   storyId: string;
@@ -24,13 +24,23 @@ function chapterIssues(storyId: string, chapter: KidsStoryChapter): CitationIssu
   }
   // A bilingual ayah note already ends the part on its takeaway, so it counts
   // as the highlighted lesson instead of a second card saying the same thing.
-  const hasBilingualLesson = Boolean(chapter.lesson?.en.trim() && chapter.lesson.ur?.trim());
-  const hasBilingualAyahNote = Boolean(chapter.ayahNote?.en.trim() && chapter.ayahNote.ur?.trim());
-  if (!hasBilingualLesson && !hasBilingualAyahNote) {
+  const hasLesson = Boolean(chapter.lesson?.en.trim());
+  const hasAyahNote = Boolean(chapter.ayahNote?.en.trim());
+  if (!hasLesson && !hasAyahNote) {
     issues.push({
       storyId,
       chapterId: chapter.id,
-      message: 'chapter must have a bilingual highlighted lesson',
+      message: 'chapter must have a highlighted lesson or ayah note',
+    });
+  }
+  // The takeaway must be readable in Urdu wherever the part itself is. Urdu
+  // invented around an English name is not a translation, so a chapter that
+  // ships Urdu paragraphs and an English-only ending is a real gap.
+  if (chapterHasUrduNarration(chapter) && !(chapter.lesson?.ur?.trim() || chapter.ayahNote?.ur?.trim())) {
+    issues.push({
+      storyId,
+      chapterId: chapter.id,
+      message: 'chapter has Urdu narration but no bilingual highlighted lesson',
     });
   }
 
